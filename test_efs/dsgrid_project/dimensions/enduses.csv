@@ -1,0 +1,3 @@
+id,name,fuel_id,units
+fans,Fans,electricity,MWh
+cooling,Space Cooling,electricity,MWh
