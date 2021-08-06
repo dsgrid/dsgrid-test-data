@@ -1,0 +1,13 @@
+[[mappings]]
+description = "Maps EFS ComStock prefix-formatted subsectors to the EFS project subsectors"
+file = "dimension_mappings/lookup_comstock_subsectors_to_project_subsectors.csv"
+[mappings.from_dimension]
+dimension_id = "comstock_subsectors_efs_with_formatted_prefix__91f0b409-394b-4fba-9be8-3d4d74b2bcf8"
+type = "subsector"
+version = "1.0.0"
+[mappings.to_dimension]
+dimension_id = "comstock_subsectors_efs__f831662d-ce4b-4415-8a97-a33d66257cfe"
+type = "subsector"
+version = "1.0.0"
+
+# TODO: do we need a dataset-to-project time to time dimension mapping?

@@ -1,0 +1,5 @@
+id,name,is_conus,census_division,census_region
+CA,California,True,pacific,west
+CO,Colorado,True,mountain,west
+TX,Texas,True,west_south_central,south
+NY,New York,True,mid_atlantic,northeast

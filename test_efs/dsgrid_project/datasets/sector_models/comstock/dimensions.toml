@@ -1,0 +1,21 @@
+[[dimensions]]
+class = "Subsector"
+description = """EFS formated ComStock subsectors. Based on building types subsectors for ComStock, 14 DOE prototypes"""
+file = "dimensions/comstock_subsectors.csv"
+module = "dsgrid.dimension.standard"
+name = "ComStock Subsectors EFS with formatted prefix"
+type = "subsector"
+
+[[dimensions]]
+class = "Time"
+name = "Time-2012-EST-hourly-periodEnding-noDST-noLeapDayAdjustment-total-UTChour1start"
+description = """
+Time dimension, 2012 hourly EST, period-ending, no DST, no Leap Day Adjustment, total value
+"""
+ranges = [{start = "2012-01-01 01:00:00", end = "2012-01-08 00:00:00"}]
+frequency = "01:00:00"
+type = "time"
+period = "period_ending"
+str_format = "%Y-%m-%d %H:%M:%S"
+timezone = "EasternStandard"
+value_representation = "total"
