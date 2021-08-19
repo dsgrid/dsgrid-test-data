@@ -6,7 +6,7 @@ project_id = "test_efs"
 # benchmark = []
 # historical = []
 
-[[input_datasets.datasets]]
+[[datasets]]
 dataset_id = "test_efs_comstock"
 dataset_type = "sector_model"
 model_sector = "cld"
