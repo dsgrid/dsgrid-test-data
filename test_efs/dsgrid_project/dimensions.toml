@@ -90,6 +90,7 @@ str_format = "%Y-%m-%d %H:%M:%S"
 timezone = "EasternStandard"
 type = "time"
 value_representation = "total"
+time_type = "datetime"
 
 # ------------------------------------------------------
 # Supplemental Dimensions
