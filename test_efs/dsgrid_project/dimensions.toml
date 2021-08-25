@@ -84,12 +84,12 @@ Time dimension, 2012 hourly EST, period-beginning, no DST, no Leap Day Adjustmen
 """
 frequency = "01:00:00"
 name = "Time-2012-EST-hourly-periodBeginning-noDST-noLeapDayAdjustment-total"
-time_interval = "period_beginning"
+time_interval_type = "period_beginning"
 ranges = [{start = "2012-01-01 00:00:00", end = "2012-01-07 23:00:00"}]
 str_format = "%Y-%m-%d %H:%M:%S"
 timezone = "EasternStandard"
 type = "time"
-value_representation = "total"
+measurement_type = "total"
 time_type = "datetime"
 
 # ------------------------------------------------------
