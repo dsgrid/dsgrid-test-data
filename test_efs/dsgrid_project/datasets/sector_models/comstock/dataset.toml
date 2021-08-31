@@ -1,7 +1,9 @@
 data_source = "ComStock"
 dataset_id = "test_efs_comstock"
+data_schema_type = "standard"
 dataset_type = "sector_model"
 path = "s3://nrel-dsgrid-registry/data/test-efs-comstock/1.0.0"
+trivial_dimensions = ["weather_year", "model_year", "scenario", "data_source"]
 description = "EFS ComStock data translated into the new dsgrid data format"
 origin_creator = "Henry Horsey"
 origin_organization = "NREL"
@@ -12,8 +14,9 @@ origin_version = "0.2.0"
 source = "https://nrel.sharepoint.com/:u:/r/sites/dsgrid-load/Shared%20Documents/File%20Archive/fy17%20-%20OSP%20-%20Electrification%20Load%20Modeling/data/dsgrid_v0.2.0/data/commercial.dsg?csf=1&web=1&e=dU8Ogx"
 data_classification = "low"
 tags = [ "commercial", "efs", "2012", "dsgrid_v0.2.0",]
+
+[data_schema]
 load_data_column_dimension = "metric"
-trivial_dimensions = ["weather_year", "model_year", "scenario", "data_source"]
 
 [[dimensions]]
 dimension_id = "us_counties_2010_-_comstock_only__b913be60-d3da-407b-935b-6a1b8ee7d92c"
