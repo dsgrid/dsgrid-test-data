@@ -3,6 +3,7 @@ dataset_id = "test_efs_comstock"
 data_schema_type = "standard"
 dataset_type = "sector_model"
 path = "s3://nrel-dsgrid-registry/data/test-efs-comstock/1.0.0"
+trivial_dimensions = ["weather_year", "model_year", "scenario", "data_source"]
 description = "EFS ComStock data translated into the new dsgrid data format"
 origin_creator = "Henry Horsey"
 origin_organization = "NREL"
@@ -25,7 +26,6 @@ version = "1.0.0"
 [[dimensions]]
 dimension_id = "efs_sectors_-_comstock_only__0f03e3c1-f18b-4ec8-830d-6d93e5e007e3"
 type = "sector"
-trivial = "True"
 version = "1.0.0"
 
 [[dimensions]]
@@ -41,25 +41,21 @@ version = "1.0.0"
 [[dimensions]]
 dimension_id = "2012_weather_year__0019ebb9-507b-41c9-b5a4-383b97304a69"
 type = "weather_year"
-trivial = "True"
 version = "1.0.0"
 
 [[dimensions]]
 dimension_id = "model_year_2012__999ff215-d9a7-460a-8acf-37ecdec01040"
 type = "model_year"
-trivial = "True"
 version = "1.0.0"
 
 [[dimensions]]
 dimension_id = "reference_scenario__4b6defca-9212-4388-bc39-9cf4462b4527"
 type = "scenario"
-trivial = "True"
 version = "1.0.0"
 
 [[dimensions]]
 dimension_id = "comstock_data_source__d2f50c33-8b51-4b4d-a679-46114eb5244c"
 type = "data_source"
-trivial = "True"
 version = "1.0.0"
 
 [[dimensions]]
