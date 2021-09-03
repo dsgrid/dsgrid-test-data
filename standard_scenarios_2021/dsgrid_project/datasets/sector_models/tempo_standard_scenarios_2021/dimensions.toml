@@ -88,7 +88,6 @@ name = "Time of Week by Month"
 #start = "Jan Mon 00:00:00"
 #end   = "Dec Sun 23:59:59"
 ranges = [{start = "Apr Mon 00:00:00", end = "Apr Sun 23:00:00"}]
-frequency = "01:00:00"
 time_interval_type = "period_ending"
 str_format = "%b %a %X"
 time_type = "representative_period"
