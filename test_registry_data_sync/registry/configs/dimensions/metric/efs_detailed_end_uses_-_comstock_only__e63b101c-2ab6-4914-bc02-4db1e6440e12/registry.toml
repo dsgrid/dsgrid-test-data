@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Detailed End uses for EFS; ComStock Only"
+dimension_id = "efs_detailed_end_uses_-_comstock_only__e63b101c-2ab6-4914-bc02-4db1e6440e12"
+[[registration_history]]
+version = "1.0.0"
+submitter = "dthom"
+date = "2021-09-14T07:51:56.192334"
+log_message = "Initial registration"
+

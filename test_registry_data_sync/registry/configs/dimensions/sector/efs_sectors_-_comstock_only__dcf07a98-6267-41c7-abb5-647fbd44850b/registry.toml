@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "EFS Sectors; Residential and commercial only for ComStock"
+dimension_id = "efs_sectors_-_comstock_only__dcf07a98-6267-41c7-abb5-647fbd44850b"
+[[registration_history]]
+version = "1.0.0"
+submitter = "dthom"
+date = "2021-09-14T07:51:56.192334"
+log_message = "Initial registration"
+

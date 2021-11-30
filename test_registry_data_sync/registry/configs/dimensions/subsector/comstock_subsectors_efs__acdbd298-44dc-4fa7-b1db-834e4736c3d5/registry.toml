@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Building types subsectors for ComStock, 14 DOE prototypes"
+dimension_id = "comstock_subsectors_efs__acdbd298-44dc-4fa7-b1db-834e4736c3d5"
+[[registration_history]]
+version = "1.0.0"
+submitter = "dthom"
+date = "2021-09-14T07:51:56.192334"
+log_message = "Initial registration"
+

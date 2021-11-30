@@ -1,0 +1,65 @@
+dataset_id = "efs_resstock"
+dataset_type = "sector_model"
+data_source = "ResStock"
+path = "../../../../data/efs_comstock/1.0.0"
+description = "EFS ComStock data translated into the new dsgrid data format"
+origin_creator = "Henry Horsey"
+origin_organization = "NREL"
+origin_contributors = [ "Henry Horsey", "Amanda Farthing", "Andrew Parker",]
+origin_project = "Electrification Futures Study (EFS)"
+origin_date = "2018-06-18"
+origin_version = "0.2.0"
+source = "https://nrel.sharepoint.com/:u:/r/sites/dsgrid-load/Shared%20Documents/File%20Archive/fy17%20-%20OSP%20-%20Electrification%20Load%20Modeling/data/dsgrid_v0.2.0/data/commercial.dsg?csf=1&web=1&e=dU8Ogx"
+data_classification = "low"
+tags = [ "commercial", "efs", "2012", "dsgrid_v0.2.0",]
+data_schema_type = "standard"
+trivial_dimensions = [ "weather_year", "model_year", "scenario", "data_source",]
+[[dimensions]]
+type = "geography"
+dimension_id = "us_counties_2010_-_comstock_only__8164af10-b114-4c2f-888a-0d7810d46df9"
+version = "1.0.0"
+
+[[dimensions]]
+type = "sector"
+dimension_id = "efs_sectors_-_comstock_only__dcf07a98-6267-41c7-abb5-647fbd44850b"
+version = "1.0.0"
+
+[[dimensions]]
+type = "subsector"
+dimension_id = "comstock_subsectors_efs__acdbd298-44dc-4fa7-b1db-834e4736c3d5"
+version = "1.0.0"
+
+[[dimensions]]
+type = "metric"
+dimension_id = "efs_detailed_end_uses_-_comstock_only__e63b101c-2ab6-4914-bc02-4db1e6440e12"
+version = "1.0.0"
+
+[[dimensions]]
+type = "weather_year"
+dimension_id = "2012_weather_year__d629241a-8d34-435a-8151-1767a5f7f05d"
+version = "1.0.0"
+
+[[dimensions]]
+type = "model_year"
+dimension_id = "model_year_2012__e0b7213a-d358-411c-a330-e3ed12f54204"
+version = "1.0.0"
+
+[[dimensions]]
+type = "scenario"
+dimension_id = "reference_scenario__f96216a6-461a-4a30-b1a9-c94b3ef61b9d"
+version = "1.0.0"
+
+[[dimensions]]
+type = "data_source"
+dimension_id = "comstock_data_source__be98aa91-84dc-4ea2-80b0-2cf4f65c1f09"
+version = "1.0.0"
+
+[[dimensions]]
+type = "time"
+dimension_id = "time-2012-est-hourly-periodending-nodst-noleapdayadjustment-total-utchour1start__634155b1-c674-4c59-a4bc-e0eb30899de8"
+version = "1.0.0"
+
+[data_schema]
+load_data_column_dimension = "metric"
+
+[user_defined_metadata]

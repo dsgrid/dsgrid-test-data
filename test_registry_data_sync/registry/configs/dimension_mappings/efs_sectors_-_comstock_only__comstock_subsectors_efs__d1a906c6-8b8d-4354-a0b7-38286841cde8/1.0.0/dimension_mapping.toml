@@ -1,0 +1,14 @@
+description = "Maps EFS Sectors - ComStock Only (type=DimensionType.SECTOR) to ComStock Subsectors EFS (type=DimensionType.SUBSECTOR)"
+id = "efs_sectors_-_comstock_only__comstock_subsectors_efs__d1a906c6-8b8d-4354-a0b7-38286841cde8"
+file = "lookup_sector_to_subsector.csv"
+file_hash = "a62cba67a3b07778def8db185b527fc67e27f5a755ee4db37208f0c761723b0e"
+
+[from_dimension]
+type = "sector"
+dimension_id = "efs_sectors_-_comstock_only__dcf07a98-6267-41c7-abb5-647fbd44850b"
+version = "1.0.0"
+
+[to_dimension]
+type = "subsector"
+dimension_id = "comstock_subsectors_efs__acdbd298-44dc-4fa7-b1db-834e4736c3d5"
+version = "1.0.0"

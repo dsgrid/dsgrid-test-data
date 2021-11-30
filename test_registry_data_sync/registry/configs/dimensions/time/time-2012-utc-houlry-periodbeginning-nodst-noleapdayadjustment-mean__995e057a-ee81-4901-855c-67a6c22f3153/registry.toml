@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Time dimension, 2012 hourly UTC, period-beginning, no DST, no Leap Day Adjustment, mean value"
+dimension_id = "time-2012-utc-houlry-periodbeginning-nodst-noleapdayadjustment-mean__995e057a-ee81-4901-855c-67a6c22f3153"
+[[registration_history]]
+version = "1.0.0"
+submitter = "mmooney"
+date = "2021-09-29T09:19:41.570631"
+log_message = "Initial Registration"
+

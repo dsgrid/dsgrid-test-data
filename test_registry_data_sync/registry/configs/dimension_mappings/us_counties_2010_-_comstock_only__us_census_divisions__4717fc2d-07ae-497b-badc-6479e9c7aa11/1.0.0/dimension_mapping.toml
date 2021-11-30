@@ -1,0 +1,14 @@
+description = "Maps EFS US Counties 2010 to US Census Divisions"
+id = "us_counties_2010_-_comstock_only__us_census_divisions__4717fc2d-07ae-497b-badc-6479e9c7aa11"
+file = "lookup_county_to_censusdivision.csv"
+file_hash = "38e8a70e976aeaec1573e2f86894f91d1a73a2bb5f477f921ea819d2a711f4f7"
+
+[from_dimension]
+type = "geography"
+dimension_id = "us_counties_2010_-_comstock_only__8164af10-b114-4c2f-888a-0d7810d46df9"
+version = "1.0.0"
+
+[to_dimension]
+type = "geography"
+dimension_id = "us_census_divisions__dc625e7c-6c4b-4a3e-84e6-298d08a045c0"
+version = "1.0.0"

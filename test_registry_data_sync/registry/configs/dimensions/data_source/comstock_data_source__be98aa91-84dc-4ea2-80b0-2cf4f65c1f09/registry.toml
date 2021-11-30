@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "ComStock only data source"
+dimension_id = "comstock_data_source__be98aa91-84dc-4ea2-80b0-2cf4f65c1f09"
+[[registration_history]]
+version = "1.0.0"
+submitter = "dthom"
+date = "2021-09-14T07:51:56.192334"
+log_message = "Initial registration"
+

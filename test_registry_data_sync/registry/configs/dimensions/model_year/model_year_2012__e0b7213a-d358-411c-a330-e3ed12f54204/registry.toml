@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Model year, 2012 only"
+dimension_id = "model_year_2012__e0b7213a-d358-411c-a330-e3ed12f54204"
+[[registration_history]]
+version = "1.0.0"
+submitter = "dthom"
+date = "2021-09-14T07:51:56.192334"
+log_message = "Initial registration"
+

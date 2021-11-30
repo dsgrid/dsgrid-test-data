@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "US counties, Census 2020 vintage, no territories"
+dimension_id = "us_counties_2020__0e213444-cfd3-4478-8da3-d7479cc71983"
+[[registration_history]]
+version = "1.0.0"
+submitter = "mmooney"
+date = "2021-09-29T09:19:41.570631"
+log_message = "Initial Registration"
+

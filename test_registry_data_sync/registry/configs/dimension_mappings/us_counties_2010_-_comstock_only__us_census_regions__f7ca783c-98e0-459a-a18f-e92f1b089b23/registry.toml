@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Maps EFS US Counties 2010 to US Census Regions"
+dimension_mapping_id = "us_counties_2010_-_comstock_only__us_census_regions__f7ca783c-98e0-459a-a18f-e92f1b089b23"
+[[registration_history]]
+version = "1.0.0"
+submitter = "dthom"
+date = "2021-09-14T07:51:56.315948"
+log_message = "Initial registration"
+

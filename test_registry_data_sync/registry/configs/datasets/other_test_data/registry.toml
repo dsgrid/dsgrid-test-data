@@ -1,0 +1,9 @@
+version = "1.0.0" 
+description = "EFS ResStock data translated into the new dsgrid data format" 
+dataset_id = "other_test_dataset" 
+
+[[registration_history]]
+version = "1.0.0" 
+submitter = "dthom" 
+date = "2021-09-14T07:55:05.441152"
+log_message = "Initial registration"
