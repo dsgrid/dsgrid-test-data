@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Maps EFS Sectors - ComStock Only (type=DimensionType.SECTOR) to ComStock Subsectors EFS (type=DimensionType.SUBSECTOR)"
+dimension_mapping_id = "efs_sectors_-_comstock_only__comstock_subsectors_efs__d1a906c6-8b8d-4354-a0b7-38286841cde8"
+[[registration_history]]
+version = "1.0.0"
+submitter = "dthom"
+date = "2021-09-14T07:51:56.315948"
+log_message = "Initial registration"
+

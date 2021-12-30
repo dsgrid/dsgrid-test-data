@@ -1,0 +1,14 @@
+description = "Maps EFS US Counties 2010 to US States"
+id = "us_counties_2010_-_comstock_only__us_states__91e10042-e6ef-45a1-95cc-df40c0132a18"
+file = "lookup_county_to_state.csv"
+file_hash = "35ab26f51492178825340bf4889a6b315fa257a76b0ae8f0a916ef8b1c9cabfc"
+
+[from_dimension]
+type = "geography"
+dimension_id = "us_counties_2010_-_comstock_only__8164af10-b114-4c2f-888a-0d7810d46df9"
+version = "1.0.0"
+
+[to_dimension]
+type = "geography"
+dimension_id = "us_states__382f9209-f0ef-4ec1-80a5-59452847ec6c"
+version = "1.0.0"

@@ -1,0 +1,124 @@
+# ------------------------------------------------------
+# Base Dimensions
+# ------------------------------------------------------
+[[dimensions]]
+class = "County"
+description = """
+US counties 2010, no territories, AK, HI, and some other counties, only for ComStock
+"""
+file = "dimensions/comstock_counties.csv"
+module = "dsgrid.dimension.standard"
+name = "US Counties 2010 - ComStock Only"
+type = "geography"
+
+[[dimensions]]
+class = "Sector"
+description = """EFS Sectors; Residential and commercial only for ComStock"""
+file = "dimensions/sectors.csv"
+module = "dsgrid.dimension.standard"
+name = "EFS Sectors - ComStock Only"
+type = "sector"
+
+[[dimensions]]
+class = "Subsector"
+description = """Building types subsectors for ComStock, 14 DOE prototypes"""
+file = "dimensions/subsectors.csv"
+module = "dsgrid.dimension.standard"
+name = "ComStock Subsectors EFS"
+type = "subsector"
+
+[[dimensions]]
+class = "EnergyEndUse"
+description = """
+Detailed End uses for EFS; ComStock Only
+"""
+file = "dimensions/enduses.csv"
+module = "dsgrid.dimension.standard"
+name = "EFS Detailed End Uses - ComStock Only"
+type = "metric"
+
+[[dimensions]]
+class = "WeatherYear"
+description = """
+Weather year, 2012 only
+"""
+file = "dimensions/weather_years.csv"
+module = "dsgrid.dimension.standard"
+name = "2012 Weather Year"
+type = "weather_year"
+
+[[dimensions]]
+class = "ModelYear"
+description = """
+Model year, 2012 only
+"""
+file = "dimensions/model_years.csv"
+module = "dsgrid.dimension.standard"
+name = "Model Year 2012"
+type = "model_year"
+
+[[dimensions]]
+class = "Scenario"
+description = """
+Reference scenario
+"""
+file = "dimensions/scenarios.csv"
+module = "dsgrid.dimension.standard"
+name = "Reference Scenario"
+type = "scenario"
+
+[[dimensions]]
+class = "DataSource"
+description = """
+ComStock only data source
+"""
+file = "dimensions/data_sources.csv"
+module = "dsgrid.dimension.standard"
+name = "ComStock Data Source"
+type = "data_source"
+
+[[dimensions]]
+class = "Time"
+description = """
+Time dimension, 2012 hourly UTC local, period-beginning, no DST, no Leap Day Adjustment, total value
+"""
+frequency = "01:00:00"
+name = "Time-2012-UTCLocal-hourly-periodBeginning-noDST-noLeapDayAdjustment-total"
+time_interval_type = "period_beginning"
+ranges = [{start = "2012-01-01 06:00:00", end = "2012-01-08 08:00:00"}]
+str_format = "%Y-%m-%d %H:%M:%S"
+timezone = "UTC"
+type = "time"
+measurement_type = "total"
+time_type = "datetime"
+
+# ------------------------------------------------------
+# Supplemental Dimensions
+# ------------------------------------------------------
+[[dimensions]]
+class = "State"
+description = """
+US States
+"""
+file = "dimensions/supplemental/states.csv"
+module = "dsgrid.dimension.standard"
+name = "US States"
+type = "geography"
+
+[[dimensions]]
+class = "CensusDivision"
+description = """
+US Census Divisions
+"""
+file = "dimensions/supplemental/census_divisions.csv"
+name = "US Census Divisions"
+type = "geography"
+
+[[dimensions]]
+class = "CensusRegion"
+description = """
+US Census Regions
+"""
+file = "dimensions/supplemental/census_regions.csv"
+name = "US Census Regions"
+type = "geography"

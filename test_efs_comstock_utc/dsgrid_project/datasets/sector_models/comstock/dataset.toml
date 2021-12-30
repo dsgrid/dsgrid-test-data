@@ -1,0 +1,65 @@
+data_source = "ComStock"
+dataset_id = "test_efs_comstock"
+data_schema_type = "standard"
+dataset_type = "sector_model"
+path = "s3://nrel-dsgrid-registry/data/test-efs-comstock/1.0.0"
+trivial_dimensions = ["weather_year", "model_year", "scenario", "data_source"]
+description = "EFS ComStock data translated into the new dsgrid data format"
+origin_creator = "Henry Horsey"
+origin_organization = "NREL"
+origin_contributors = [ "Henry Horsey", "Amanda Farthing", "Andrew Parker",]
+origin_project = "Electrification Futures Study (EFS)"
+origin_date = "2018-06-18"
+origin_version = "0.2.0"
+source = "https://nrel.sharepoint.com/:u:/r/sites/dsgrid-load/Shared%20Documents/File%20Archive/fy17%20-%20OSP%20-%20Electrification%20Load%20Modeling/data/dsgrid_v0.2.0/data/commercial.dsg?csf=1&web=1&e=dU8Ogx"
+data_classification = "low"
+tags = [ "commercial", "efs", "2012", "dsgrid_v0.2.0",]
+
+[data_schema]
+load_data_column_dimension = "metric"
+
+[[dimensions]]
+dimension_id = "us_counties_2010_-_comstock_only__b913be60-d3da-407b-935b-6a1b8ee7d92c"
+type = "geography"
+version = "1.0.0"
+
+[[dimensions]]
+dimension_id = "efs_sectors_-_comstock_only__0f03e3c1-f18b-4ec8-830d-6d93e5e007e3"
+type = "sector"
+version = "1.0.0"
+
+[[dimensions]]
+dimension_id = "comstock_subsectors_efs_with_formatted_prefix__91f0b409-394b-4fba-9be8-3d4d74b2bcf8"
+type = "subsector"
+version = "1.0.0"
+
+[[dimensions]]
+dimension_id = "efs_detailed_end_uses_-_comstock_only__301852a1-7f7a-4479-9b76-c7cdc686f81b"
+type = "metric"
+version = "1.0.0"
+
+[[dimensions]]
+dimension_id = "2012_weather_year__0019ebb9-507b-41c9-b5a4-383b97304a69"
+type = "weather_year"
+version = "1.0.0"
+
+[[dimensions]]
+dimension_id = "model_year_2012__999ff215-d9a7-460a-8acf-37ecdec01040"
+type = "model_year"
+version = "1.0.0"
+
+[[dimensions]]
+dimension_id = "reference_scenario__4b6defca-9212-4388-bc39-9cf4462b4527"
+type = "scenario"
+version = "1.0.0"
+
+[[dimensions]]
+dimension_id = "comstock_data_source__d2f50c33-8b51-4b4d-a679-46114eb5244c"
+type = "data_source"
+version = "1.0.0"
+
+[[dimensions]]
+dimension_id = "time-2012-est-hourly-periodending-nodst-noleapdayadjustment-total-utchour1start__d4dec9f0-43b5-427b-a41e-13f731744c1f"
+type = "time"
+version = "1.0.0"
+
