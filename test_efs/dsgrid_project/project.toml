@@ -1,6 +1,8 @@
 description = "test project for code development and validation"
 name = "test_efs"
 project_id = "test_efs"
+dimension_associations = ["dimension_associations/lookup_sector_to_subsector.csv"]
+
 
 # [datasets]
 # benchmark = []
@@ -88,7 +90,7 @@ version = "1.0.0"
 
 [[dimension_mappings.base_to_supplemental]]
 from_dimension_type = "geography"
-mapping_id = "_us_counties_2010_-_comstock_only_us_census_divisions__6ea7a382-54a9-4b7e-8105-ae9ce26cf2da"
+mapping_id = "us_counties_2010_-_comstock_only__us_census_divisions__6ea7a382-54a9-4b7e-8105-ae9ce26cf2da"
 to_dimension_type = "geography"
 version = "1.0.0"
 
