@@ -87,7 +87,7 @@ class = "AnnualTime"
 time_type = "annual"
 module = "dsgrid.dimension.standard"
 description = "Annual time trivial"
-name = "annual_time_2013_2050_trivial"
+name = "annual-time-trivial"
 ranges = [{start = "2013", end = "2013"}] # arbitrary
 str_format = "%Y"
 include_leap_day = true
