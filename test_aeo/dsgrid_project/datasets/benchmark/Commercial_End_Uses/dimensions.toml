@@ -3,7 +3,7 @@
 # ------------------------------------------------------
 [[dimensions]] # already exists
 type = "geography"
-name = "US-Census-Divisions"
+name = "US_Census_Divisions"
 file = "dimensions/us_census_divisions.csv"
 module = "dsgrid.dimension.standard"
 class = "CensusDivision"
@@ -13,7 +13,7 @@ US Census Divisions (N=9)
 
 [[dimensions]] # already exists
 type = "sector"
-name = "Benchmark-commercial-sector"
+name = "commercial-sector"
 file = "dimensions/sector_commercial.csv"
 module = "dsgrid.dimension.standard"
 class = "Sector"
@@ -41,9 +41,9 @@ description = """
 AEO 2021 commercial energy end uses (N=22, from 11 end uses, 3 fuel types)
 """
 
-[[dimensions]] # see if we need to register new
+[[dimensions]]
 type = "scenario"
-name = "AEO-Reference-Scenario"
+name = "Reference_Scenario"
 file = "dimensions/aeo_reference_scenario.csv"
 module = "dsgrid.dimension.standard"
 class = "Scenario"
@@ -53,7 +53,7 @@ AEO Reference Scenario
 
 [[dimensions]] # already registered
 type = "data_source"
-name = "AEO-2021-Data-Source"
+name = "Data-Source-AEO-2021"
 file = "dimensions/aeo2021_data_source.csv"
 module = "dsgrid.dimension.standard"
 class = "DataSource"
