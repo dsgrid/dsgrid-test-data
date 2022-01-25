@@ -1,9 +1,12 @@
 data_source = "AEO2021 Reference Case"
-dataset_id = "aeo2021_ref_com_energy_end_uses"
+dataset_id = "aeo2021_ref_com_energy_end_use_growth_factors"
 data_schema_type = "one_table"
 dataset_type = "benchmark" # <--- ?
-path = "/Users/lliu2/Documents/GitHub/dsgrid-test-data/datasets/test_aeo_data/Commercial_End_Uses/" # <---
-description = "AEO 2021 Reference Case Commercial Energy End Uses Projection: 2013-2050"
+path = "/Users/lliu2/Documents/GitHub/dsgrid-project-StandardScenarios/dsgrid_project/datasets/benchmark/aeo2021/reference/commercial/End Use Growth Factors/data/" # <---
+description = """
+AEO 2021 Reference Case Commercial Energy End Use Annual Growth Factors. 
+Detailed data provided by EIA, not available in API
+"""
 origin_creator = "Lixi Liu"
 origin_organization = "NREL"
 origin_contributors = [ "Lixi Liu", "Meghan Mooney", "Elaine Hale",]
@@ -28,12 +31,12 @@ type = "sector"
 version = "1.0.0"
 
 [[dimensions]]
-dimension_id = "aeo2021-commercial-building-types-include-unspecified__8a56a8e4-a515-412f-88c2-ea8f53db3b35"
+dimension_id = "aeo2021-commercial-building-types__a8222bac-8da3-40aa-9ce8-6801ceef6359"
 type = "subsector"
 version = "1.0.0"
 
 [[dimensions]]
-dimension_id = "aeo2021-commercial-energy-enduses__9ed1b01b-350a-4978-a040-16c775e0c580"
+dimension_id = "aeo2021-commercial-energy-enduses-unitless__6b4e2d8a-852f-4c7c-982b-6edc5550912a"
 type = "metric"
 version = "1.0.0"
 
@@ -58,7 +61,7 @@ type = "data_source"
 version = "1.0.0"
 
 [[dimensions]]
-dimension_id = "annual_time-2013_to_2050__9f358984-6b4b-4ec8-9dce-279b327dedc8"
+dimension_id = "annual-time-trivial__5131f919-b525-455c-b798-44e8953fd5ba"
 type = "time"
 version = "1.0.0"
 
