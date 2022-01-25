@@ -1,25 +1,25 @@
 # ------------------------------------------------------
 # AEO 2021 Reference Case Commercial Energy End Use Dimensions
 # ------------------------------------------------------
-# [[dimensions]] # already exists
-# type = "geography"
-# name = "US-Census-Divisions"
-# file = "dimensions/us_census_divisions.csv"
-# module = "dsgrid.dimension.standard"
-# class = "CensusDivision"
-# description = """
-# US Census Divisions (N=9)
-# """
+[[dimensions]] # already exists
+type = "geography"
+name = "US-Census-Divisions"
+file = "dimensions/us_census_divisions.csv"
+module = "dsgrid.dimension.standard"
+class = "CensusDivision"
+description = """
+US Census Divisions (N=9)
+"""
 
-# [[dimensions]] # already exists
-# type = "sector"
-# name = "Benchmark-commercial-sector"
-# file = "dimensions/sector_commercial.csv"
-# module = "dsgrid.dimension.standard"
-# class = "Sector"
-# description = """
-# Benchmark Commercial Sector
-# """
+[[dimensions]] # already exists
+type = "sector"
+name = "Benchmark-commercial-sector"
+file = "dimensions/sector_commercial.csv"
+module = "dsgrid.dimension.standard"
+class = "Sector"
+description = """
+Benchmark Commercial Sector
+"""
 
 [[dimensions]]
 type = "subsector"
@@ -41,25 +41,25 @@ description = """
 AEO 2021 commercial energy end uses (N=22, from 11 end uses, 3 fuel types)
 """
 
-# [[dimensions]] # see if we need to register new
-# type = "scenario"
-# name = "AEO-Reference-Scenario"
-# file = "dimensions/aeo_reference_scenario.csv"
-# module = "dsgrid.dimension.standard"
-# class = "Scenario"
-# description = """
-# AEO Reference Scenario
-# """
+[[dimensions]] # see if we need to register new
+type = "scenario"
+name = "AEO-Reference-Scenario"
+file = "dimensions/aeo_reference_scenario.csv"
+module = "dsgrid.dimension.standard"
+class = "Scenario"
+description = """
+AEO Reference Scenario
+"""
 
-# [[dimensions]] # already registered
-# type = "data_source"
-# name = "AEO-2021-Data-Source"
-# file = "dimensions/aeo2021_data_source.csv"
-# module = "dsgrid.dimension.standard"
-# class = "DataSource"
-# description = """
-# AEO 2021 Data Source
-# """
+[[dimensions]] # already registered
+type = "data_source"
+name = "AEO-2021-Data-Source"
+file = "dimensions/aeo2021_data_source.csv"
+module = "dsgrid.dimension.standard"
+class = "DataSource"
+description = """
+AEO 2021 Data Source
+"""
 
 [[dimensions]]
 type = "weather_year"
@@ -82,18 +82,15 @@ Model years, 2013-2050, trivial, single record
 """
 
 [[dimensions]]
-class = "Time"
-description = """
-Annual time 2013-2050
-"""
-frequency = "P365D"
+type = "time"
+class = "AnnualTime"
+time_type = "annual"
+module = "dsgrid.dimension.standard"
+description = "Annual time 2013-2050"
 name = "annual_time-2013_to_2050"
-time_interval_type = "instantaneous"
 ranges = [{start = "2013", end = "2050"}]
 str_format = "%Y"
-timezone = "none"
-type = "time"
-time_type = "datetime"
+include_leap_day = true
 measurement_type = "total"
 
 
