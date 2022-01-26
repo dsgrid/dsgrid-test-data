@@ -16,6 +16,7 @@ tags = [ "commercial", "benchmark", "projection", "aeo", "2021", "dsgrid_v0.2.0"
 trivial_dimensions = [ "sector", "scenario", "data_source", "weather_year", "model_year"]
 
 [data_schema]
+load_data_column_dimension = "metric"
 
 [[dimensions]]
 dimension_id = "us_census_divisions__c98c6bb0-5c5a-4d36-971e-5082cb453cea"
