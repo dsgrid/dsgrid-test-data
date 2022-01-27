@@ -1,6 +1,6 @@
 data_source = "AEO2021 Reference Case"
 dataset_id = "aeo2021_ref_com_energy_end_use_growth_factors"
-data_schema_type = "one_table"
+data_schema_type = "growth_rate"
 dataset_type = "benchmark" # <--- ?
 path = "/Users/lliu2/Documents/GitHub/dsgrid-project-StandardScenarios/dsgrid_project/datasets/benchmark/aeo2021/reference/commercial/End Use Growth Factors/data/" # <---
 description = """
