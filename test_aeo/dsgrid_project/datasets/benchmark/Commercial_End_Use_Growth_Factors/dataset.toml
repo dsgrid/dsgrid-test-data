@@ -1,19 +1,20 @@
-data_source = "AEO2021 Reference Case"
+data_source = "NEMS Commercial Module"
 dataset_id = "aeo2021_ref_com_energy_end_use_growth_factors"
-data_schema_type = "growth_rate"
+data_schema_type = "one_table"
 dataset_type = "benchmark"
 path = "/Users/lliu2/Documents/GitHub/dsgrid-project-StandardScenarios/dsgrid_project/datasets/benchmark/aeo2021/reference/commercial/End Use Growth Factors/data/"
 description = """
 AEO 2021 Reference Case Commercial Energy End Use Annual Growth Factors. 
-Detailed data provided by EIA, not available in API
+Derived by NREL as simple exponential growth rates from annual end use comsumptions between year 2018 and year 2050. 
+Detailed end use consumption data provided by EIA, not available in API.
 """
-origin_creator = "Lixi Liu"
-origin_organization = "NREL"
-origin_contributors = [ "Lixi Liu", "Meghan Mooney", "Elaine Hale",]
-origin_project = "Energy Benchmarking and Projection"
+origin_creator = "Kevin Jarzomski"
+origin_organization = "EIA"
+origin_contributors = [ "Lixi Liu"]
+origin_project = "Dsgrid 2022 Commercial Buildings Projection"
 origin_date = "2021-10-05"
 origin_version = "0.1.0"
-source = "Data derived from AEO 2021 detailed sector files sent from EIA"
+source = "Data derived from AEO 2021 detailed commercial sector files sent from EIA"
 data_classification = "low"
 tags = [ "commercial", "benchmark", "projection", "aeo", "2021", "dsgrid_v0.2.0",]
 trivial_dimensions = [ "sector", "scenario", "data_source", "weather_year", "model_year"]
