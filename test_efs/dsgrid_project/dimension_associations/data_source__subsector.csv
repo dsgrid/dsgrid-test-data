@@ -1,0 +1,15 @@
+data_source,subsector
+comstock,full_service_restaurant
+comstock,hospital
+comstock,large_hotel
+comstock,large_office
+comstock,medium_office
+comstock,outpatient
+comstock,primary_school
+comstock,quick_service_restaurant
+comstock,retail_standalone
+comstock,retail_stripmall
+comstock,secondary_school
+comstock,small_hotel
+comstock,small_office
+comstock,warehouse

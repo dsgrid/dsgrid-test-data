@@ -1,4 +1,4 @@
-data_source = "ComStock"
+data_source = "comstock"
 dataset_id = "test_efs_comstock"
 data_schema_type = "standard"
 dataset_type = "sector_model"

@@ -1,7 +1,7 @@
 description = "test project for code development and validation"
 name = "test_efs"
 project_id = "test_efs"
-dimension_associations = ["dimension_associations/lookup_sector_to_subsector.csv"]
+dimension_associations = ["dimension_associations/sector__subsector.csv", "dimension_associations/data_source__sector.csv", "dimension_associations/data_source__subsector.csv", "dimension_associations/data_source__metric.csv"]
 
 
 # [datasets]
