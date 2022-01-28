@@ -83,8 +83,8 @@ Model years, 2013-2050, trivial, single record
 
 [[dimensions]]
 type = "time"
-class = "TrivialTime"
-time_type = "trivial"
+class = "NoOpTime"
+time_type = "noop"
 module = "dsgrid.dimension.standard"
-description = "Annual time trivial"
-name = "annual-time-trivial"
+description = "No Operation Time"
+name = "noop_time"

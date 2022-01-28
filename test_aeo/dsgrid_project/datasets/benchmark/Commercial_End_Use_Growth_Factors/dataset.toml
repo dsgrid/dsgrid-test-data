@@ -63,7 +63,7 @@ type = "data_source"
 version = "1.0.0"
 
 [[dimensions]]
-dimension_id = "annual-time-trivial__5131f919-b525-455c-b798-44e8953fd5ba"
+dimension_id = "noop_time__5131f919-b525-455c-b798-44e8953fd5ba"
 type = "time"
 version = "1.0.0"
 
