@@ -1,7 +1,8 @@
+dataset_type = "growth_rate"
+growth_rate_type = "exponential_annual"
 data_source = "NEMS Commercial Module"
 dataset_id = "aeo2021_ref_com_energy_end_use_growth_factors"
 data_schema_type = "one_table"
-dataset_type = "benchmark"
 path = "/Users/lliu2/Documents/GitHub/dsgrid-project-StandardScenarios/dsgrid_project/datasets/benchmark/aeo2021/reference/commercial/End Use Growth Factors/data/"
 description = """
 AEO 2021 Reference Case Commercial Energy End Use Annual Growth Factors. 
