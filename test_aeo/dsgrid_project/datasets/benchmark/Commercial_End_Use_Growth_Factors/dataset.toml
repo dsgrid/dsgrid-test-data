@@ -1,5 +1,4 @@
 dataset_type = "growth_rate"
-growth_rate_type = "exponential_annual"
 data_source = "NEMS Commercial Module"
 dataset_id = "aeo2021_ref_com_energy_end_use_growth_factors"
 data_schema_type = "one_table"
@@ -22,6 +21,9 @@ trivial_dimensions = [ "sector", "scenario", "data_source", "weather_year", "mod
 
 [data_schema]
 load_data_column_dimension = "metric"
+
+[dataset_type_metadata]
+growth_rate_type = "exponential_annual"
 
 [[dimensions]]
 dimension_id = "us_census_divisions__c98c6bb0-5c5a-4d36-971e-5082cb453cea"
