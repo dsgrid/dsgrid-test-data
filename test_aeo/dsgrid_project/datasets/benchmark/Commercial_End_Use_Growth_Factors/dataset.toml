@@ -1,8 +1,9 @@
-dataset_type = "growth_rate"
+dataset_type = "benchmark"
 data_source = "NEMS Commercial Module"
 dataset_id = "aeo2021_ref_com_energy_end_use_growth_factors"
 data_schema_type = "one_table"
-path = "/Users/lliu2/Documents/GitHub/dsgrid-project-StandardScenarios/dsgrid_project/datasets/benchmark/aeo2021/reference/commercial/End Use Growth Factors/data/"
+dataset_qualifier = "growth_rate"
+path = "./dsgrid-test-data/datasets/test_aeo_data/Commercial_End_Use_Growth_Factors/"
 description = """
 AEO 2021 Reference Case Commercial Energy End Use Annual Growth Factors. 
 Derived by NREL as simple exponential growth rates from annual end use comsumptions between year 2018 and year 2050. 
@@ -16,13 +17,13 @@ origin_date = "2021-10-05"
 origin_version = "0.1.0"
 source = "Data derived from AEO 2021 detailed commercial sector files sent from EIA"
 data_classification = "low"
-tags = [ "commercial", "benchmark", "projection", "aeo", "2021", "dsgrid_v0.2.0",]
+tags = [ "commercial", "benchmark", "projection", "aeo2021", "dsgrid_v0.2.0",]
 trivial_dimensions = [ "sector", "scenario", "data_source", "weather_year", "model_year"]
 
 [data_schema]
 load_data_column_dimension = "metric"
 
-[dataset_type_metadata]
+[dataset_qualifier_metadata]
 growth_rate_type = "exponential_annual"
 
 [[dimensions]]

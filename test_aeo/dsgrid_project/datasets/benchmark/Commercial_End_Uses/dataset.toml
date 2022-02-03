@@ -1,18 +1,18 @@
+dataset_type = "benchmark"
 data_source = "NEMS Commercial Module"
 dataset_id = "aeo2021_ref_com_energy_end_uses"
 data_schema_type = "one_table"
-dataset_type = "benchmark"
-path = "/Users/lliu2/Documents/GitHub/dsgrid-project-StandardScenarios/dsgrid_project/datasets/benchmark/aeo2021/reference/commercial/End Uses/data/"
+path = "./dsgrid-test-data/datasets/test_aeo_data/Commercial_End_Uses/"
 description = "AEO 2021 Reference Case Commercial Energy End Uses Projection: 2013-2050"
 origin_creator = "Kevin Jarzomski"
 origin_organization = "EIA"
 origin_contributors = [ "Lixi Liu", "Meghan Mooney", "Elaine Hale",]
-origin_project = "Dsgrid 2022 Commercial Buildings Projection"
+origin_project = "EIA AEO 2021"
 origin_date = "2021-10-05"
 origin_version = "0.1.0"
 source = "Data extracted from AEO 2021 detailed commercial sector files sent from EIA"
 data_classification = "low"
-tags = [ "commercial", "benchmark", "projection", "aeo", "2021", "dsgrid_v0.2.0",]
+tags = [ "commercial", "benchmark", "projection", "aeo2021", "dsgrid_v0.2.0",]
 trivial_dimensions = [ "sector", "scenario", "data_source", "weather_year", "model_year"]
 
 [data_schema]
