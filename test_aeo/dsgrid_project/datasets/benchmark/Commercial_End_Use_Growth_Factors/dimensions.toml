@@ -83,12 +83,8 @@ Model years, 2013-2050, trivial, single record
 
 [[dimensions]]
 type = "time"
-class = "AnnualTime"
-time_type = "annual"
+class = "NoOpTime"
+time_type = "noop"
 module = "dsgrid.dimension.standard"
-description = "Annual time trivial"
-name = "annual-time-trivial"
-ranges = [{start = "2013", end = "2013"}] # arbitrary
-str_format = "%Y"
-include_leap_day = true
-measurement_type = "total"
+description = "No Operation Time"
+name = "noop_time"
