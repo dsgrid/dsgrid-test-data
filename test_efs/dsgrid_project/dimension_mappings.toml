@@ -1,16 +1,4 @@
 [[mappings]]
-description = "Maps EFS Sectors - ComStock Only (type=DimensionType.SECTOR) to ComStock Subsectors EFS (type=DimensionType.SUBSECTOR)"
-file = "dimension_mappings/base-to-base/lookup_sector_to_subsector.csv"
-[mappings.from_dimension]
-dimension_id = "efs_sectors_-_comstock_only__0f03e3c1-f18b-4ec8-830d-6d93e5e007e3"
-type = "sector"
-version = "1.0.0"
-[mappings.to_dimension]
-dimension_id = "comstock_subsectors_efs__f831662d-ce4b-4415-8a97-a33d66257cfe"
-type = "subsector"
-version = "1.0.0"
-
-[[mappings]]
 description = "Maps EFS US Counties 2010 to US Census Regions"
 file = "dimension_mappings/base-to-supplemental/lookup_county_to_censusregion.csv"
 [mappings.from_dimension]

@@ -73,13 +73,6 @@ dimension_id = "us_states__2bae0844-b0d3-4bf0-9d15-d9d969dee774"
 type = "geography"
 version = "1.0.0"
 
-[[dimension_mappings.base_to_base]]
-from_dimension_type = "sector"
-mapping_id = "efs_sectors_-_comstock_only__comstock_subsectors_efs__efd4190b-e8e8-42e9-8810-56eeb87b8222"
-required_for_validation = true
-to_dimension_type = "subsector"
-version = "1.0.0"
-
 [[dimension_mappings.base_to_supplemental]]
 from_dimension_type = "geography"
 mapping_id = "us_counties_2010_-_comstock_only__us_census_regions__13a7d7a8-1283-4257-8254-f0dd6544d743"
