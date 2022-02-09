@@ -50,11 +50,11 @@ type = "weather_year"
 [[dimensions]]
 class = "ModelYear"
 description = """
-Model year, 2012 only
+Model years, 2010-2050, every decade
 """
 file = "dimensions/model_years.csv"
 module = "dsgrid.dimension.standard"
-name = "Model Year 2012"
+name = "Model Years 2010 to 2050"
 type = "model_year"
 
 [[dimensions]]
