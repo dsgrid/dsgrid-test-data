@@ -12,7 +12,7 @@ version = "1.0.0"
 
 [[mappings]]
 description = "Maps EFS ComStock model year EFS project model years"
-file = "dimension_mappings/lmodel_year_to_model_year.csv"
+file = "dimension_mappings/model_year_to_model_year.csv"
 [mappings.from_dimension]
 dimension_id = "model_year_2012__999ff215-d9a7-460a-8acf-37ecdec01040"
 type = "model_year"
