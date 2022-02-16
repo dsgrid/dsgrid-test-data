@@ -1,4 +1,4 @@
-from_id,fraction,to_id
+from_id,from_fraction,to_id
 com__FullServiceRestaurant,0.9,FullServiceRestaurant
 com__Hospital,1,Hospital
 com__LargeHotel,1.1,LargeHotel
