@@ -1,5 +1,5 @@
 [[mappings]]
-mapping_type = "one_to_one_multiplication"
+mapping_type = "one_to_one_explicit_multipliers"
 description = "Maps EFS ComStock prefix-formatted subsectors to the EFS project subsectors"
 file = "dimension_mappings/lookup_comstock_subsectors_to_project_subsectors.csv"
 [mappings.from_dimension]
