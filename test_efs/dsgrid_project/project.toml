@@ -1,6 +1,8 @@
 description = "test project for code development and validation"
 name = "test_efs"
 project_id = "test_efs"
+dimension_associations = ["dimension_associations/sector__subsector.csv", "dimension_associations/data_source__sector.csv", "dimension_associations/data_source__subsector.csv"]
+
 
 # [datasets]
 # benchmark = []
@@ -39,7 +41,7 @@ type = "weather_year"
 version = "1.0.0"
 
 [[dimensions.base_dimensions]]
-dimension_id = "model_year_2012__999ff215-d9a7-460a-8acf-37ecdec01040"
+dimension_id = "model_years_2010_to_2050__999ff215-d9a7-460a-8acf-37ecdec01040"
 type = "model_year"
 version = "1.0.0"
 
@@ -81,7 +83,7 @@ version = "1.0.0"
 
 [[dimension_mappings.base_to_supplemental]]
 from_dimension_type = "geography"
-mapping_id = "_us_counties_2010_-_comstock_only_us_census_divisions__6ea7a382-54a9-4b7e-8105-ae9ce26cf2da"
+mapping_id = "us_counties_2010_-_comstock_only__us_census_divisions__6ea7a382-54a9-4b7e-8105-ae9ce26cf2da"
 to_dimension_type = "geography"
 version = "1.0.0"
 
