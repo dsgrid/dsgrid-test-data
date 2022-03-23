@@ -8,8 +8,6 @@
 dataset_id = "tempo_standard_scenarios_2021"
 dataset_type = "sector_model"
 data_source = "TEMPO"
-#path = "s3://" # TODO: The registration process will provide this.
-path = "s3://nrel-dsgrid-registry/data/tempo/1.0.0"
 description = """
 TEMPO county-level results for BEV charging.
 """
