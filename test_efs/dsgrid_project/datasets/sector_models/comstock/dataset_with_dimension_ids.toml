@@ -17,39 +17,6 @@ tags = [ "commercial", "efs", "2012", "dsgrid_v0.2.0",]
 [data_schema]
 load_data_column_dimension = "metric"
 
-[[dimensions]]
-class = "Subsector"
-description = """EFS formated ComStock subsectors. Based on building types subsectors for ComStock, 14 DOE prototypes"""
-file = "dimensions/comstock_subsectors.csv"
-module = "dsgrid.dimension.standard"
-name = "ComStock Subsectors EFS with formatted prefix"
-type = "subsector"
-
-[[dimensions]]
-class = "ModelYear"
-description = """
-Model year, 2012 only
-"""
-file = "dimensions/model_years.csv"
-module = "dsgrid.dimension.standard"
-name = "Model Year 2012"
-type = "model_year"
-
-[[dimensions]]
-class = "Time"
-name = "Time-2012-EST-hourly-periodEnding-noDST-noLeapDayAdjustment-total-UTChour1start"
-description = """
-Time dimension, 2012 hourly EST, period-ending, no DST, no Leap Day Adjustment, total value
-"""
-ranges = [{start = "2012-01-01 01:00:00", end = "2012-01-08 00:00:00"}]
-frequency = "01:00:00"
-type = "time"
-time_interval_type = "period_ending"
-str_format = "%Y-%m-%d %H:%M:%S"
-timezone = "EasternStandard"
-measurement_type = "total"
-time_type = "datetime"
-
 [[dimension_references]]
 dimension_id = "us_counties_2010_-_comstock_only__b913be60-d3da-407b-935b-6a1b8ee7d92c"
 type = "geography"
@@ -58,6 +25,11 @@ version = "1.0.0"
 [[dimension_references]]
 dimension_id = "efs_sectors_-_comstock_only__0f03e3c1-f18b-4ec8-830d-6d93e5e007e3"
 type = "sector"
+version = "1.0.0"
+
+[[dimension_references]]
+dimension_id = "comstock_subsectors_efs_with_formatted_prefix__91f0b409-394b-4fba-9be8-3d4d74b2bcf8"
+type = "subsector"
 version = "1.0.0"
 
 [[dimension_references]]
@@ -71,6 +43,11 @@ type = "weather_year"
 version = "1.0.0"
 
 [[dimension_references]]
+dimension_id = "model_year_2012__999ff215-d9a7-460a-8acf-37ecdec01040"
+type = "model_year"
+version = "1.0.0"
+
+[[dimension_references]]
 dimension_id = "reference_scenario__4b6defca-9212-4388-bc39-9cf4462b4527"
 type = "scenario"
 version = "1.0.0"
@@ -78,4 +55,9 @@ version = "1.0.0"
 [[dimension_references]]
 dimension_id = "comstock_data_source__d2f50c33-8b51-4b4d-a679-46114eb5244c"
 type = "data_source"
+version = "1.0.0"
+
+[[dimension_references]]
+dimension_id = "time-2012-est-hourly-periodending-nodst-noleapdayadjustment-total-utchour1start__d4dec9f0-43b5-427b-a41e-13f731744c1f"
+type = "time"
 version = "1.0.0"

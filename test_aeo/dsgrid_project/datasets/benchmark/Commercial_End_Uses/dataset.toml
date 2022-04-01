@@ -17,48 +17,95 @@ trivial_dimensions = [ "sector", "scenario", "data_source", "weather_year", "mod
 [data_schema]
 load_data_column_dimension = "metric"
 
-[[dimensions]]
-dimension_id = "us_census_divisions__c98c6bb0-5c5a-4d36-971e-5082cb453cea"
+[[dimensions]] # already exists
 type = "geography"
-version = "1.0.0"
+name = "US_Census_Divisions"
+file = "dimensions/us_census_divisions.csv"
+module = "dsgrid.dimension.standard"
+class = "CensusDivision"
+description = """
+US Census Divisions (N=9)
+"""
 
-[[dimensions]]
-dimension_id = "commercial-sector__e9ccef84-0aed-4b7f-b682-e2604f16b511"
+[[dimensions]] # already exists
 type = "sector"
-version = "1.0.0"
+name = "commercial-sector"
+file = "dimensions/sector_commercial.csv"
+module = "dsgrid.dimension.standard"
+class = "Sector"
+description = """
+Benchmark Commercial Sector
+"""
 
 [[dimensions]]
-dimension_id = "aeo2021-commercial-building-types-include-unspecified__8a56a8e4-a515-412f-88c2-ea8f53db3b35"
 type = "subsector"
-version = "1.0.0"
+name = "AEO2021-commercial-building-types-include-unspecified"
+file = "dimensions/aeo2021_commercial_building_types_include_unspecified.csv"
+module = "dsgrid.dimension.standard"
+class = "Subsector"
+description = """
+AEO 2021 commercial building types (N=13), include Unspecified
+"""
 
 [[dimensions]]
-dimension_id = "aeo2021-commercial-energy-enduses__9ed1b01b-350a-4978-a040-16c775e0c580"
 type = "metric"
-version = "1.0.0"
+name = "AEO2021-commercial-energy-enduses"
+file = "dimensions/aeo2021_commercial_energy_enduses.csv"
+module = "dsgrid.dimension.standard"
+class = "EnergyEndUse"
+description = """
+AEO 2021 commercial energy end uses (N=22, from 11 end uses, 3 fuel types)
+"""
 
 [[dimensions]]
-dimension_id = "weather_years-trivial-2013_to_2050__35bcd374-aac9-44a0-869c-114df498b990"
-type = "weather_year"
-version = "1.0.0"
-
-[[dimensions]]
-dimension_id = "model_years-trivial-2013_to_2050__799dd50c-78b3-4373-935c-b4ce52a5db74"
-type = "model_year"
-version = "1.0.0"
-
-[[dimensions]]
-dimension_id = "reference_scenario__5d35997c-d3d6-4f43-afb8-175b365e3345"
 type = "scenario"
-version = "1.0.0"
+name = "Reference_Scenario"
+file = "dimensions/aeo_reference_scenario.csv"
+module = "dsgrid.dimension.standard"
+class = "Scenario"
+description = """
+AEO Reference Scenario
+"""
 
-[[dimensions]]
-dimension_id = "data-source-aeo-2021__9a1bb500-0734-4703-bfe0-02c6a8e7579e"
+[[dimensions]] # already registered
 type = "data_source"
-version = "1.0.0"
+name = "Data-Source-AEO-2021"
+file = "dimensions/aeo2021_data_source.csv"
+module = "dsgrid.dimension.standard"
+class = "DataSource"
+description = """
+AEO 2021 Data Source
+"""
 
 [[dimensions]]
-dimension_id = "annual_time-2013_to_2050__9f358984-6b4b-4ec8-9dce-279b327dedc8"
+type = "weather_year"
+name = "Weather_Years-trivial-2013_to_2050"
+file = "dimensions/weather_years_trivial_2013_to_2050.csv"
+module = "dsgrid.dimension.standard"
+class = "WeatherYear"
+description = """
+Weather years, 2013-2050, trivial, single record
+"""
+
+[[dimensions]]
+type = "model_year"
+name = "Model_Years-trivial-2013_to_2050"
+file = "dimensions/model_years_trivial_2013_to_2050.csv"
+module = "dsgrid.dimension.standard"
+class = "ModelYear"
+description = """
+Model years, 2013-2050, trivial, single record
+"""
+
+[[dimensions]]
 type = "time"
-version = "1.0.0"
+class = "AnnualTime"
+time_type = "annual"
+module = "dsgrid.dimension.standard"
+description = "Annual time 2013-2050"
+name = "annual_time-2013_to_2050"
+ranges = [{start = "2013", end = "2050"}]
+str_format = "%Y"
+include_leap_day = true
+measurement_type = "total"
 
