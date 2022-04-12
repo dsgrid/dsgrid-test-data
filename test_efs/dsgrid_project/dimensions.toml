@@ -10,6 +10,7 @@ file = "dimensions/comstock_counties.csv"
 module = "dsgrid.dimension.standard"
 name = "US Counties 2010 - ComStock Only"
 type = "geography"
+display_name = "County"
 
 [[dimensions]]
 class = "Sector"
@@ -18,6 +19,7 @@ file = "dimensions/sectors.csv"
 module = "dsgrid.dimension.standard"
 name = "EFS Sectors - ComStock Only"
 type = "sector"
+display_name = "Sector"
 
 [[dimensions]]
 class = "Subsector"
@@ -26,6 +28,7 @@ file = "dimensions/subsectors.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Subsectors EFS"
 type = "subsector"
+display_name = "Detailed Subsector"
 
 [[dimensions]]
 class = "EnergyEndUse"
@@ -36,6 +39,7 @@ file = "dimensions/enduses.csv"
 module = "dsgrid.dimension.standard"
 name = "EFS Detailed End Uses - ComStock Only"
 type = "metric"
+display_name = "Energy End Use"
 
 [[dimensions]]
 class = "WeatherYear"
@@ -46,6 +50,7 @@ file = "dimensions/weather_years.csv"
 module = "dsgrid.dimension.standard"
 name = "2012 Weather Year"
 type = "weather_year"
+display_name = "Weather Year"
 
 [[dimensions]]
 class = "ModelYear"
@@ -56,6 +61,7 @@ file = "dimensions/model_years.csv"
 module = "dsgrid.dimension.standard"
 name = "Model Years 2010 to 2050"
 type = "model_year"
+display_name = "Model Year"
 
 [[dimensions]]
 class = "Scenario"
@@ -66,6 +72,7 @@ file = "dimensions/scenarios.csv"
 module = "dsgrid.dimension.standard"
 name = "Reference Scenario"
 type = "scenario"
+display_name = "Scenario"
 
 [[dimensions]]
 class = "DataSource"
@@ -76,6 +83,7 @@ file = "dimensions/data_sources.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Data Source"
 type = "data_source"
+display_name = "Data Source"
 
 [[dimensions]]
 class = "Time"
@@ -91,6 +99,7 @@ timezone = "EasternStandard"
 type = "time"
 measurement_type = "total"
 time_type = "datetime"
+display_name = "Timestamp"
 
 # ------------------------------------------------------
 # Supplemental Dimensions
@@ -104,6 +113,7 @@ file = "dimensions/supplemental/states.csv"
 module = "dsgrid.dimension.standard"
 name = "US States"
 type = "geography"
+display_name = "State"
 
 [[dimensions]]
 class = "CensusDivision"
@@ -113,6 +123,7 @@ US Census Divisions
 file = "dimensions/supplemental/census_divisions.csv"
 name = "US Census Divisions"
 type = "geography"
+display_name = "Census Division"
 
 [[dimensions]]
 class = "CensusRegion"
@@ -122,3 +133,5 @@ US Census Regions
 file = "dimensions/supplemental/census_regions.csv"
 name = "US Census Regions"
 type = "geography"
+display_name = "Census Region"
+

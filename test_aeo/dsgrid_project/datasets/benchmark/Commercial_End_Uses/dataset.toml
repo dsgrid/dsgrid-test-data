@@ -20,6 +20,7 @@ load_data_column_dimension = "metric"
 [[dimensions]] # already exists
 type = "geography"
 name = "US_Census_Divisions"
+display_name = "Census Division"
 file = "dimensions/us_census_divisions.csv"
 module = "dsgrid.dimension.standard"
 class = "CensusDivision"
@@ -30,6 +31,7 @@ US Census Divisions (N=9)
 [[dimensions]] # already exists
 type = "sector"
 name = "commercial-sector"
+display_name = "Sector"
 file = "dimensions/sector_commercial.csv"
 module = "dsgrid.dimension.standard"
 class = "Sector"
@@ -40,6 +42,7 @@ Benchmark Commercial Sector
 [[dimensions]]
 type = "subsector"
 name = "AEO2021-commercial-building-types-include-unspecified"
+display_name = "Subsector"
 file = "dimensions/aeo2021_commercial_building_types_include_unspecified.csv"
 module = "dsgrid.dimension.standard"
 class = "Subsector"
@@ -50,6 +53,7 @@ AEO 2021 commercial building types (N=13), include Unspecified
 [[dimensions]]
 type = "metric"
 name = "AEO2021-commercial-energy-enduses"
+display_name = "Energy End Use"
 file = "dimensions/aeo2021_commercial_energy_enduses.csv"
 module = "dsgrid.dimension.standard"
 class = "EnergyEndUse"
@@ -60,6 +64,7 @@ AEO 2021 commercial energy end uses (N=22, from 11 end uses, 3 fuel types)
 [[dimensions]]
 type = "scenario"
 name = "Reference_Scenario"
+display_name = "Scenario"
 file = "dimensions/aeo_reference_scenario.csv"
 module = "dsgrid.dimension.standard"
 class = "Scenario"
@@ -70,6 +75,7 @@ AEO Reference Scenario
 [[dimensions]] # already registered
 type = "data_source"
 name = "Data-Source-AEO-2021"
+display_name = "Data Source"
 file = "dimensions/aeo2021_data_source.csv"
 module = "dsgrid.dimension.standard"
 class = "DataSource"
@@ -80,6 +86,7 @@ AEO 2021 Data Source
 [[dimensions]]
 type = "weather_year"
 name = "Weather_Years-trivial-2013_to_2050"
+display_name = "Weather Year"
 file = "dimensions/weather_years_trivial_2013_to_2050.csv"
 module = "dsgrid.dimension.standard"
 class = "WeatherYear"
@@ -90,6 +97,7 @@ Weather years, 2013-2050, trivial, single record
 [[dimensions]]
 type = "model_year"
 name = "Model_Years-trivial-2013_to_2050"
+display_name = "Model Year"
 file = "dimensions/model_years_trivial_2013_to_2050.csv"
 module = "dsgrid.dimension.standard"
 class = "ModelYear"
@@ -104,6 +112,7 @@ time_type = "annual"
 module = "dsgrid.dimension.standard"
 description = "Annual time 2013-2050"
 name = "annual_time-2013_to_2050"
+display_name = "Timestamp"
 ranges = [{start = "2013", end = "2050"}]
 str_format = "%Y"
 include_leap_day = true

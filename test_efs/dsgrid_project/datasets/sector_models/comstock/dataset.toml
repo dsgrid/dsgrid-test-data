@@ -23,6 +23,7 @@ description = """EFS formated ComStock subsectors. Based on building types subse
 file = "dimensions/comstock_subsectors.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Subsectors EFS with formatted prefix"
+display_name = "Detailed Subsector"
 type = "subsector"
 
 [[dimensions]]
@@ -33,11 +34,13 @@ Model year, 2012 only
 file = "dimensions/model_years.csv"
 module = "dsgrid.dimension.standard"
 name = "Model Year 2012"
+display_name = "Model Year"
 type = "model_year"
 
 [[dimensions]]
 class = "Time"
 name = "Time-2012-EST-hourly-periodEnding-noDST-noLeapDayAdjustment-total-UTChour1start"
+display_name = "Timestamp"
 description = """
 Time dimension, 2012 hourly EST, period-ending, no DST, no Leap Day Adjustment, total value
 """

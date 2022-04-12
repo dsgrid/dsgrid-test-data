@@ -23,6 +23,7 @@ US counties 2010, no territories, AK, HI, and some other counties, only for ComS
 file = "dimensions/comstock_counties.csv"
 module = "dsgrid.dimension.standard"
 name = "US Counties 2010 - ComStock Only"
+display_name = "County"
 type = "geography"
 
 [[dimensions.base_dimensions]]
@@ -31,6 +32,7 @@ description = """EFS Sectors; Residential and commercial only for ComStock"""
 file = "dimensions/sectors.csv"
 module = "dsgrid.dimension.standard"
 name = "EFS Sectors - ComStock Only"
+display_name = "Sector"
 type = "sector"
 
 [[dimensions.base_dimensions]]
@@ -39,6 +41,7 @@ description = """Building types subsectors for ComStock, 14 DOE prototypes"""
 file = "dimensions/subsectors.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Subsectors EFS"
+display_name = "Detailed Subsector"
 type = "subsector"
 
 [[dimensions.base_dimensions]]
@@ -49,6 +52,7 @@ Detailed End uses for EFS; ComStock Only
 file = "dimensions/enduses.csv"
 module = "dsgrid.dimension.standard"
 name = "EFS Detailed End Uses - ComStock Only"
+display_name = "Energy End Use"
 type = "metric"
 
 [[dimensions.base_dimensions]]
@@ -59,6 +63,7 @@ Weather year, 2012 only
 file = "dimensions/weather_years.csv"
 module = "dsgrid.dimension.standard"
 name = "2012 Weather Year"
+display_name = "Weather Year"
 type = "weather_year"
 
 [[dimensions.base_dimensions]]
@@ -69,6 +74,7 @@ Model years, 2010-2050, every decade
 file = "dimensions/model_years.csv"
 module = "dsgrid.dimension.standard"
 name = "Model Years 2010 to 2050"
+display_name = "Model Year"
 type = "model_year"
 
 [[dimensions.base_dimensions]]
@@ -79,6 +85,7 @@ Reference scenario
 file = "dimensions/scenarios.csv"
 module = "dsgrid.dimension.standard"
 name = "Reference Scenario"
+display_name = "Scenario"
 type = "scenario"
 
 [[dimensions.base_dimensions]]
@@ -89,6 +96,7 @@ ComStock only data source
 file = "dimensions/data_sources.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Data Source"
+display_name = "Data Source"
 type = "data_source"
 
 [[dimensions.base_dimensions]]
@@ -98,6 +106,7 @@ Time dimension, 2012 hourly EST, period-beginning, no DST, no Leap Day Adjustmen
 """
 frequency = "01:00:00"
 name = "Time-2012-EST-hourly-periodBeginning-noDST-noLeapDayAdjustment-total"
+display_name = "Timestamp"
 time_interval_type = "period_beginning"
 ranges = [{start = "2012-01-01 00:00:00", end = "2012-01-07 23:00:00"}]
 str_format = "%Y-%m-%d %H:%M:%S"
@@ -114,6 +123,7 @@ US States
 file = "dimensions/supplemental/states.csv"
 module = "dsgrid.dimension.standard"
 name = "US States"
+display_name = "State"
 type = "geography"
 
 [[dimensions.supplemental_dimensions]]
@@ -123,6 +133,7 @@ US Census Divisions
 """
 file = "dimensions/supplemental/census_divisions.csv"
 name = "US Census Divisions"
+display_name = "Census Division"
 type = "geography"
 
 [[dimensions.supplemental_dimensions]]
@@ -132,6 +143,7 @@ US Census Regions
 """
 file = "dimensions/supplemental/census_regions.csv"
 name = "US Census Regions"
+display_name = "Census Region"
 type = "geography"
 
 [[dimension_mappings.base_to_supplemental]]
