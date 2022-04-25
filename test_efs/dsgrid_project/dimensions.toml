@@ -28,7 +28,7 @@ file = "dimensions/subsectors.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Subsectors EFS"
 type = "subsector"
-display_name = "Detailed Subsector"
+display_name = "ComStock Building Type"
 
 [[dimensions]]
 class = "EnergyEndUse"
@@ -39,7 +39,7 @@ file = "dimensions/enduses.csv"
 module = "dsgrid.dimension.standard"
 name = "EFS Detailed End Uses - ComStock Only"
 type = "metric"
-display_name = "Energy End Use"
+display_name = "ComStock End Use"
 
 [[dimensions]]
 class = "WeatherYear"
@@ -50,7 +50,7 @@ file = "dimensions/weather_years.csv"
 module = "dsgrid.dimension.standard"
 name = "2012 Weather Year"
 type = "weather_year"
-display_name = "Weather Year"
+display_name = "2012 Weather"
 
 [[dimensions]]
 class = "ModelYear"
@@ -72,7 +72,7 @@ file = "dimensions/scenarios.csv"
 module = "dsgrid.dimension.standard"
 name = "Reference Scenario"
 type = "scenario"
-display_name = "Scenario"
+display_name = "Reference"
 
 [[dimensions]]
 class = "DataSource"
@@ -83,7 +83,7 @@ file = "dimensions/data_sources.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Data Source"
 type = "data_source"
-display_name = "Data Source"
+display_name = "ComStock"
 
 [[dimensions]]
 class = "Time"
@@ -99,7 +99,7 @@ timezone = "EasternStandard"
 type = "time"
 measurement_type = "total"
 time_type = "datetime"
-display_name = "Timestamp"
+display_name = "Hourly 2012"
 
 # ------------------------------------------------------
 # Supplemental Dimensions

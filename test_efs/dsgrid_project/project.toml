@@ -41,7 +41,7 @@ description = """Building types subsectors for ComStock, 14 DOE prototypes"""
 file = "dimensions/subsectors.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Subsectors EFS"
-display_name = "Detailed Subsector"
+display_name = "ComStock Building Type"
 type = "subsector"
 
 [[dimensions.base_dimensions]]
@@ -52,7 +52,7 @@ Detailed End uses for EFS; ComStock Only
 file = "dimensions/enduses.csv"
 module = "dsgrid.dimension.standard"
 name = "EFS Detailed End Uses - ComStock Only"
-display_name = "Energy End Use"
+display_name = "ComStock End Use"
 type = "metric"
 
 [[dimensions.base_dimensions]]
@@ -63,7 +63,7 @@ Weather year, 2012 only
 file = "dimensions/weather_years.csv"
 module = "dsgrid.dimension.standard"
 name = "2012 Weather Year"
-display_name = "Weather Year"
+display_name = "2012 Weather"
 type = "weather_year"
 
 [[dimensions.base_dimensions]]
@@ -85,7 +85,7 @@ Reference scenario
 file = "dimensions/scenarios.csv"
 module = "dsgrid.dimension.standard"
 name = "Reference Scenario"
-display_name = "Scenario"
+display_name = "Reference"
 type = "scenario"
 
 [[dimensions.base_dimensions]]
@@ -96,7 +96,7 @@ ComStock only data source
 file = "dimensions/data_sources.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Data Source"
-display_name = "Data Source"
+display_name = "ComStock"
 type = "data_source"
 
 [[dimensions.base_dimensions]]
@@ -106,7 +106,7 @@ Time dimension, 2012 hourly EST, period-beginning, no DST, no Leap Day Adjustmen
 """
 frequency = "01:00:00"
 name = "Time-2012-EST-hourly-periodBeginning-noDST-noLeapDayAdjustment-total"
-display_name = "Timestamp"
+display_name = "Hourly 2012"
 time_interval_type = "period_beginning"
 ranges = [{start = "2012-01-01 00:00:00", end = "2012-01-07 23:00:00"}]
 str_format = "%Y-%m-%d %H:%M:%S"
