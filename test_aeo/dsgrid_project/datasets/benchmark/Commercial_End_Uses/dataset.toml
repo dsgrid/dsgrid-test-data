@@ -105,6 +105,7 @@ description = """
 Model years, 2013-2050, trivial, single record
 """
 
+# Should this be converted to no-op time?
 [[dimensions]]
 type = "time"
 class = "AnnualTime"

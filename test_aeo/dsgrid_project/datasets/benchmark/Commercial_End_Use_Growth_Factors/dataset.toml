@@ -120,5 +120,5 @@ time_type = "noop"
 module = "dsgrid.dimension.standard"
 description = "No Operation Time"
 name = "noop_time"
-display_name = "Timestamp"
+display_name = "None"
 

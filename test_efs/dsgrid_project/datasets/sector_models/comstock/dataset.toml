@@ -40,7 +40,7 @@ type = "model_year"
 [[dimensions]]
 class = "Time"
 name = "Time-2012-EST-hourly-periodEnding-noDST-noLeapDayAdjustment-total-UTChour1start"
-display_name = "Hourly 2012"
+display_name = "2012 Hourly EST"
 description = """
 Time dimension, 2012 hourly EST, period-ending, no DST, no Leap Day Adjustment, total value
 """

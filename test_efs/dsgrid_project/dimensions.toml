@@ -99,7 +99,7 @@ timezone = "EasternStandard"
 type = "time"
 measurement_type = "total"
 time_type = "datetime"
-display_name = "Hourly 2012"
+display_name = "2012 Hourly EST"
 
 # ------------------------------------------------------
 # Supplemental Dimensions
