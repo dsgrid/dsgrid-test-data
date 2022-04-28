@@ -15,6 +15,7 @@ model_sector = "cld"
 version = "1.0.0"
 
 [dimensions]
+all_in_one_supplemental_dimensions = ["sector", "subsector"]
 [[dimensions.base_dimensions]]
 class = "County"
 description = """
@@ -148,7 +149,7 @@ type = "geography"
 
 [[dimension_mappings.base_to_supplemental]]
 description = "Maps EFS US Counties 2010 to US Census Regions"
-file = "dimension_mappings/base-to-supplemental/lookup_county_to_censusregion.csv"
+file = "dimension_mappings/base_to_supplemental/lookup_county_to_censusregion.csv"
 [dimension_mappings.base_to_supplemental.from_dimension]
 name = "US Counties 2010 - ComStock Only"
 type = "geography"
@@ -158,7 +159,7 @@ type = "geography"
 
 [[dimension_mappings.base_to_supplemental]]
 description = "Maps EFS US Counties 2010 to US Census Divisions"
-file = "dimension_mappings/base-to-supplemental/lookup_county_to_censusdivision.csv"
+file = "dimension_mappings/base_to_supplemental/lookup_county_to_censusdivision.csv"
 [dimension_mappings.base_to_supplemental.from_dimension]
 name = "US Counties 2010 - ComStock Only"
 type = "geography"
@@ -168,7 +169,7 @@ type = "geography"
 
 [[dimension_mappings.base_to_supplemental]]
 description = "Maps EFS US Counties 2010 to US States"
-file = "dimension_mappings/base-to-supplemental/lookup_county_to_state.csv"
+file = "dimension_mappings/base_to_supplemental/lookup_county_to_state.csv"
 [dimension_mappings.base_to_supplemental.from_dimension]
 name = "US Counties 2010 - ComStock Only"
 type = "geography"
