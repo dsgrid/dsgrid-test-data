@@ -1,6 +1,6 @@
 [[mappings]]
 description = "Maps EFS US Counties 2010 to US Census Regions"
-file = "dimension_mappings/base-to-supplemental/lookup_county_to_censusregion.csv"
+file = "dimension_mappings/base_to_supplemental/lookup_county_to_censusregion.csv"
 [mappings.from_dimension]
 dimension_id = "us_counties_2010_-_comstock_only__18d04685-34e8-4ff4-a5fb-173d773bbb04"
 type = "geography"
@@ -12,7 +12,7 @@ version = "1.0.0"
 
 [[mappings]]
 description = "Maps EFS US Counties 2010 to US Census Divisions"
-file = "dimension_mappings/base-to-supplemental/lookup_county_to_censusdivision.csv"
+file = "dimension_mappings/base_to_supplemental/lookup_county_to_censusdivision.csv"
 [mappings.from_dimension]
 dimension_id = "us_counties_2010_-_comstock_only__18d04685-34e8-4ff4-a5fb-173d773bbb04"
 type = "geography"
@@ -24,7 +24,7 @@ version = "1.0.0"
 
 [[mappings]]
 description = "Maps EFS US Counties 2010 to US States"
-file = "dimension_mappings/base-to-supplemental/lookup_county_to_state.csv"
+file = "dimension_mappings/base_to_supplemental/lookup_county_to_state.csv"
 [mappings.from_dimension]
 dimension_id = "us_counties_2010_-_comstock_only__18d04685-34e8-4ff4-a5fb-173d773bbb04"
 type = "geography"

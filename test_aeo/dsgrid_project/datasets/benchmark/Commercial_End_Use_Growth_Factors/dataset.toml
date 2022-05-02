@@ -28,6 +28,7 @@ growth_rate_type = "exponential_annual"
 [[dimensions]] # already exists
 type = "geography"
 name = "US_Census_Divisions"
+display_name = "Census Division"
 file = "dimensions/us_census_divisions.csv"
 module = "dsgrid.dimension.standard"
 class = "CensusDivision"
@@ -38,6 +39,7 @@ US Census Divisions (N=9)
 [[dimensions]] # already exists
 type = "sector"
 name = "commercial-sector"
+display_name = "Commercial"
 file = "dimensions/sector_commercial.csv"
 module = "dsgrid.dimension.standard"
 class = "Sector"
@@ -48,6 +50,7 @@ Benchmark Commercial Sector
 [[dimensions]]
 type = "subsector"
 name = "AEO2021-commercial-building-types"
+display_name = "AEO Commercial Building Type"
 file = "dimensions/aeo2021_commercial_building_types.csv"
 module = "dsgrid.dimension.standard"
 class = "Subsector"
@@ -58,6 +61,7 @@ AEO 2021 commercial building types (N=11)
 [[dimensions]]
 type = "metric"
 name = "AEO2021-commercial-energy-enduses-unitless"
+display_name = "AEO Commercial End Use"
 file = "dimensions/aeo2021_commercial_energy_enduses.csv"
 module = "dsgrid.dimension.standard"
 class = "EnergyEndUse"
@@ -68,6 +72,7 @@ AEO 2021 commercial energy end uses (unitless) for growth rates (N=19, from 10 e
 [[dimensions]]
 type = "scenario"
 name = "Reference_Scenario"
+display_name = "AEO Reference"
 file = "dimensions/aeo_reference_scenario.csv"
 module = "dsgrid.dimension.standard"
 class = "Scenario"
@@ -78,6 +83,7 @@ EIA AEO Reference Scenario
 [[dimensions]]
 type = "data_source"
 name = "Data-Source-AEO-2021"
+display_name = "AEO 2021"
 file = "dimensions/aeo2021_data_source.csv"
 module = "dsgrid.dimension.standard"
 class = "DataSource"
@@ -88,6 +94,7 @@ EIA Annual Energy Outlook (AEO) 2021
 [[dimensions]] # already exists
 type = "weather_year"
 name = "Weather_Years-trivial-2013_to_2050"
+display_name = "None"
 file = "dimensions/weather_years_trivial_2013_to_2050.csv"
 module = "dsgrid.dimension.standard"
 class = "WeatherYear"
@@ -98,6 +105,7 @@ Weather years, 2013-2050, trivial, single record
 [[dimensions]] # already exists
 type = "model_year"
 name = "Model_Years-trivial-2013_to_2050"
+display_name = "None"
 file = "dimensions/model_years_trivial_2013_to_2050.csv"
 module = "dsgrid.dimension.standard"
 class = "ModelYear"
@@ -112,4 +120,5 @@ time_type = "noop"
 module = "dsgrid.dimension.standard"
 description = "No Operation Time"
 name = "noop_time"
+display_name = "None"
 

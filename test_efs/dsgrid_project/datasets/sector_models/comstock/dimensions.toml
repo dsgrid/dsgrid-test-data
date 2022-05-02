@@ -5,6 +5,7 @@ file = "dimensions/comstock_subsectors.csv"
 module = "dsgrid.dimension.standard"
 name = "ComStock Subsectors EFS with formatted prefix"
 type = "subsector"
+display_name = "ComStock Building Type"
 
 [[dimensions]]
 class = "ModelYear"
@@ -15,6 +16,7 @@ file = "dimensions/model_years.csv"
 module = "dsgrid.dimension.standard"
 name = "Model Year 2012"
 type = "model_year"
+display_name = "2012"
 
 [[dimensions]]
 class = "Time"
@@ -30,3 +32,4 @@ str_format = "%Y-%m-%d %H:%M:%S"
 timezone = "EasternStandard"
 measurement_type = "total"
 time_type = "datetime"
+display_name = "2012 Hourly EST"
