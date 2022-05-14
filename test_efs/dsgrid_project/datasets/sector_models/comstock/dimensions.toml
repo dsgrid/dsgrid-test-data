@@ -1,4 +1,13 @@
 [[dimensions]]
+class = "EnergyEndUse"
+description = """ComStock end uses"""
+file = "dimensions/comstock_enduses.csv"
+module = "dsgrid.dimension.standard"
+name = "ComStock End Uses"
+type = "metric"
+display_name = "ComStock End Use"
+
+[[dimensions]]
 class = "Subsector"
 description = """EFS formated ComStock subsectors. Based on building types subsectors for ComStock, 14 DOE prototypes"""
 file = "dimensions/comstock_subsectors.csv"
