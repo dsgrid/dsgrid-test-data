@@ -64,7 +64,7 @@ type = "sector"
 version = "1.0.0"
 
 [[dimension_references]]
-dimension_id = "efs_detailed_end_uses_-_comstock_only__301852a1-7f7a-4479-9b76-c7cdc686f81b"
+dimension_id = "comstock_end_uses__301852a1-7f7a-4479-9b76-c7cdc686f81b"
 type = "metric"
 version = "1.0.0"
 
