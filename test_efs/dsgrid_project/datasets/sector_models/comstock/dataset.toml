@@ -18,6 +18,15 @@ tags = [ "commercial", "efs", "2012", "dsgrid_v0.2.0",]
 load_data_column_dimension = "metric"
 
 [[dimensions]]
+class = "EnergyEndUse"
+description = """ComStock end uses"""
+file = "dimensions/comstock_enduses.csv"
+module = "dsgrid.dimension.standard"
+name = "ComStock End Uses"
+type = "metric"
+display_name = "ComStock End Use"
+
+[[dimensions]]
 class = "Subsector"
 description = """EFS formated ComStock subsectors. Based on building types subsectors for ComStock, 14 DOE prototypes"""
 file = "dimensions/comstock_subsectors.csv"
@@ -61,11 +70,6 @@ version = "1.0.0"
 [[dimension_references]]
 dimension_id = "efs_sectors_-_comstock_only__0f03e3c1-f18b-4ec8-830d-6d93e5e007e3"
 type = "sector"
-version = "1.0.0"
-
-[[dimension_references]]
-dimension_id = "efs_detailed_end_uses_-_comstock_only__301852a1-7f7a-4479-9b76-c7cdc686f81b"
-type = "metric"
 version = "1.0.0"
 
 [[dimension_references]]

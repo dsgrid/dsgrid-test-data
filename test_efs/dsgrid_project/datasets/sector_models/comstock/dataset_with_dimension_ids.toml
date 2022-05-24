@@ -33,7 +33,7 @@ type = "subsector"
 version = "1.0.0"
 
 [[dimension_references]]
-dimension_id = "efs_detailed_end_uses_-_comstock_only__301852a1-7f7a-4479-9b76-c7cdc686f81b"
+dimension_id = "comstock_end_uses__c73bcae9-6715-402c-840b-b3f2422a6d90"
 type = "metric"
 version = "1.0.0"
 
