@@ -1,0 +1,16 @@
+mapping_type = "many_to_one_aggregation"
+archetype = "many_to_one_map_fraction_sum_eq1"
+description = "ACS County 2018 to ACS County 2020 L48"
+id = "acs_county_2018__us_counties_2020_l48__72a82b08-823f-4587-ba15-25b39a20f022"
+file = "county_to_county.csv"
+file_hash = "69661da4fc884ebbef7e7712ec7c89c3b498a3cfad3f91fe0574eb95332534be"
+
+[from_dimension]
+type = "geography"
+dimension_id = "acs_county_2018__740db19d-2f34-4472-8464-388c4fe96acb"
+version = "1.0.0"
+
+[to_dimension]
+type = "geography"
+dimension_id = "us_counties_2020_l48__cc913019-cfc3-496c-acec-fe9d3457e44d"
+version = "1.0.0"

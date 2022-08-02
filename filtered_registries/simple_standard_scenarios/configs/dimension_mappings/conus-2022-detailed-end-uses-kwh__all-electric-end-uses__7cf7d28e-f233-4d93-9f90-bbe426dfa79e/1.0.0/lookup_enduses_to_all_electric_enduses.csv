@@ -1,0 +1,4 @@
+from_id,to_id,from_fraction
+electricity_cooling,all_electricity,1.0
+electricity_heating,all_electricity,1.0
+electricity_ev_l1l2,all_electricity,1.0

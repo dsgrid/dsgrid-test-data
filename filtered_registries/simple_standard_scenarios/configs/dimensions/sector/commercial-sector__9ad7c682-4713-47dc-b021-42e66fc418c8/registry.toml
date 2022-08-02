@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Commercial sector only"
+dimension_id = "commercial-sector__9ad7c682-4713-47dc-b021-42e66fc418c8"
+[[registration_history]]
+version = "1.0.0"
+submitter = "lliu2"
+date = "2022-08-01T17:19:32.770059"
+log_message = "Initial registration"
+

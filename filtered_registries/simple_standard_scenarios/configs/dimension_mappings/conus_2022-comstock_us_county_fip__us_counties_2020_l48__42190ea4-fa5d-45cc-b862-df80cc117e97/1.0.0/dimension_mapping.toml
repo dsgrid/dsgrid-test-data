@@ -1,0 +1,16 @@
+mapping_type = "one_to_one"
+archetype = "one_to_one_map_fraction_sum_eq1"
+description = "ComStock CONUS 2022 counties to project counties"
+id = "conus_2022-comstock_us_county_fip__us_counties_2020_l48__42190ea4-fa5d-45cc-b862-df80cc117e97"
+file = "county_to_county.csv"
+file_hash = "77e0acdf7fa4f831516db823b9866df22d358e01f9cf874ffb585c9db67757f1"
+
+[from_dimension]
+type = "geography"
+dimension_id = "conus_2022-comstock_us_county_fip__e26591ba-2aac-4059-8e45-a79915d6783e"
+version = "1.0.0"
+
+[to_dimension]
+type = "geography"
+dimension_id = "us_counties_2020_l48__cc913019-cfc3-496c-acec-fe9d3457e44d"
+version = "1.0.0"
