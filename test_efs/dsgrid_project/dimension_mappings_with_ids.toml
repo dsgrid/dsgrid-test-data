@@ -1,4 +1,5 @@
 [[mappings]]
+mapping_type = "many_to_one_aggregation"
 description = "Maps EFS US Counties 2010 to US Census Regions"
 file = "dimension_mappings/base_to_supplemental/lookup_county_to_censusregion.csv"
 [mappings.from_dimension]
@@ -11,6 +12,7 @@ type = "geography"
 version = "1.0.0"
 
 [[mappings]]
+mapping_type = "many_to_one_aggregation"
 description = "Maps EFS US Counties 2010 to US Census Divisions"
 file = "dimension_mappings/base_to_supplemental/lookup_county_to_censusdivision.csv"
 [mappings.from_dimension]
@@ -23,6 +25,7 @@ type = "geography"
 version = "1.0.0"
 
 [[mappings]]
+mapping_type = "many_to_one_aggregation"
 description = "Maps EFS US Counties 2010 to US States"
 file = "dimension_mappings/base_to_supplemental/lookup_county_to_state.csv"
 [mappings.from_dimension]
