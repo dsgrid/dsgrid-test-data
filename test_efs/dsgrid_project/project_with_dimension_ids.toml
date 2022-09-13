@@ -10,7 +10,7 @@ dimension_associations = ["dimension_associations/sector__subsector.csv", "dimen
 
 [[datasets]]
 dataset_id = "test_efs_comstock"
-dataset_type = "sector_model"
+dataset_type = "modeled"
 model_sector = "cld"
 version = "1.0.0"
 

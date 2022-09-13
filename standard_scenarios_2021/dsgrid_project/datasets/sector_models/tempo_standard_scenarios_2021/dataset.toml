@@ -1,12 +1,8 @@
 # --------------------------------------
 # TEMPO Dataset Configuration File
 # --------------------------------------
-
-# TODO: TEMPO contributors to fill out this config file
-# TODO: Direct questions to brian.bush@nrel.gov
-
 dataset_id = "tempo_standard_scenarios_2021"
-dataset_type = "sector_model"
+dataset_type = "modeled"
 data_source = "TEMPO"
 description = """
 TEMPO county-level results for BEV charging.
