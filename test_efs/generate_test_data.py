@@ -18,7 +18,7 @@ def generate_efs_comstock(project_dir, src_data_path, output_dir):
     spark = init_spark("test")
     project_dir = Path(project_dir)
 
-    dataset_dir = project_dir / "dsgrid_project" / "datasets" / "sector_models" / "comstock"
+    dataset_dir = project_dir / "dsgrid_project" / "datasets" / "modeled" / "comstock"
     dataset_filename = dataset_dir / "dataset.toml"
     dataset_id = dsgrid.utils.files.load_data(dataset_filename)["dataset_id"]
 

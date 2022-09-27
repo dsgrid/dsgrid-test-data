@@ -1,7 +1,8 @@
 data_source = "comstock"
 dataset_id = "test_efs_comstock"
 data_schema_type = "standard"
-dataset_type = "sector_model"
+dataset_type = "modeled"
+sector_description = "commercial"
 trivial_dimensions = ["weather_year", "model_year", "scenario", "data_source"]
 description = "EFS ComStock data translated into the new dsgrid data format"
 origin_creator = "Henry Horsey"
