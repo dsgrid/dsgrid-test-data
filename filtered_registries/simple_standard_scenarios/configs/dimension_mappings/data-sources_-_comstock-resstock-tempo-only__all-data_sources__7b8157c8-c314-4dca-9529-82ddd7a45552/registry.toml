@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Aggregation map for all data_sources"
+dimension_mapping_id = "data-sources_-_comstock-resstock-tempo-only__all-data_sources__7b8157c8-c314-4dca-9529-82ddd7a45552"
+[[registration_history]]
+version = "1.0.0"
+submitter = "lliu2"
+date = "2022-08-01T17:19:30.073792"
+log_message = "Initial registration"
+

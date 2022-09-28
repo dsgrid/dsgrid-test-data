@@ -1,0 +1,67 @@
+dataset_id = "conus_2022_reference_comstock"
+dataset_type = "modeled"
+dataset_qualifier = "quantity"
+data_source = "comstock"
+data_schema_type = "standard"
+dataset_version = "1.0.0"
+description = "Time-shifted and filled for Dec31, simulated on 09/29/2021 using:\nComstock SHA: 00a3f79bab74d7fb8b71e7897486eb54b51277fc and\nbuildstock SHA: 9e00b5649c96ad18bc6336ba9b24c81156f8fd2d\n(Post-processed using AWS SightGlass and notebooks from https://github.com/NREL/SightGlassDataProcessing/tree/agg_for_dsgrid)"
+origin_creator = "Lixi Liu"
+origin_organization = "NREL"
+origin_contributors = [ "Marlena Praprost", "Lixi Liu", "Andrew Parker",]
+origin_project = "End Use Load Profiles"
+origin_date = "2021-09-29"
+origin_version = "0.1.0"
+source = "s3://eulp/simulation_output/regional_runs/comstock/com_dsgrid_full_2/com_dsgrid_full_2/"
+data_classification = "low"
+tags = [ "commercial", "conus-2022", "reference", "dsgrid_v0.2.0", "standard_scenarios",]
+dimensions = []
+trivial_dimensions = [ "sector", "weather_year", "model_year", "scenario", "data_source",]
+[[dimension_references]]
+type = "geography"
+dimension_id = "conus_2022-comstock_us_county_fip__e26591ba-2aac-4059-8e45-a79915d6783e"
+version = "1.0.0"
+
+[[dimension_references]]
+type = "sector"
+dimension_id = "commercial-sector__9ad7c682-4713-47dc-b021-42e66fc418c8"
+version = "1.0.0"
+
+[[dimension_references]]
+type = "subsector"
+dimension_id = "conus_2022-comstock_building_types__97afade1-e38c-444d-ab5b-0078afe510fa"
+version = "1.0.0"
+
+[[dimension_references]]
+type = "metric"
+dimension_id = "conus_2022-comstock_energy_enduses_kwh__461efa97-86d3-4cfc-a81f-12f3ad1da4d5"
+version = "1.0.0"
+
+[[dimension_references]]
+type = "scenario"
+dimension_id = "conus-2022__8ccd7107-11bf-401e-ab82-61996a48622d"
+version = "1.0.0"
+
+[[dimension_references]]
+type = "data_source"
+dimension_id = "comstock-data-source__e44a2040-5965-45a2-935b-06f3eb3c7cf9"
+version = "1.0.0"
+
+[[dimension_references]]
+type = "model_year"
+dimension_id = "model-year-2018__7b7e939d-2ae9-4f82-be65-3236132c28aa"
+version = "1.0.0"
+
+[[dimension_references]]
+type = "time"
+dimension_id = "time-2012-est-8784-hourly-periodending-noleapdayadjustment-total-hour0start__472937bf-d011-4604-8cc2-ed7bc30b2929"
+version = "1.0.0"
+
+[[dimension_references]]
+type = "weather_year"
+dimension_id = "2012_weather_year__387442fa-18fa-4c04-ba36-943f1092fc98"
+version = "1.0.0"
+
+[data_schema]
+load_data_column_dimension = "metric"
+
+[user_defined_metadata]

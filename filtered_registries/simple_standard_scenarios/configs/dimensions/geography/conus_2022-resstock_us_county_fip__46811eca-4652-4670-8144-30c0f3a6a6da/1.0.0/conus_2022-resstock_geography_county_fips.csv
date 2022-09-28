@@ -1,0 +1,5 @@
+id,name,time_zone,state
+G0600370,Los Angeles County,PacificPrevailing,CA
+G0600730,San Diego County,PacificPrevailing,CA
+G3600470,Kings County,EasternPrevailing,NY
+G3600810,Queens County,EasternPrevailing,NY

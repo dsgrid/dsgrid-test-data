@@ -1,0 +1,325 @@
+project_id = "dsgrid_conus_2022"
+name = "dsgrid CONUS 2022"
+description = "Dataset created for the FY21 dsgrid Load Profile Tool for Grid Modeling project"
+status = "Complete"
+dimension_associations = [ "data_source__metric.csv", "data_source__sector.csv", "data_source__subsector.csv",]
+[[datasets]]
+dataset_id = "tempo_conus_2022"
+dataset_type = "modeled"
+version = "1.0.0"
+status = "Registered"
+[[datasets.mapping_references]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "acs_county_2018__us_counties_2020_l48__72a82b08-823f-4587-ba15-25b39a20f022"
+version = "1.0.0"
+required_for_validation = true
+
+[[datasets.mapping_references]]
+from_dimension_type = "metric"
+to_dimension_type = "metric"
+mapping_id = "tempo_ldv_pev_usage__conus-2022-detailed-end-uses-kwh__aa425565-c44b-4ae3-8512-778567314217"
+version = "1.0.0"
+required_for_validation = true
+
+[[datasets.mapping_references]]
+from_dimension_type = "model_year"
+to_dimension_type = "model_year"
+mapping_id = "tempo_model_year__model_years_2010_to_2050__f52e9dea-3ba5-4d4e-ba54-8335faf3ed74"
+version = "1.0.0"
+required_for_validation = true
+
+[[datasets.mapping_references]]
+from_dimension_type = "subsector"
+to_dimension_type = "subsector"
+mapping_id = "tempo_bin__conus-2022-detailed-subsectors__b1c7891f-9067-4386-b433-520eedcc518a"
+version = "1.0.0"
+required_for_validation = true
+
+
+[[datasets]]
+dataset_id = "conus_2022_reference_resstock"
+dataset_type = "modeled"
+version = "1.0.0"
+status = "Registered"
+[[datasets.mapping_references]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "conus_2022-resstock_us_county_fip__us_counties_2020_l48__ba39ade4-e833-428a-8650-4f7a9cba6edb"
+version = "1.0.0"
+required_for_validation = true
+
+[[datasets.mapping_references]]
+from_dimension_type = "metric"
+to_dimension_type = "metric"
+mapping_id = "conus_2022-resstock_energy_enduses_kwh__conus-2022-detailed-end-uses-kwh__62828091-01e8-4200-a9a0-c4ea000405c1"
+version = "1.0.0"
+required_for_validation = true
+
+[[datasets.mapping_references]]
+from_dimension_type = "scenario"
+to_dimension_type = "scenario"
+mapping_id = "conus-2022__conus-2022-scenarios__775f544e-aa10-4ec4-b305-01d1a532b26a"
+version = "1.0.0"
+required_for_validation = true
+
+[[datasets.mapping_references]]
+from_dimension_type = "model_year"
+to_dimension_type = "model_year"
+mapping_id = "model-year-2018__model_years_2010_to_2050__cf43ae03-beb5-475f-aba2-d5b5d4a896d7"
+version = "1.0.0"
+required_for_validation = true
+
+
+[[datasets]]
+dataset_id = "conus_2022_reference_comstock"
+dataset_type = "modeled"
+version = "1.0.0"
+status = "Registered"
+[[datasets.mapping_references]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "conus_2022-comstock_us_county_fip__us_counties_2020_l48__42190ea4-fa5d-45cc-b862-df80cc117e97"
+version = "1.0.0"
+required_for_validation = true
+
+[[datasets.mapping_references]]
+from_dimension_type = "model_year"
+to_dimension_type = "model_year"
+mapping_id = "model-year-2018__model_years_2010_to_2050__cf43ae03-beb5-475f-aba2-d5b5d4a896d7"
+version = "1.0.0"
+required_for_validation = true
+
+[[datasets.mapping_references]]
+from_dimension_type = "scenario"
+to_dimension_type = "scenario"
+mapping_id = "conus-2022__conus-2022-scenarios__775f544e-aa10-4ec4-b305-01d1a532b26a"
+version = "1.0.0"
+required_for_validation = true
+
+
+[dimensions]
+base_dimensions = []
+supplemental_dimensions = []
+all_in_one_supplemental_dimensions = [ "sector", "subsector", "data_source",]
+[[dimensions.base_dimension_references]]
+type = "geography"
+dimension_id = "us_counties_2020_l48__cc913019-cfc3-496c-acec-fe9d3457e44d"
+version = "1.0.0"
+
+[[dimensions.base_dimension_references]]
+type = "sector"
+dimension_id = "sectors_-_com-res-tra-only__9b09088d-b340-48d1-bc79-52e50989289e"
+version = "1.0.0"
+
+[[dimensions.base_dimension_references]]
+type = "subsector"
+dimension_id = "conus-2022-detailed-subsectors__33e41aca-1db5-473b-8ef9-7417d1d4ba89"
+version = "1.0.0"
+
+[[dimensions.base_dimension_references]]
+type = "metric"
+dimension_id = "conus-2022-detailed-end-uses-kwh__ea5aa752-36b2-4a4c-929f-3dac5f397a94"
+version = "1.0.0"
+
+[[dimensions.base_dimension_references]]
+type = "model_year"
+dimension_id = "model_years_2010_to_2050__e8f03fb0-c547-403f-bb3b-e11a8cf3df6d"
+version = "1.0.0"
+
+[[dimensions.base_dimension_references]]
+type = "scenario"
+dimension_id = "conus-2022-scenarios__20236bfb-ad56-48ef-9c61-2534bfc28e26"
+version = "1.0.0"
+
+[[dimensions.base_dimension_references]]
+type = "data_source"
+dimension_id = "data-sources_-_comstock-resstock-tempo-only__2019869a-27a7-4f0a-af46-bac90f584c4d"
+version = "1.0.0"
+
+[[dimensions.base_dimension_references]]
+type = "time"
+dimension_id = "time-2012-est-hourly-periodbeginning-noleapdayadjustment-total__17ed26c3-f9e4-4562-a221-07a9f8cb9999"
+version = "1.0.0"
+
+[[dimensions.base_dimension_references]]
+type = "weather_year"
+dimension_id = "2012_weather_year__387442fa-18fa-4c04-ba36-943f1092fc98"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimension_references]]
+type = "geography"
+dimension_id = "us_states__331308f3-bc44-45bb-8f86-0bd0a3c5c10f"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimension_references]]
+type = "geography"
+dimension_id = "us_census_regions__b99e65d4-ffb5-4b0c-95ff-c9618f257d27"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimension_references]]
+type = "geography"
+dimension_id = "us_census_divisions__1788229d-5275-4cd4-a6c9-00de53b0fd8d"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimension_references]]
+type = "geography"
+dimension_id = "reeds_pca__d62d05a3-dd84-48d4-84c4-7dd127a3ff8a"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimension_references]]
+type = "metric"
+dimension_id = "all-electric-end-uses__ba3f8784-76d8-419d-99a6-56e878b4dee7"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimension_references]]
+type = "sector"
+dimension_id = "all-sectors__1efa499a-fe85-46b4-bdf2-859af8a68573"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimension_references]]
+type = "subsector"
+dimension_id = "all-subsectors__c2275418-1b0e-47a8-b50b-5f120ee7a3cc"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimension_references]]
+type = "data_source"
+dimension_id = "all-data_sources__f926014b-8cac-4519-b1c3-d5d1442402b1"
+version = "1.0.0"
+
+[dimension_mappings]
+base_to_supplemental = []
+[[dimension_mappings.base_to_supplemental_references]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "us_counties_2020_l48__us_census_regions__d162712d-e258-46b0-a9ac-329196fc066a"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental_references]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "us_counties_2020_l48__us_census_divisions__0c83bbd1-6d51-4038-913d-46dd4b44052c"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental_references]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "us_counties_2020_l48__us_states__5f838cf2-bedd-44f0-ab6d-ebe11e773dbe"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental_references]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "us_counties_2020_l48__reeds_pca__e53e33be-65f6-4e1d-b655-0b9f0b4fb599"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental_references]]
+from_dimension_type = "metric"
+to_dimension_type = "metric"
+mapping_id = "conus-2022-detailed-end-uses-kwh__all-electric-end-uses__7cf7d28e-f233-4d93-9f90-bbe426dfa79e"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental_references]]
+from_dimension_type = "sector"
+to_dimension_type = "sector"
+mapping_id = "sectors_-_com-res-tra-only__all-sectors__cae25389-9204-48b3-ae55-d056dfd09c62"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental_references]]
+from_dimension_type = "subsector"
+to_dimension_type = "subsector"
+mapping_id = "conus-2022-detailed-subsectors__all-subsectors__0524e69f-0f83-4c7b-95dc-e252d3285d59"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental_references]]
+from_dimension_type = "data_source"
+to_dimension_type = "data_source"
+mapping_id = "data-sources_-_comstock-resstock-tempo-only__all-data_sources__7b8157c8-c314-4dca-9529-82ddd7a45552"
+version = "1.0.0"
+required_for_validation = true
+
+[dimension_mappings.dataset_to_project]
+[[dimension_mappings.dataset_to_project.conus_2022_reference_comstock]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "conus_2022-comstock_us_county_fip__us_counties_2020_l48__42190ea4-fa5d-45cc-b862-df80cc117e97"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.conus_2022_reference_comstock]]
+from_dimension_type = "model_year"
+to_dimension_type = "model_year"
+mapping_id = "model-year-2018__model_years_2010_to_2050__cf43ae03-beb5-475f-aba2-d5b5d4a896d7"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.conus_2022_reference_comstock]]
+from_dimension_type = "scenario"
+to_dimension_type = "scenario"
+mapping_id = "conus-2022__conus-2022-scenarios__775f544e-aa10-4ec4-b305-01d1a532b26a"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.conus_2022_reference_resstock]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "conus_2022-resstock_us_county_fip__us_counties_2020_l48__ba39ade4-e833-428a-8650-4f7a9cba6edb"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.conus_2022_reference_resstock]]
+from_dimension_type = "metric"
+to_dimension_type = "metric"
+mapping_id = "conus_2022-resstock_energy_enduses_kwh__conus-2022-detailed-end-uses-kwh__62828091-01e8-4200-a9a0-c4ea000405c1"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.conus_2022_reference_resstock]]
+from_dimension_type = "scenario"
+to_dimension_type = "scenario"
+mapping_id = "conus-2022__conus-2022-scenarios__775f544e-aa10-4ec4-b305-01d1a532b26a"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.conus_2022_reference_resstock]]
+from_dimension_type = "model_year"
+to_dimension_type = "model_year"
+mapping_id = "model-year-2018__model_years_2010_to_2050__cf43ae03-beb5-475f-aba2-d5b5d4a896d7"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.tempo_conus_2022]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "acs_county_2018__us_counties_2020_l48__72a82b08-823f-4587-ba15-25b39a20f022"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.tempo_conus_2022]]
+from_dimension_type = "metric"
+to_dimension_type = "metric"
+mapping_id = "tempo_ldv_pev_usage__conus-2022-detailed-end-uses-kwh__aa425565-c44b-4ae3-8512-778567314217"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.tempo_conus_2022]]
+from_dimension_type = "model_year"
+to_dimension_type = "model_year"
+mapping_id = "tempo_model_year__model_years_2010_to_2050__f52e9dea-3ba5-4d4e-ba54-8335faf3ed74"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.dataset_to_project.tempo_conus_2022]]
+from_dimension_type = "subsector"
+to_dimension_type = "subsector"
+mapping_id = "tempo_bin__conus-2022-detailed-subsectors__b1c7891f-9067-4386-b433-520eedcc518a"
+version = "1.0.0"
+required_for_validation = true
+
