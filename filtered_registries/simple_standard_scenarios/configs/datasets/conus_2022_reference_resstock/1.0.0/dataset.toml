@@ -1,5 +1,5 @@
 dataset_id = "conus_2022_reference_resstock"
-dataset_type = "sector_model"
+dataset_type = "modeled"
 dataset_qualifier = "quantity"
 data_source = "resstock"
 data_schema_type = "standard"

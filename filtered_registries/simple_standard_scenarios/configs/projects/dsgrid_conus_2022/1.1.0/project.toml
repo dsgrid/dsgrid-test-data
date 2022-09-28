@@ -5,26 +5,23 @@ status = "In Progress"
 dimension_associations = [ "data_source__metric.csv", "data_source__sector.csv", "data_source__subsector.csv",]
 [[datasets]]
 dataset_id = "tempo_conus_2022"
-dataset_type = "sector_model"
+dataset_type = "modeled"
 version = "1.0.0"
 mapping_references = []
 status = "Unregistered"
-model_sector = "tempo"
 
 [[datasets]]
 dataset_id = "conus_2022_reference_resstock"
-dataset_type = "sector_model"
+dataset_type = "modeled"
 version = "1.0.0"
 mapping_references = []
 status = "Unregistered"
-model_sector = "resstock"
 
 [[datasets]]
 dataset_id = "conus_2022_reference_comstock"
-dataset_type = "sector_model"
+dataset_type = "modeled"
 version = "1.0.0"
 status = "Registered"
-model_sector = "comstock"
 [[datasets.mapping_references]]
 from_dimension_type = "geography"
 to_dimension_type = "geography"

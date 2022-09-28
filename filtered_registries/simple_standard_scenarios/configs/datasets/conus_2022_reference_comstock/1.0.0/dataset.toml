@@ -1,5 +1,5 @@
 dataset_id = "conus_2022_reference_comstock"
-dataset_type = "sector_model"
+dataset_type = "modeled"
 dataset_qualifier = "quantity"
 data_source = "comstock"
 data_schema_type = "standard"
