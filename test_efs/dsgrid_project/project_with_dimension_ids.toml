@@ -1,7 +1,6 @@
 description = "test project for code development and validation"
 name = "test_efs"
 project_id = "test_efs"
-dimension_associations = ["dimension_associations/sector__subsector.csv", "dimension_associations/data_source__sector.csv", "dimension_associations/data_source__subsector.csv"]
 
 
 # [datasets]
@@ -12,6 +11,15 @@ dimension_associations = ["dimension_associations/sector__subsector.csv", "dimen
 dataset_id = "test_efs_comstock"
 dataset_type = "modeled"
 version = "1.0.0"
+
+[datasets.required_dimensions]
+[[datasets.required_dimensions.multi_dimensional]]
+sector = [ "res",]
+subsector = [ "MidriseApartment",]
+
+[[datasets.required_dimensions.multi_dimensional]]
+sector = [ "com",]
+subsector = [ "FullServiceRestaurant", "Hospital", "LargeHotel", "LargeOffice", "MediumOffice", "Outpatient", "PrimarySchool", "QuickServiceRestaurant", "SmallHotel", "SmallOffice", "StandaloneRetail", "StripMall", "Warehouse",]
 
 [dimensions]
 [[dimensions.base_dimension_references]]

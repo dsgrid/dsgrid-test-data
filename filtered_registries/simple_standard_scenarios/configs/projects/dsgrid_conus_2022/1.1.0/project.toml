@@ -47,7 +47,6 @@ required_for_validation = true
 [dimensions]
 base_dimensions = []
 supplemental_dimensions = []
-all_in_one_supplemental_dimensions = [ "sector", "subsector", "data_source",]
 [[dimensions.base_dimension_references]]
 type = "geography"
 dimension_id = "us_counties_2020_l48__cc913019-cfc3-496c-acec-fe9d3457e44d"
