@@ -135,3 +135,13 @@ name = "US Census Regions"
 type = "geography"
 display_name = "Census Region"
 
+[[dimensions]]
+class = "Subsector"
+description = """
+Commercial subsectors
+"""
+file = "dimensions/supplemental/commercial_subsectors.csv"
+name = "Commercial Subsectors"
+type = "subsector"
+display_name = "Commercial Subsector"
+

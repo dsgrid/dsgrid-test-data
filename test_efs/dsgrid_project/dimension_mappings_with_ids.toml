@@ -36,3 +36,16 @@ version = "1.0.0"
 dimension_id = "us_states__2bae0844-b0d3-4bf0-9d15-d9d969dee774"
 type = "geography"
 version = "1.0.0"
+
+[[mappings]]
+mapping_type = "many_to_one_aggregation"
+description = "All subsectors to commercial subsectors"
+file = "dimension_mappings/base_to_supplemental/lookup_subsectors_to_commercial_subsectors.csv"
+[mappings.from_dimension]
+dimension_id = "comstock_subsectors_efs__f831662d-ce4b-4415-8a97-a33d66257cfe"
+type = "subsector"
+version = "1.0.0"
+[mappings.to_dimension]
+dimension_id = "commercial_subsectors__c0e3ef07-d354-4e26-92f9-b39e416c0ad3"
+type = "subsector"
+version = "1.0.0"

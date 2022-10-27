@@ -1,0 +1,15 @@
+from_id,to_id
+FullServiceRestaurant,commercial_subsectors
+Hospital,commercial_subsectors
+LargeHotel,commercial_subsectors
+LargeOffice,commercial_subsectors
+MediumOffice,commercial_subsectors
+Outpatient,commercial_subsectors
+PrimarySchool,commercial_subsectors
+QuickServiceRestaurant,commercial_subsectors
+StandaloneRetail,commercial_subsectors
+StripMall,commercial_subsectors
+SmallHotel,commercial_subsectors
+SmallOffice,commercial_subsectors
+Warehouse,commercial_subsectors
+MidriseApartment,

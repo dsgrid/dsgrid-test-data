@@ -1,6 +1,7 @@
 project_id = "test_efs"
 description = "test project for code development and validation"
 name = "test_efs"
+
 [[datasets]]
 dataset_id = "test_efs_comstock"
 dataset_type = "modeled"
@@ -8,12 +9,13 @@ version = "1.0.0"
 
 [datasets.required_dimensions]
 [[datasets.required_dimensions.multi_dimensional]]
-sector = [ "res",]
-subsector = [ "MidriseApartment",]
 
-[[datasets.required_dimensions.multi_dimensional]]
-sector = [ "com",]
-subsector = [ "FullServiceRestaurant", "Hospital", "LargeHotel", "LargeOffice", "MediumOffice", "Outpatient", "PrimarySchool", "QuickServiceRestaurant", "SmallHotel", "SmallOffice", "StandaloneRetail", "StripMall", "Warehouse",]
+[datasets.required_dimensions.multi_dimensional.sector]
+base = [ "com",]
+[datasets.required_dimensions.multi_dimensional.subsector]
+[[datasets.required_dimensions.multi_dimensional.subsector.supplemental]]
+name = "Commercial Subsectors"
+record_ids = [ "commercial_subsectors",]
 
 [dimensions]
 [[dimensions.base_dimensions]]
@@ -130,6 +132,15 @@ name = "US Census Regions"
 display_name = "Census Region"
 type = "geography"
 
+[[dimensions.supplemental_dimensions]]
+class = "SubsectorDimensionBaseModel"
+description = "Commercial Subsectors\n"
+file = "dimensions/supplemental/commercial_subsectors.csv"
+module = "dsgrid.dimension.base_models"
+name = "Commercial Subsectors"
+display_name = "Commercial Subsectors"
+type = "subsector"
+
 [dimension_mappings]
 [[dimension_mappings.base_to_supplemental]]
 description = "Maps EFS US Counties 2010 to US Census Regions"
@@ -161,3 +172,15 @@ type = "geography"
 [dimension_mappings.base_to_supplemental.to_dimension]
 name = "US States"
 type = "geography"
+
+[[dimension_mappings.base_to_supplemental]]
+description = "Selector for all dsgrid CONUS 2022 commercial subsectors"
+file = "dimension_mappings/base_to_supplemental/lookup_subsectors_to_commercial_subsectors.csv"
+mapping_type = "many_to_one_aggregation"
+
+[dimension_mappings.base_to_supplemental.from_dimension]
+name = "ComStock Subsectors EFS"
+type = "subsector"
+[dimension_mappings.base_to_supplemental.to_dimension]
+name = "Commercial Subsectors"
+type = "subsector"
