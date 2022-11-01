@@ -1,7 +1,6 @@
 description = "test project for code development and validation"
 name = "test_efs"
 project_id = "test_efs"
-dimension_associations = ["dimension_associations/sector__subsector.csv", "dimension_associations/data_source__sector.csv", "dimension_associations/data_source__subsector.csv"]
 
 
 # [datasets]
@@ -12,6 +11,16 @@ dimension_associations = ["dimension_associations/sector__subsector.csv", "dimen
 dataset_id = "test_efs_comstock"
 dataset_type = "modeled"
 version = "1.0.0"
+
+[datasets.required_dimensions]
+[[datasets.required_dimensions.multi_dimensional]]
+
+[datasets.required_dimensions.multi_dimensional.sector]
+base = [ "com",]
+[datasets.required_dimensions.multi_dimensional.subsector]
+[[datasets.required_dimensions.multi_dimensional.subsector.supplemental]]
+name = "Commercial Subsectors"
+record_ids = [ "commercial_subsectors",]
 
 [dimensions]
 [[dimensions.base_dimension_references]]
@@ -74,6 +83,11 @@ dimension_id = "us_states__2bae0844-b0d3-4bf0-9d15-d9d969dee774"
 type = "geography"
 version = "1.0.0"
 
+[[dimensions.supplemental_dimension_references]]
+type = "subsector"
+dimension_id = "commercial_subsectors__c0e3ef07-d354-4e26-92f9-b39e416c0ad3"
+version = "1.0.0"
+
 [[dimension_mappings.base_to_supplemental_references]]
 from_dimension_type = "geography"
 mapping_id = "us_counties_2010_-_comstock_only__us_census_regions__13a7d7a8-1283-4257-8254-f0dd6544d743"
@@ -91,3 +105,10 @@ from_dimension_type = "geography"
 mapping_id = "us_counties_2010_-_comstock_only__us_states__228c4eb2-19ea-4ada-81d3-8c9d4a76da5b"
 to_dimension_type = "geography"
 version = "1.0.0"
+
+[[dimension_mappings.base_to_supplemental_references]]
+from_dimension_type = "subsector"
+to_dimension_type = "subsector"
+mapping_id = "comstock_subsectors_efs__commercial_subsectors__4fde3d17-206e-465b-9337-56e8c86e2407"
+version = "1.0.0"
+required_for_validation = true

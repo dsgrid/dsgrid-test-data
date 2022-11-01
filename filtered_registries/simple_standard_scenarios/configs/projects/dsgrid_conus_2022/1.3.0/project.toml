@@ -2,7 +2,6 @@ project_id = "dsgrid_conus_2022"
 name = "dsgrid CONUS 2022"
 description = "Dataset created for the FY21 dsgrid Load Profile Tool for Grid Modeling project"
 status = "Complete"
-dimension_associations = [ "data_source__metric.csv", "data_source__sector.csv", "data_source__subsector.csv",]
 [[datasets]]
 dataset_id = "tempo_conus_2022"
 dataset_type = "modeled"
@@ -101,7 +100,6 @@ required_for_validation = true
 [dimensions]
 base_dimensions = []
 supplemental_dimensions = []
-all_in_one_supplemental_dimensions = [ "sector", "subsector", "data_source",]
 [[dimensions.base_dimension_references]]
 type = "geography"
 dimension_id = "us_counties_2020_l48__cc913019-cfc3-496c-acec-fe9d3457e44d"
