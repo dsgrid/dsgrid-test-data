@@ -1,9 +1,0 @@
-version = "1.0.0"
-description = "dsgrid Standard Scenarios 2021 Data Sources; ComStock, TEMPO, ResStock Only"
-dimension_id = "data-sources_-_comstock-resstock-tempo-only__2019869a-27a7-4f0a-af46-bac90f584c4d"
-[[registration_history]]
-version = "1.0.0"
-submitter = "lliu2"
-date = "2022-08-01T17:19:23.571898"
-log_message = "Initial registration"
-

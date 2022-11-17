@@ -1,0 +1,12 @@
+{
+  name: "all-sectors",
+  display_name: "All Sectors",
+  dimension_query_name: "all_sectors",
+  type: "sector",
+  id: "all-sectors__1efa499a-fe85-46b4-bdf2-859af8a68573",
+  module: "dsgrid.dimension.standard",
+  "class": "Sector",
+  description: "All Sectors",
+  file: "all_sectors.csv",
+  file_hash: "a4bbb8af87a325b08c3ac24cbde91193337f7e59f23da651e462983e54481519",
+}

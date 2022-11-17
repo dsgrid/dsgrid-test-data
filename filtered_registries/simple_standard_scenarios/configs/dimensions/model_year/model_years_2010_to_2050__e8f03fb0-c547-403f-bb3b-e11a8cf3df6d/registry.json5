@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Model year, 2010-2050",
+  dimension_id: "model_years_2010_to_2050__e8f03fb0-c547-403f-bb3b-e11a8cf3df6d",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "lliu2",
+      date: "2022-08-01T17:19:23.571898",
+      log_message: "Initial registration",
+    },
+  ],
+}

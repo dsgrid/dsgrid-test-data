@@ -1,0 +1,12 @@
+{
+  name: "all-subsectors",
+  display_name: "All Subsectors",
+  dimension_query_name: "all_subsectors",
+  type: "subsector",
+  id: "all-subsectors__c2275418-1b0e-47a8-b50b-5f120ee7a3cc",
+  module: "dsgrid.dimension.standard",
+  "class": "Subsector",
+  description: "All Subsectors",
+  file: "all_subsectors.csv",
+  file_hash: "044fb844ca3ea23177521987e61ae1a53502387a47b6cf56ee150ffd8f253c32",
+}

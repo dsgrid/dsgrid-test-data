@@ -1,0 +1,12 @@
+{
+  name: "TEMPO LDV PEV Usage",
+  display_name: "Electric Vehicle Charging",
+  dimension_query_name: "electric_vehicle_charging",
+  type: "metric",
+  id: "tempo_ldv_pev_usage__ef95e63e-2947-46a4-b882-00c3569f48e5",
+  module: "dsgrid.dimension.standard",
+  "class": "EnergyEndUse",
+  description: "Type of charging (L1 and L2, DCFC) used by TEMPO PEVs.",
+  file: "end_use.csv",
+  file_hash: "22517248901d5c1703b29e8126b46202ad908b2162eda62748fedbb6817eced6",
+}

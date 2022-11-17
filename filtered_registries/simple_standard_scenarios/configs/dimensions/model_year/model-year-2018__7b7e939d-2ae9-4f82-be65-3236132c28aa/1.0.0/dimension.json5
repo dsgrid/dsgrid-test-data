@@ -1,0 +1,12 @@
+{
+  name: "Model-Year-2018",
+  display_name: "Model Year 2018",
+  dimension_query_name: "model_year_2018",
+  type: "model_year",
+  id: "model-year-2018__7b7e939d-2ae9-4f82-be65-3236132c28aa",
+  module: "dsgrid.dimension.standard",
+  "class": "ModelYear",
+  description: "Model year: 2018",
+  file: "model_year_2018.csv",
+  file_hash: "d431f339bbee6663f5b0e62158f21974d340eff1419ade7704594cd994fa6936",
+}

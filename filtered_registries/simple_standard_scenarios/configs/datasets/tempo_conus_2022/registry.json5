@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "CONUS 2022 TEMPO county-level results for PEV charging.",
+  dataset_id: "tempo_conus_2022",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "lliu2",
+      date: "2022-08-01T17:35:11.035598",
+      log_message: "Initial registration",
+    },
+  ],
+}

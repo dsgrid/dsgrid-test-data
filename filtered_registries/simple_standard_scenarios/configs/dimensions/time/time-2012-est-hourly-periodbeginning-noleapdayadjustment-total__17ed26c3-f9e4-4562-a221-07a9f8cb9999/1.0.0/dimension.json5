@@ -1,0 +1,23 @@
+{
+  name: "Time-2012-EST-hourly-periodBeginning-noLeapDayAdjustment-total",
+  display_name: "Time EST",
+  dimension_query_name: "time_est",
+  type: "time",
+  id: "time-2012-est-hourly-periodbeginning-noleapdayadjustment-total__17ed26c3-f9e4-4562-a221-07a9f8cb9999",
+  module: "dsgrid.dimension.standard",
+  "class": "Time",
+  description: "Time dimension, 2012 hourly EST, hour-beginning, no Leap Day Adjustment, total value",
+  time_type: "datetime",
+  measurement_type: "total",
+  str_format: "%Y-%m-%d %H:%M:%S",
+  frequency: "P0DT1H0M0.000000S",
+  leap_day_adjustment: "none",
+  time_interval_type: "period_beginning",
+  timezone: "EasternStandard",
+  ranges: [
+    {
+      start: "2012-01-01 00:00:00",
+      end: "2012-12-31 23:00:00",
+    },
+  ],
+}

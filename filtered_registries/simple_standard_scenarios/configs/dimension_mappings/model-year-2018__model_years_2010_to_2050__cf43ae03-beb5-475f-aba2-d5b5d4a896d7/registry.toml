@@ -1,9 +1,0 @@
-version = "1.0.0"
-description = "Dummy model year mapping that repeats 2018 for all CONUS 2022 model years"
-dimension_mapping_id = "model-year-2018__model_years_2010_to_2050__cf43ae03-beb5-475f-aba2-d5b5d4a896d7"
-[[registration_history]]
-version = "1.0.0"
-submitter = "lliu2"
-date = "2022-08-01T17:20:10.767133"
-log_message = "Initial registration"
-

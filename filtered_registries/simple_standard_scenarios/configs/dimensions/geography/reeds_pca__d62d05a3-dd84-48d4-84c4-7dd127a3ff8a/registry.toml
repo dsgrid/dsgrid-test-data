@@ -1,9 +1,0 @@
-version = "1.0.0"
-description = "ReEDS Power Control Areas"
-dimension_id = "reeds_pca__d62d05a3-dd84-48d4-84c4-7dd127a3ff8a"
-[[registration_history]]
-version = "1.0.0"
-submitter = "lliu2"
-date = "2022-08-01T17:19:23.658226"
-log_message = "Initial registration"
-

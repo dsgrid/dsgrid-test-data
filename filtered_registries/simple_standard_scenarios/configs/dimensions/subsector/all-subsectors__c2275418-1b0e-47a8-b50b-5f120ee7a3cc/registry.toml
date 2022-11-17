@@ -1,9 +1,0 @@
-version = "1.0.0"
-description = "All Subsectors"
-dimension_id = "all-subsectors__c2275418-1b0e-47a8-b50b-5f120ee7a3cc"
-[[registration_history]]
-version = "1.0.0"
-submitter = "lliu2"
-date = "2022-08-01T17:19:23.709825"
-log_message = "Initial registration"
-

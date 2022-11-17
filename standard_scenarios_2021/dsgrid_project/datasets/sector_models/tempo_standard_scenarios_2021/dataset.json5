@@ -1,0 +1,77 @@
+{
+  dataset_id: "tempo_standard_scenarios_2021",
+  dataset_type: "modeled",
+  data_source: "TEMPO",
+  description: "TEMPO county-level results for BEV charging.\n",
+  trivial_dimensions: [
+    "data_source",
+    "scenario",
+    "sector",
+    "weather_year",
+  ],
+  data_schema_type: "standard",
+  origin_creator: "Brian Bush",
+  origin_contributors: [
+    "Brian Bush",
+    "Arthur Yip",
+  ],
+  origin_organization: "NREL",
+  origin_date: "2021-04-26",
+  origin_project: "TEMPO",
+  origin_version: "1.0.0",
+  tags: [
+    "TEMPO",
+  ],
+  data_classification: "low",
+  source: "https://github.nrel.gov/mmurator/TMM/blob/0d89b8f61c624770643a35de1998efe6def5e59c/TEMPO.jl/src/BEV/BEV.jl",
+  data_schema: {
+    load_data_column_dimension: "metric",
+  },
+  dimensions: [
+    {
+      type: "geography",
+      dimension_id: "acs_county_2018__b913be60-d3da-407b-935b-6a1b8ee7d92c",
+      version: "1.0.0",
+    },
+    {
+      type: "sector",
+      dimension_id: "tempo_ldv_bev_charging__0f03e3c1-f18b-4ec8-830d-6d93e5e007e3",
+      version: "1.0.0",
+    },
+    {
+      type: "subsector",
+      dimension_id: "tempo_bin__f831662d-ce4b-4415-8a97-a33d66257cfe",
+      version: "1.0.0",
+    },
+    {
+      type: "metric",
+      dimension_id: "tempo_ldv_bev_usage__301852a1-7f7a-4479-9b76-c7cdc686f81b",
+      version: "1.0.0",
+    },
+    {
+      type: "time",
+      dimension_id: "time_of_week_by_month__d4dec9f0-43b5-427b-a41e-13f731744c1f",
+      version: "1.0.0",
+    },
+    {
+      type: "data_source",
+      dimension_id: "tempo_model__d2f50c33-8b51-4b4d-a679-46114eb5244c",
+      version: "1.0.0",
+    },
+    {
+      type: "model_year",
+      dimension_id: "tempo_model_year__999ff215-d9a7-460a-8acf-37ecdec01040",
+      version: "1.0.0",
+    },
+    {
+      type: "scenario",
+      dimension_id: "tempo_scenario__4b6defca-9212-4388-bc39-9cf4462b4527",
+      version: "1.0.0",
+    },
+    {
+      type: "weather_year",
+      dimension_id: "tempo_weather_year__0019ebb9-507b-41c9-b5a4-383b97304a69",
+      version: "1.0.0",
+    },
+  ],
+}
