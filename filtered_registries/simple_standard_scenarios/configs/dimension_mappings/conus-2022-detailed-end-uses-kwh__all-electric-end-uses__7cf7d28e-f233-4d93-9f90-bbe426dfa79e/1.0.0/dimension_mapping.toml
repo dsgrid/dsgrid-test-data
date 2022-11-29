@@ -1,5 +1,5 @@
 mapping_type = "many_to_one_aggregation"
-archetype = "many_to_one_map_fraction_sum_eq1"
+archetype = "many_to_one_map_fraction_sum_from_id_eq1"
 description = "Aggregation map for all dsgrid CONUS 2022 electric end uses"
 id = "conus-2022-detailed-end-uses-kwh__all-electric-end-uses__7cf7d28e-f233-4d93-9f90-bbe426dfa79e"
 file = "lookup_enduses_to_all_electric_enduses.csv"

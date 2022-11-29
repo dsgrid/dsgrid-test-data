@@ -1,5 +1,5 @@
 mapping_type = "one_to_one"
-archetype = "one_to_one_map_fraction_sum_eq1"
+archetype = "one_to_one_map_fraction_sum_from_id_eq1"
 description = "ResStock CONUS 2022 energy end uses mapping to project"
 id = "conus_2022-resstock_energy_enduses_kwh__conus-2022-detailed-end-uses-kwh__62828091-01e8-4200-a9a0-c4ea000405c1"
 file = "metric_to_metric.csv"

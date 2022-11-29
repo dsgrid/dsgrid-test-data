@@ -1,5 +1,5 @@
 mapping_type = "many_to_one_aggregation"
-archetype = "many_to_one_map_fraction_sum_eq1"
+archetype = "many_to_one_map_fraction_sum_from_id_eq1"
 description = "ACS County 2018 to ACS County 2020 L48"
 id = "acs_county_2018__us_counties_2020_l48__72a82b08-823f-4587-ba15-25b39a20f022"
 file = "county_to_county.csv"

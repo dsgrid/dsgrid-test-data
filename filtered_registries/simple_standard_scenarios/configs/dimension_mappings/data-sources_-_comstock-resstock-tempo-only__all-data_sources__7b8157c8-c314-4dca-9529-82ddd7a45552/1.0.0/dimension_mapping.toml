@@ -1,5 +1,5 @@
 mapping_type = "many_to_one_aggregation"
-archetype = "many_to_one_map_fraction_sum_eq1"
+archetype = "many_to_one_map_fraction_sum_from_id_eq1"
 description = "Aggregation map for all data_sources"
 id = "data-sources_-_comstock-resstock-tempo-only__all-data_sources__7b8157c8-c314-4dca-9529-82ddd7a45552"
 file = "lookup_data_source_to_all_data_sources.csv"

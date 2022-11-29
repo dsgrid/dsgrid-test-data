@@ -1,5 +1,5 @@
 mapping_type = "many_to_one_aggregation"
-archetype = "many_to_one_map_fraction_sum_eq1"
+archetype = "many_to_one_map_fraction_sum_from_id_eq1"
 description = "TEMPO demographic/geographic/vehicle bins (CONUS 2022) to dsgrid CONUS 2022 Subsectors"
 id = "tempo_bin__conus-2022-detailed-subsectors__b1c7891f-9067-4386-b433-520eedcc518a"
 file = "subsector_to_subsector.csv"
