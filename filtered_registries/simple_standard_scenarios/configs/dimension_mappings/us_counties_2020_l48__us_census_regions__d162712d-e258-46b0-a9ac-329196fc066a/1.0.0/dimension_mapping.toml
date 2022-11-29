@@ -1,5 +1,5 @@
 mapping_type = "many_to_one_aggregation"
-archetype = "many_to_one_map_fraction_sum_eq1"
+archetype = "many_to_one_map_fraction_sum_from_id_eq1"
 description = "Maps US Counties 2020 L48 to CensusRegion"
 id = "us_counties_2020_l48__us_census_regions__d162712d-e258-46b0-a9ac-329196fc066a"
 file = "lookup_county_to_censusregion.csv"

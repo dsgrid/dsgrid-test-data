@@ -1,5 +1,5 @@
 mapping_type = "many_to_one_aggregation"
-archetype = "many_to_one_map_fraction_sum_eq1"
+archetype = "many_to_one_map_fraction_sum_from_id_eq1"
 description = "Aggregation map for all subsectors"
 id = "conus-2022-detailed-subsectors__all-subsectors__0524e69f-0f83-4c7b-95dc-e252d3285d59"
 file = "lookup_subsector_to_all_subsectors.csv"

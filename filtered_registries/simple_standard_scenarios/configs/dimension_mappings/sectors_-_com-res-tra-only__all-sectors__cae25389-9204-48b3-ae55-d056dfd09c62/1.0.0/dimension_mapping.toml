@@ -1,5 +1,5 @@
 mapping_type = "many_to_one_aggregation"
-archetype = "many_to_one_map_fraction_sum_eq1"
+archetype = "many_to_one_map_fraction_sum_from_id_eq1"
 description = "Aggregation map for all sectors"
 id = "sectors_-_com-res-tra-only__all-sectors__cae25389-9204-48b3-ae55-d056dfd09c62"
 file = "lookup_sector_to_all_sectors.csv"

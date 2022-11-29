@@ -1,5 +1,5 @@
 mapping_type = "one_to_one"
-archetype = "one_to_one_map_fraction_sum_eq1"
+archetype = "one_to_one_map_fraction_sum_from_id_eq1"
 description = "ResStock CONUS 2022 counties to project counties"
 id = "conus_2022-resstock_us_county_fip__us_counties_2020_l48__ba39ade4-e833-428a-8650-4f7a9cba6edb"
 file = "county_to_county.csv"

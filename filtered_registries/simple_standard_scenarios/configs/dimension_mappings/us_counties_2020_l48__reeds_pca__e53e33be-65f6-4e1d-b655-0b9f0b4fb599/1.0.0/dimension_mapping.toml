@@ -1,5 +1,5 @@
 mapping_type = "many_to_one_aggregation"
-archetype = "many_to_one_map_fraction_sum_eq1"
+archetype = "many_to_one_map_fraction_sum_from_id_eq1"
 description = "Maps US Counties 2020 L48 to ReEDS Power Control Areas"
 id = "us_counties_2020_l48__reeds_pca__e53e33be-65f6-4e1d-b655-0b9f0b4fb599"
 file = "lookup_county_to_reeds_pca.csv"

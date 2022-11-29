@@ -1,5 +1,5 @@
 mapping_type = "many_to_one_aggregation"
-archetype = "many_to_one_map_fraction_sum_eq1"
+archetype = "many_to_one_map_fraction_sum_from_id_eq1"
 description = "Maps US Counties 2020 L48 to State"
 id = "us_counties_2020_l48__us_states__5f838cf2-bedd-44f0-ab6d-ebe11e773dbe"
 file = "lookup_county_to_state.csv"
