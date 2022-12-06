@@ -1,9 +1,0 @@
-version = "1.0.0"
-description = "Scenario: CONUS (Continental U.S.) 2022 Reference"
-dimension_id = "conus-2022-reference__f32f2c38-c756-4c2e-8fd5-800215af9f1f"
-[[registration_history]]
-version = "1.0.0"
-submitter = "lliu2"
-date = "2022-08-01T17:25:33.255606"
-log_message = "Initial registration"
-

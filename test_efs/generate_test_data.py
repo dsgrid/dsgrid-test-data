@@ -19,7 +19,7 @@ def generate_efs_comstock(project_dir, src_data_path, output_dir):
     project_dir = Path(project_dir)
 
     dataset_dir = project_dir / "dsgrid_project" / "datasets" / "modeled" / "comstock"
-    dataset_filename = dataset_dir / "dataset.toml"
+    dataset_filename = dataset_dir / "dataset.json5"
     dataset_id = dsgrid.utils.files.load_data(dataset_filename)["dataset_id"]
 
     counties_filename = project_dir / "dsgrid_project" / "dimensions" / "comstock_counties.csv"
@@ -29,7 +29,7 @@ def generate_efs_comstock(project_dir, src_data_path, output_dir):
     end_uses = read_dataframe(end_uses_filename, cache=True)
     end_use_columns = [x.id for x in end_uses.select("id").distinct().collect()]
 
-    dataset_dimensions_filename = dataset_dir / "dimensions.toml"
+    dataset_dimensions_filename = dataset_dir / "dimensions.json5"
     dataset_data = dsgrid.utils.files.load_data(dataset_dimensions_filename)
     end_time = None
     timezone = None

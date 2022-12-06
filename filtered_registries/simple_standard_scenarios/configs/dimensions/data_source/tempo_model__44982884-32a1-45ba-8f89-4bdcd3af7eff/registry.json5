@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "TEMPO model",
+  dimension_id: "tempo_model__44982884-32a1-45ba-8f89-4bdcd3af7eff",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "lliu2",
+      date: "2022-08-01T17:31:37.822288",
+      log_message: "Initial registration",
+    },
+  ],
+}

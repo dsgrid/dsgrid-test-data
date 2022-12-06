@@ -1,9 +1,0 @@
-version = "1.0.0"
-description = "EV Scenarios:\nAEO Reference\nEFS High Electrification\nLDV Sales All-EV by 2035"
-dimension_id = "technology_and_policy_scenario__8220772d-4ad4-4e51-afe1-fb6f42f0a30a"
-[[registration_history]]
-version = "1.0.0"
-submitter = "lliu2"
-date = "2022-08-01T17:31:37.822288"
-log_message = "Initial registration"
-

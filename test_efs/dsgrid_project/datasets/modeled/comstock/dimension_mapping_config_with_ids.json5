@@ -1,0 +1,49 @@
+{
+  mappings: [
+    {
+      mapping_type: "one_to_one_explicit_multipliers",
+      description: "Maps EFS ComStock prefix-formatted subsectors to the EFS project subsectors",
+      file: "dimension_mappings/lookup_comstock_subsectors_to_project_subsectors.csv",
+      from_dimension: {
+        dimension_id: "comstock_subsectors_efs_with_formatted_prefix__91f0b409-394b-4fba-9be8-3d4d74b2bcf8",
+        type: "subsector",
+        version: "1.0.0",
+      },
+      to_dimension: {
+        dimension_id: "comstock_subsectors_efs__f831662d-ce4b-4415-8a97-a33d66257cfe",
+        type: "subsector",
+        version: "1.0.0",
+      },
+    },
+    {
+      mapping_type: "one_to_many_explicit_multipliers",
+      description: "Maps EFS ComStock model year EFS project model years",
+      file: "dimension_mappings/model_year_to_model_year.csv",
+      from_dimension: {
+        dimension_id: "model_year_2012__999ff215-d9a7-460a-8acf-37ecdec01040",
+        type: "model_year",
+        version: "1.0.0",
+      },
+      to_dimension: {
+        dimension_id: "model_years_2010_to_2050__999ff215-d9a7-460a-8acf-37ecdec01040",
+        type: "model_year",
+        version: "1.0.0",
+      },
+    },
+    {
+      mapping_type: "one_to_one_explicit_multipliers",
+      description: "Maps EFS ComStock enduses to EFS project enduses",
+      file: "dimension_mappings/enduse_to_project_enduse.csv",
+      from_dimension: {
+        dimension_id: "comstock_end_uses__c73bcae9-6715-402c-840b-b3f2422a6d90",
+        type: "metric",
+        version: "1.0.0",
+      },
+      to_dimension: {
+        dimension_id: "efs_detailed_end_uses_-_comstock_only__301852a1-7f7a-4479-9b76-c7cdc686f81b",
+        type: "metric",
+        version: "1.0.0",
+      },
+    },
+  ],
+}

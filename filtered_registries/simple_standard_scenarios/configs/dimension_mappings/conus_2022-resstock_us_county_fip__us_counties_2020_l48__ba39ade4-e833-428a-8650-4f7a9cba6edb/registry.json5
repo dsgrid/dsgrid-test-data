@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "ResStock CONUS 2022 counties to project counties",
+  dimension_mapping_id: "conus_2022-resstock_us_county_fip__us_counties_2020_l48__ba39ade4-e833-428a-8650-4f7a9cba6edb",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "lliu2",
+      date: "2022-08-01T17:26:21.811192",
+      log_message: "Initial registration",
+    },
+  ],
+}

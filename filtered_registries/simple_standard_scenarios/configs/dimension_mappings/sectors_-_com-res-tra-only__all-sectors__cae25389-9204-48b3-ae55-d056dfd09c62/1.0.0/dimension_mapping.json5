@@ -1,0 +1,18 @@
+{
+  mapping_type: 'many_to_one_aggregation',
+  archetype: 'many_to_one_map_fraction_sum_from_id_eq1',
+  description: 'Aggregation map for all sectors',
+  id: 'sectors_-_com-res-tra-only__all-sectors__cae25389-9204-48b3-ae55-d056dfd09c62',
+  file: 'lookup_sector_to_all_sectors.csv',
+  file_hash: '00efa97fc25be346896e99b52cb9668edd780fdc57c10d0648f3a864db5d24a5',
+  from_dimension: {
+    type: 'sector',
+    dimension_id: 'sectors_-_com-res-tra-only__9b09088d-b340-48d1-bc79-52e50989289e',
+    version: '1.0.0',
+  },
+  to_dimension: {
+    type: 'sector',
+    dimension_id: 'all-sectors__1efa499a-fe85-46b4-bdf2-859af8a68573',
+    version: '1.0.0',
+  },
+}

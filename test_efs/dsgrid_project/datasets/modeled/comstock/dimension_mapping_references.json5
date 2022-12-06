@@ -1,0 +1,22 @@
+{
+  references: [
+    {
+      from_dimension_type: "subsector",
+      to_dimension_type: "subsector",
+      mapping_id: "comstock_subsectors_efs_with_formatted_prefix__comstock_subsectors_efs__0a072772-5072-4c98-8759-fa3124aa1cc9",
+      version: "1.0.0",
+    },
+    {
+      from_dimension_type: "model_year",
+      to_dimension_type: "model_year",
+      mapping_id: "model_year_2012__model_years_2010_to_2050__0a072772-5072-4c98-8759-fa3124aa1cc9",
+      version: "1.0.0",
+    },
+    {
+      from_dimension_type: "metric",
+      to_dimension_type: "metric",
+      mapping_id: "comstock_end_uses__efs_detailed_end_uses_-_comstock_only__0a072772-5072-4c98-8759-fa3124aa1cc9",
+      version: "1.0.0",
+    },
+  ],
+}

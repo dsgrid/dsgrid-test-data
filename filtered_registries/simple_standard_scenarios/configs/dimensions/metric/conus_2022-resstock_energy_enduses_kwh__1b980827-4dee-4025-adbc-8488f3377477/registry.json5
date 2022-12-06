@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "CONUS 2022 - ResStock end uses (N=48, 5 fuel types)",
+  dimension_id: "conus_2022-resstock_energy_enduses_kwh__1b980827-4dee-4025-adbc-8488f3377477",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "lliu2",
+      date: "2022-08-01T17:25:33.255606",
+      log_message: "Initial registration",
+    },
+  ],
+}

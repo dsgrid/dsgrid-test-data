@@ -1,0 +1,18 @@
+{
+  mapping_type: 'many_to_one_aggregation',
+  archetype: 'many_to_one_map_fraction_sum_from_id_eq1',
+  description: 'Maps US Counties 2020 L48 to CensusRegion',
+  id: 'us_counties_2020_l48__us_census_regions__d162712d-e258-46b0-a9ac-329196fc066a',
+  file: 'lookup_county_to_censusregion.csv',
+  file_hash: '248e0c53d2ca00ab1844248d21b0651e459771e48f37b093821f06628ac0105a',
+  from_dimension: {
+    type: 'geography',
+    dimension_id: 'us_counties_2020_l48__cc913019-cfc3-496c-acec-fe9d3457e44d',
+    version: '1.0.0',
+  },
+  to_dimension: {
+    type: 'geography',
+    dimension_id: 'us_census_regions__b99e65d4-ffb5-4b0c-95ff-c9618f257d27',
+    version: '1.0.0',
+  },
+}

@@ -1,0 +1,77 @@
+{
+  dimensions: [
+    {
+      "class": "County",
+      type: "geography",
+      name: "ACS County 2018",
+      file: "dimensions/counties.csv",
+      description: "American Community Survey US counties, 2018.\n",
+    },
+    {
+      "class": "Sector",
+      type: "sector",
+      name: "TEMPO LDV BEV Charging",
+      file: "dimensions/tempo.csv",
+      description: "TEMPO provides LDV BEV charging profiles.\n",
+    },
+    {
+      "class": "Subsector",
+      type: "subsector",
+      name: "TEMPO Bin",
+      file: "dimensions/bin.csv",
+      description: "TEMPO demographic/geographic/vehicle bins.\n\nThis is a cross-join of the following supplemental dimensions:\n* Composition\n* Income\n* Urbanity\n* Class\n* Tech\n",
+    },
+    {
+      "class": "EnergyEndUse",
+      type: "metric",
+      name: "TEMPO LDV BEV Usage",
+      file: "dimensions/end_use.csv",
+      description: "Fuels used by TEMPO BEVs.\n",
+    },
+    {
+      "class": "Time",
+      type: "time",
+      name: "Time of Week by Month",
+      ranges: [
+        {
+          start: "Apr Mon 00:00:00",
+          end: "Apr Sun 23:00:00",
+        },
+      ],
+      time_interval_type: "period_ending",
+      str_format: "%b %a %X",
+      time_type: "representative_period",
+      measurement_type: "total",
+      format: "one_week_per_month_by_hour",
+      description: "Month, day of week, and time of day.\n",
+    },
+    {
+      "class": "DataSource",
+      type: "data_source",
+      name: "TEMPO Model",
+      file: "dimensions/model.csv",
+      description: "TEMPO projections.\n",
+    },
+    {
+      "class": "ModelYear",
+      type: "model_year",
+      name: "TEMPO Model Year",
+      file: "dimensions/year.csv",
+      description: "TEMPO modeling years.\n",
+    },
+    {
+      "class": "Scenario",
+      type: "scenario",
+      name: "TEMPO Scenario",
+      file: "dimensions/scenario.csv",
+      description: "TEMPO base scenario only.\n",
+    },
+    {
+      "class": "WeatherYear",
+      type: "weather_year",
+      name: "TEMPO Weather Year",
+      file: "dimensions/weather.csv",
+      description: "Weather year used by TEMPO.\n",
+    },
+  ],
+}

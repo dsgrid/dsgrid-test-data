@@ -1,0 +1,18 @@
+{
+  mapping_type: 'many_to_one_aggregation',
+  archetype: 'many_to_one_map_fraction_sum_from_id_eq1',
+  description: 'Maps US Counties 2020 L48 to State',
+  id: 'us_counties_2020_l48__us_states__5f838cf2-bedd-44f0-ab6d-ebe11e773dbe',
+  file: 'lookup_county_to_state.csv',
+  file_hash: 'fe9e28dcc96ebbdc1a95362d387be9f7b423fbd597555ff292783954d84d3e69',
+  from_dimension: {
+    type: 'geography',
+    dimension_id: 'us_counties_2020_l48__cc913019-cfc3-496c-acec-fe9d3457e44d',
+    version: '1.0.0',
+  },
+  to_dimension: {
+    type: 'geography',
+    dimension_id: 'us_states__331308f3-bc44-45bb-8f86-0bd0a3c5c10f',
+    version: '1.0.0',
+  },
+}

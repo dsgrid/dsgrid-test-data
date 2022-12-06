@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Scenario: CONUS (Continental U.S.) 2022 Reference",
+  dimension_id: "conus-2022__8ccd7107-11bf-401e-ab82-61996a48622d",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "lliu2",
+      date: "2022-08-01T17:19:32.770059",
+      log_message: "Initial registration",
+    },
+  ],
+}
