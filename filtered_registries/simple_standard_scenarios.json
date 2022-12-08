@@ -99,7 +99,7 @@
   ],
   "datasets": [
     {
-      "dataset_id": "conus_2022_reference_comstock",
+      "dataset_id": "comstock_conus_2022_reference",
       "dimensions": [
         {
           "dimension_type": "data_source",
@@ -159,7 +159,67 @@
       ]
     },
     {
-      "dataset_id": "conus_2022_reference_resstock",
+      "dataset_id": "aeo2021_reference_commercial_energy_use_growth_factors",
+      "dimensions": [
+        {
+          "dimension_type": "data_source",
+          "record_ids": [
+            "nems_commercial_module"
+          ]
+        },
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "elec_cooling",
+            "elec_heating",
+            "ng_heating"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "pacific",
+            "pacific",
+            "middle_atlantic",
+            "middle_atlantic"
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2013_2050"
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "aeo_ref"
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "com"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "office_large",
+            "office_small",
+            "health_care"
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_id": "resstock_conus_2022_reference",
       "dimensions": [
         {
           "dimension_type": "data_source",
@@ -212,6 +272,54 @@
           "dimension_type": "weather_year",
           "record_ids": [
             "2012"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_id": "aeo2021_reference_residential_energy_use_growth_factors",
+      "dimensions": [
+        {
+          "dimension_type": "data_source",
+          "record_ids": [
+            "nems_residential_module"
+          ]
+        },
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "elec_heat_cool",
+            "ng_heat_cool"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "all_geographies"
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2013_2050"
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "aeo_ref"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "residential_subsectors"
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "res"
           ]
         }
       ]
