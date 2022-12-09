@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Aggregation map for all weather_years",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:49.115406",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "2012_weather_year__all_dsgrid_conus_2022_weather_years__5522160a-7457-419b-90c1-3e8064eb8e70",
+}

@@ -1,0 +1,13 @@
+{
+  name: "AEO-Reference-Scenario",
+  display_name: "AEO Reference Scenario",
+  dimension_query_name: "aeo_reference_scenario",
+  type: "scenario",
+  id: "aeo-reference-scenario__a11b08e5-1d02-4a13-b2fe-33b321172365",
+  module: "dsgrid.dimension.standard",
+  "class": "Scenario",
+  description: "EIA AEO Reference Scenario",
+  file: "aeo_reference_scenario.csv",
+  file_hash: "5f7a89814ec8f04142a4ab9afe734ce4d2770c5fdcd1981dc1a3c94a39661931",
+  dimension_class: null,
+}

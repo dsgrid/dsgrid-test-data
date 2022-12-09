@@ -1,0 +1,13 @@
+{
+  name: "2012 Weather Year",
+  display_name: "Weather 2012",
+  dimension_query_name: "weather_2012",
+  type: "weather_year",
+  id: "2012_weather_year__8bfc344c-a40f-447b-a63a-bbebcd4d54db",
+  module: "dsgrid.dimension.standard",
+  "class": "WeatherYear",
+  description: "Weather year, 2012 only",
+  file: "weather_years.csv",
+  file_hash: "c4e1f3499ba1505e41fac697cb0366cf7dd2f3382c2f85756532b73e41d707bd",
+  dimension_class: null,
+}

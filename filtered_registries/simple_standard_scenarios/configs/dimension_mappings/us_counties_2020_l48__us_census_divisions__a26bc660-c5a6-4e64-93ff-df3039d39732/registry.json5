@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Maps US Counties 2020 L48 to CensusDivision",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:49.115406",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "us_counties_2020_l48__us_census_divisions__a26bc660-c5a6-4e64-93ff-df3039d39732",
+}

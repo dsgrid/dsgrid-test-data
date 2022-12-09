@@ -2,8 +2,13 @@
   dataset_id: "tempo_conus_2022",
   dataset_type: "modeled",
   dataset_qualifier: "quantity",
+  dataset_qualifier_metadata: null,
+  sector_description: "transportation",
   data_source: "tempo",
   data_schema_type: "standard",
+  data_schema: {
+    load_data_column_dimension: "metric",
+  },
   dataset_version: "1.0.0",
   description: "CONUS 2022 TEMPO county-level results for PEV charging.",
   origin_creator: "Arthur Yip",
@@ -27,61 +32,59 @@
     "reference",
     "tempo",
   ],
+  use_project_geography_time_zone: true,
   dimensions: [],
+  dimension_references: [
+    {
+      type: "geography",
+      dimension_id: "acs_county_2018__bbb0d798-d1d1-4a01-ab8c-b144e496ddc7",
+      version: "1.0.0",
+    },
+    {
+      type: "subsector",
+      dimension_id: "tempo_bin__8aa756fd-24fe-401a-ae3f-84d32d898882",
+      version: "1.0.0",
+    },
+    {
+      type: "metric",
+      dimension_id: "tempo_ldv_pev_usage__9938922b-13c1-42a5-bbb9-1d278a03e5fc",
+      version: "1.0.0",
+    },
+    {
+      type: "time",
+      dimension_id: "time_of_week_by_month__18d2656e-56d6-4ad8-9666-5d63be978f5b",
+      version: "1.0.0",
+    },
+    {
+      type: "data_source",
+      dimension_id: "tempo_model__ed9c1773-6131-4713-9f73-7d0212a0edd3",
+      version: "1.0.0",
+    },
+    {
+      type: "model_year",
+      dimension_id: "tempo_model_year__4729311a-ff12-4c9e-bf78-b3cc74622b03",
+      version: "1.0.0",
+    },
+    {
+      type: "sector",
+      dimension_id: "transportation_sector__b33865a0-31e0-4bfa-9137-427acf848a3f",
+      version: "1.0.0",
+    },
+    {
+      type: "scenario",
+      dimension_id: "technology_and_policy_scenario__6e67060e-e98a-4528-bb9b-39336d0b684e",
+      version: "1.0.0",
+    },
+    {
+      type: "weather_year",
+      dimension_id: "2012_weather_year__8bfc344c-a40f-447b-a63a-bbebcd4d54db",
+      version: "1.0.0",
+    },
+  ],
+  user_defined_metadata: {},
   trivial_dimensions: [
     "sector",
     "weather_year",
     "data_source",
   ],
-  dimension_references: [
-    {
-      type: "geography",
-      dimension_id: "acs_county_2018__740db19d-2f34-4472-8464-388c4fe96acb",
-      version: "1.0.0",
-    },
-    {
-      type: "subsector",
-      dimension_id: "tempo_bin__e4400ab0-2170-40d6-893e-5a1a6abb20b4",
-      version: "1.0.0",
-    },
-    {
-      type: "metric",
-      dimension_id: "tempo_ldv_pev_usage__ef95e63e-2947-46a4-b882-00c3569f48e5",
-      version: "1.0.0",
-    },
-    {
-      type: "time",
-      dimension_id: "time_of_week_by_month__9e7b2bcd-5143-48e1-be50-70b57f8c17b2",
-      version: "1.0.0",
-    },
-    {
-      type: "data_source",
-      dimension_id: "tempo_model__44982884-32a1-45ba-8f89-4bdcd3af7eff",
-      version: "1.0.0",
-    },
-    {
-      type: "model_year",
-      dimension_id: "tempo_model_year__294ca699-5fbf-48f8-824b-b788b279bb45",
-      version: "1.0.0",
-    },
-    {
-      type: "sector",
-      dimension_id: "transportation_sector__7d8e2795-8de2-42b7-a64b-f6487add2b62",
-      version: "1.0.0",
-    },
-    {
-      type: "scenario",
-      dimension_id: "technology_and_policy_scenario__8220772d-4ad4-4e51-afe1-fb6f42f0a30a",
-      version: "1.0.0",
-    },
-    {
-      type: "weather_year",
-      dimension_id: "2012_weather_year__387442fa-18fa-4c04-ba36-943f1092fc98",
-      version: "1.0.0",
-    },
-  ],
-  data_schema: {
-    load_data_column_dimension: "metric",
-  },
-  user_defined_metadata: {},
 }

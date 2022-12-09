@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Transportation End Uses",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:32.862678",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "transportation-end-uses__f412b185-34c4-455d-a44e-d479ea81ec02",
+}

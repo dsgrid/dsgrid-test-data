@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "CONUS 2022 - ComStock building types (N=14)",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:06.485333",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "conus_2022-comstock_building_types__3d698179-13b5-49fc-9a0a-0706cbd6b536",
+}

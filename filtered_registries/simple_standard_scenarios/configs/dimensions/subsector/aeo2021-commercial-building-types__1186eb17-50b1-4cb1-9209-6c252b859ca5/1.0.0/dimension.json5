@@ -1,0 +1,13 @@
+{
+  name: "AEO2021-commercial-building-types",
+  display_name: "Commercial Subsector",
+  dimension_query_name: "commercial_subsector",
+  type: "subsector",
+  id: "aeo2021-commercial-building-types__1186eb17-50b1-4cb1-9209-6c252b859ca5",
+  module: "dsgrid.dimension.standard",
+  "class": "Subsector",
+  description: "AEO 2021 commercial building types (N=11)",
+  file: "aeo2021_commercial_building_types.csv",
+  file_hash: "1ad7356eb6a9ba621045a0d6719560a4c5fb80e228aba448a723bb913895f7ba",
+  dimension_class: null,
+}

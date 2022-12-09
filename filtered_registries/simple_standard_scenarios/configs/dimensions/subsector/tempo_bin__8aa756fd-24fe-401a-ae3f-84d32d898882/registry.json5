@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "TEMPO demographic/geographic/vehicle bins. This is a cross-join of the following supplemental dimensions: * Composition (Single Driver, Some Drivers Smaller, Some Drivers Larger) * Income (Low Income, Middle Income, High Income) * Urbanity (Rural, Small Town, Suburban, Second City, Urban) * Vehicle Size Class (Compact, Midsize, SUV, Pickup) * Tech (PHEV25/PHEV50/BEV100/BEV300)",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:50.497813",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "tempo_bin__8aa756fd-24fe-401a-ae3f-84d32d898882",
+}

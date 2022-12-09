@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Time-wrapped, simulated on 09/15/2021 using: ResStock version: https://github.com/NREL/resstock/releases/tag/eulp_final and buildstock version: https://github.com/NREL/buildstockbatch/releases/tag/eulp_res_final (Post-processed using AWS SightGlass and notebooks from https://github.com/NREL/SightGlassDataProcessing/tree/agg_for_dsgrid)",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:29.218359",
+      log_message: "Initial registration",
+    },
+  ],
+  dataset_id: "resstock_conus_2022_reference",
+}

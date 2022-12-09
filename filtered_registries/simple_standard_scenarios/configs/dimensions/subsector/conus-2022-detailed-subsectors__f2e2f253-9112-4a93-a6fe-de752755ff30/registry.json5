@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "dsgrid CONUS 2022 Subsectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:32.676800",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "conus-2022-detailed-subsectors__f2e2f253-9112-4a93-a6fe-de752755ff30",
+}

@@ -1,0 +1,13 @@
+{
+  name: "commercial-sector",
+  display_name: "Commercial",
+  dimension_query_name: "commercial",
+  type: "sector",
+  id: "commercial-sector__b9734bc0-c6ae-473d-a6ae-abeb0326fed3",
+  module: "dsgrid.dimension.standard",
+  "class": "Sector",
+  description: "Commercial sector only",
+  file: "sector_commercial.csv",
+  file_hash: "a243cc02a979249072dbdedaf8c7b5ce6badb6a77908fbc99b50feaa1cc27dfb",
+  dimension_class: null,
+}

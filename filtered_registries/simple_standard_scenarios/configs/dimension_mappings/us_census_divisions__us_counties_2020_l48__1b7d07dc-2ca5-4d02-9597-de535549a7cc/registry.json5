@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Maps aeo2021_reference_commercial_energy_use_growth_factors geography to project",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:09.958021",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "us_census_divisions__us_counties_2020_l48__1b7d07dc-2ca5-4d02-9597-de535549a7cc",
+}

@@ -1,0 +1,13 @@
+{
+  name: "Comstock-Data-Source",
+  display_name: "ComStock",
+  dimension_query_name: "comstock",
+  type: "data_source",
+  id: "comstock-data-source__452b65b8-03f2-4c77-a0d8-e0d65c6d8890",
+  module: "dsgrid.dimension.standard",
+  "class": "DataSource",
+  description: "Data source: ComStock",
+  file: "data_source_comstock.csv",
+  file_hash: "233a4ce218cdfc4e11ff20574c7d066034bc65ec99df76c37b407895d9e690b7",
+  dimension_class: null,
+}

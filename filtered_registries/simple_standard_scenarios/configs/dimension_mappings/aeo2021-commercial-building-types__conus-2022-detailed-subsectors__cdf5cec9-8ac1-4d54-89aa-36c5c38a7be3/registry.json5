@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Maps Baseline ComStock building types to AEO 2021 commercial building types",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:09.619799",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "aeo2021-commercial-building-types__conus-2022-detailed-subsectors__cdf5cec9-8ac1-4d54-89aa-36c5c38a7be3",
+}

@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "All Metrics",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:33.057966",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "all_dsgrid_conus_2022_metrics__9b86a8e2-caf0-458b-8c0c-09c847583f66",
+}

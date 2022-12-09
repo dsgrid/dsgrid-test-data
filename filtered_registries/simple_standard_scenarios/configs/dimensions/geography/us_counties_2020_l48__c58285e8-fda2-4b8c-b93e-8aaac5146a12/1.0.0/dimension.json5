@@ -1,0 +1,13 @@
+{
+  name: "US Counties 2020 L48",
+  display_name: "County",
+  dimension_query_name: "county",
+  type: "geography",
+  id: "us_counties_2020_l48__c58285e8-fda2-4b8c-b93e-8aaac5146a12",
+  module: "dsgrid.dimension.standard",
+  "class": "County",
+  description: "US counties for L48, Census 2020 vintage, no territories",
+  file: "counties.csv",
+  file_hash: "a5191e3ae2bb126c473eb9e682e73cd38c0e7aea8549cae034ca567ae50e095e",
+  dimension_class: null,
+}

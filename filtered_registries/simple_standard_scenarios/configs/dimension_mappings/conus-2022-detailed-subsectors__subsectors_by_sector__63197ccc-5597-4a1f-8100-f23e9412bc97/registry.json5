@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Selector for all dsgrid CONUS 2022 commercial subsectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:49.115406",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "conus-2022-detailed-subsectors__subsectors_by_sector__63197ccc-5597-4a1f-8100-f23e9412bc97",
+}

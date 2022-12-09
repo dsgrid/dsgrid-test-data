@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "CONUS 2022 - ResStock building types (N=5)",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:29.002405",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "conus_2022-resstock_building_types__afea723c-62bf-4182-abd9-aab6a79bfd04",
+}
