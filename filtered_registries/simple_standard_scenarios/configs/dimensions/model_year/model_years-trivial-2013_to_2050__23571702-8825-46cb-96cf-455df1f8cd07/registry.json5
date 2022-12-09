@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Model years, 2013-2050, trivial, single record",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:08.042653",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "model_years-trivial-2013_to_2050__23571702-8825-46cb-96cf-455df1f8cd07",
+}

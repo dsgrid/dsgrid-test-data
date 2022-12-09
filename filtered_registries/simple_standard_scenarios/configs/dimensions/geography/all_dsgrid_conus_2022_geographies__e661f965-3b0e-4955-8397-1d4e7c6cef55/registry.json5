@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "All Geographies",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:33.057966",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "all_dsgrid_conus_2022_geographies__e661f965-3b0e-4955-8397-1d4e7c6cef55",
+}

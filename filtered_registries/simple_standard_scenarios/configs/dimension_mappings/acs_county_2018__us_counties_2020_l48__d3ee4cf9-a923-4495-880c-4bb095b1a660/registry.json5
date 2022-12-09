@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "ACS County 2018 to ACS County 2020 L48",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:06.968110",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "acs_county_2018__us_counties_2020_l48__d3ee4cf9-a923-4495-880c-4bb095b1a660",
+}

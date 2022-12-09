@@ -1,0 +1,13 @@
+{
+  name: "conus_2022-resstock_building_types",
+  display_name: "ResStock Building Type",
+  dimension_query_name: "resstock_building_type",
+  type: "subsector",
+  id: "conus_2022-resstock_building_types__afea723c-62bf-4182-abd9-aab6a79bfd04",
+  module: "dsgrid.dimension.standard",
+  "class": "Subsector",
+  description: "CONUS 2022 - ResStock building types (N=5)",
+  file: "conus_2022-resstock_subsectors.csv",
+  file_hash: "e20327a511504e2ffc836c8553512596f9e52246180522fb391e7b3ab7db6721",
+  dimension_class: null,
+}

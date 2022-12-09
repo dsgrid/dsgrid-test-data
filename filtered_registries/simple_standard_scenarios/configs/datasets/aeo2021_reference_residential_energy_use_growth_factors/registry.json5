@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "AEO 2021 Reference Case Residential Energy End Use Annual Growth Factors. Derived by NREL as simple exponential growth rates from annual end use comsumptions between year 2018 and year 2050. Detailed end use consumption data provided by EIA, not available in API.",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:08.167979",
+      log_message: "Initial registration",
+    },
+  ],
+  dataset_id: "aeo2021_reference_residential_energy_use_growth_factors",
+}

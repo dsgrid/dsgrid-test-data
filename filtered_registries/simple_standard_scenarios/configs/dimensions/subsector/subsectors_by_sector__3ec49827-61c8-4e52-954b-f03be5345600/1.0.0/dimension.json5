@@ -1,0 +1,13 @@
+{
+  name: "Subsectors by Sector",
+  display_name: "Subsector by Sector",
+  dimension_query_name: "subsector_by_sector",
+  type: "subsector",
+  id: "subsectors_by_sector__3ec49827-61c8-4e52-954b-f03be5345600",
+  module: "dsgrid.dimension.base_models",
+  "class": "SubsectorDimensionBaseModel",
+  description: "Subsectors by sector",
+  file: "subsectors_by_sector.csv",
+  file_hash: "ab0dd662209fc73d13b1395e92ec7be17b331c78da212d38df2daaedbf46e9bd",
+  dimension_class: null,
+}

@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "AEO 2021 commercial energy end uses (unitless) for growth rates (N=19, from 10 end uses, 3 fuel types)",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:09.172424",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "aeo2021-commercial-energy-enduses-unitless__ef41dc87-2e98-4863-8cf0-e8d954f6d306",
+}

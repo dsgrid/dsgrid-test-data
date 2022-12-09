@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "ResStock and ComStock scenario dataset-to-project dimension mapping for the CONUS 2022 project",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:27.103767",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "conus-2022__conus-2022-scenarios__03bbe795-2a4c-4c7e-88e4-3ff621631d67",
+}

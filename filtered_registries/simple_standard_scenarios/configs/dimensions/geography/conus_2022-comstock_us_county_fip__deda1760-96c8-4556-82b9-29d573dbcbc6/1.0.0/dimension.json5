@@ -1,0 +1,13 @@
+{
+  name: "conus_2022-comstock_US_county_FIP",
+  display_name: "County",
+  dimension_query_name: "county",
+  type: "geography",
+  id: "conus_2022-comstock_us_county_fip__deda1760-96c8-4556-82b9-29d573dbcbc6",
+  module: "dsgrid.dimension.standard",
+  "class": "County",
+  description: "CONUS 2022 - ComStock US county in (older version) original FIP code (N=3,133), includes 23 AK counties, 1 county renamed in 2015 (SD, Shannon County -> SD, Oglala Lakota County), 1 city (VA, Bedford City) that is now part of a county (VA Bedford County).",
+  file: "conus_2022-comstock_geography_county_fips.csv",
+  file_hash: "82b8127547c0be271a541fa14f4a8588c8a3bf97a161efbf5c582ed9f997aafa",
+  dimension_class: null,
+}

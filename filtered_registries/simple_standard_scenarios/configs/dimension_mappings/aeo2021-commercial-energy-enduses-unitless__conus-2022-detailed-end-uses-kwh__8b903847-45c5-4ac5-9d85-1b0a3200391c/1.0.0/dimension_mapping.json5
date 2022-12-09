@@ -1,0 +1,20 @@
+{
+  mapping_type: "many_to_many_explicit_multipliers",
+  archetype: "many_to_many_map",
+  from_dimension: {
+    type: "metric",
+    dimension_id: "aeo2021-commercial-energy-enduses-unitless__ef41dc87-2e98-4863-8cf0-e8d954f6d306",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "metric",
+    dimension_id: "conus-2022-detailed-end-uses-kwh__225a930d-4b77-4be6-bdeb-c7a7c43ddd83",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "Maps Baseline ComStock end uses to AEO 2021 commercial end uses",
+  id: "aeo2021-commercial-energy-enduses-unitless__conus-2022-detailed-end-uses-kwh__8b903847-45c5-4ac5-9d85-1b0a3200391c",
+  file: "lookup_comstock_to_aeo2021_com_enduses.csv",
+  file_hash: "fa3608c36a0cbf792a0910ea7b44c5f6f2fba180be76539cfb89fdf115071889",
+}

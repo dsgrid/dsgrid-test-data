@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Maps Baseline ComStock end uses to AEO 2021 commercial end uses",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:09.619799",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "aeo2021-commercial-energy-enduses-unitless__conus-2022-detailed-end-uses-kwh__8b903847-45c5-4ac5-9d85-1b0a3200391c",
+}

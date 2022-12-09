@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Selector for all dsgrid CONUS 2022 commercial end uses",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:49.115406",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "conus-2022-detailed-end-uses-kwh__commercial-end-uses__2181fcd3-d1f2-49ed-a3b6-3e53a4548db8",
+}

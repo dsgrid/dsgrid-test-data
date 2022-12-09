@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "US States L48",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:32.862678",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "us_states_l48__0576e20e-0873-4cba-9acb-ce19019b9440",
+}

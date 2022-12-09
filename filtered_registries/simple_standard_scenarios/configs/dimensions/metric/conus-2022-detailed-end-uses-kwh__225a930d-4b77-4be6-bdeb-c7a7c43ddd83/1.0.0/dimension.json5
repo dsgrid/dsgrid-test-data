@@ -1,0 +1,13 @@
+{
+  name: "CONUS-2022-Detailed-End-Uses-kWh",
+  display_name: "End Use",
+  dimension_query_name: "end_use",
+  type: "metric",
+  id: "conus-2022-detailed-end-uses-kwh__225a930d-4b77-4be6-bdeb-c7a7c43ddd83",
+  module: "dsgrid.dimension.standard",
+  "class": "EnergyEndUse",
+  description: "dsgrid CONUS 2022 End Uses (all fuel types) w/ all units in kWh",
+  file: "enduses_kwh.csv",
+  file_hash: "dac009e2933bc856ebfc69cbc7398edd5116875deb426c29deab71d115ffd122",
+  dimension_class: null,
+}

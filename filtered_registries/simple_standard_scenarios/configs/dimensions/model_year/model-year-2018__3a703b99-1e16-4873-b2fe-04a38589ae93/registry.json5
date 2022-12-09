@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Model year: 2018",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:06.485333",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "model-year-2018__3a703b99-1e16-4873-b2fe-04a38589ae93",
+}

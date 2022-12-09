@@ -1,0 +1,20 @@
+{
+  mapping_type: "one_to_one",
+  archetype: "one_to_one_map_fraction_sum_from_id_eq1",
+  from_dimension: {
+    type: "metric",
+    dimension_id: "conus_2022-resstock_energy_enduses_kwh__078c03d7-5236-473a-a6d5-60dc720bea22",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "metric",
+    dimension_id: "conus-2022-detailed-end-uses-kwh__225a930d-4b77-4be6-bdeb-c7a7c43ddd83",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "ResStock CONUS 2022 energy end uses mapping to project",
+  id: "conus_2022-resstock_energy_enduses_kwh__conus-2022-detailed-end-uses-kwh__99358e43-fe4a-49dc-88e3-771c70a399fb",
+  file: "metric_to_metric.csv",
+  file_hash: "f92dda3517ed0657de9723355ee6e591dde6c6ad0f12f8041f43d8f719fbba0d",
+}

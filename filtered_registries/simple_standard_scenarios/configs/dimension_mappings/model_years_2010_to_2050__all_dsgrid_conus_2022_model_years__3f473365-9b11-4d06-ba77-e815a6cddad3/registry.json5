@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Aggregation map for all model_years",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:49.115406",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "model_years_2010_to_2050__all_dsgrid_conus_2022_model_years__3f473365-9b11-4d06-ba77-e815a6cddad3",
+}

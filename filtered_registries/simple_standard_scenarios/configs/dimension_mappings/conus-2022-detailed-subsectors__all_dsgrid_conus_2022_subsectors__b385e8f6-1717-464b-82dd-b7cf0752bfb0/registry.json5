@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Aggregation map for all subsectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:49.115406",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "conus-2022-detailed-subsectors__all_dsgrid_conus_2022_subsectors__b385e8f6-1717-464b-82dd-b7cf0752bfb0",
+}

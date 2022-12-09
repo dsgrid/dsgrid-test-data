@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Maps Baseline ResStock end uses to AEO 2021 condensed end uses",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:08.269947",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "aeo2021-residential-energy-enduses-unitless_for-growth-rates__conus-2022-detailed-end-uses-kwh__22f3f031-822f-4952-8fc7-7b7c1fd77b3e",
+}

@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Aggregation map for all data_sources",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:49.115406",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "data-sources_for_dsgrid_standard_scenarios_2021__all_dsgrid_conus_2022_data_sources__6fa794e8-7b35-496e-9bc1-921497000c15",
+}

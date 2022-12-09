@@ -1,0 +1,4 @@
+from_id,to_id,from_fraction
+elec_heat_cool,electricity_cooling,1.0
+elec_heat_cool,electricity_heating,1.0
+ng_heat_cool,natural_gas_heating,1.0

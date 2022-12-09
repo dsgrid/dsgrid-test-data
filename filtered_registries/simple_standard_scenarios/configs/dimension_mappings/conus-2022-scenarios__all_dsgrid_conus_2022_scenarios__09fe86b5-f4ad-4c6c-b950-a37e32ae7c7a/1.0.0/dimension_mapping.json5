@@ -1,0 +1,20 @@
+{
+  mapping_type: "many_to_one_aggregation",
+  archetype: "many_to_one_map_fraction_sum_from_id_eq1",
+  from_dimension: {
+    type: "scenario",
+    dimension_id: "conus-2022-scenarios__abf41b88-10ec-472b-9fbc-6dcccec6cae2",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "scenario",
+    dimension_id: "all_dsgrid_conus_2022_scenarios__4f6aa758-5086-4a02-a6fd-4c3a32819573",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "Aggregation map for all scenarios",
+  id: "conus-2022-scenarios__all_dsgrid_conus_2022_scenarios__09fe86b5-f4ad-4c6c-b950-a37e32ae7c7a",
+  file: "lookup_scenario_to_all_scenarios.csv",
+  file_hash: "5019be57951cbd7426c4776bb8e9ae6dc7216cfef35dfbb230eba358efef8eea",
+}

@@ -1,0 +1,20 @@
+{
+  mapping_type: "many_to_one_aggregation",
+  archetype: "many_to_one_map_fraction_sum_from_id_eq1",
+  from_dimension: {
+    type: "weather_year",
+    dimension_id: "2012_weather_year__8bfc344c-a40f-447b-a63a-bbebcd4d54db",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "weather_year",
+    dimension_id: "all_dsgrid_conus_2022_weather_years__59251a97-889a-42dc-b362-6c7498f0b6d7",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "Aggregation map for all weather_years",
+  id: "2012_weather_year__all_dsgrid_conus_2022_weather_years__5522160a-7457-419b-90c1-3e8064eb8e70",
+  file: "lookup_weather_year_to_all_weather_years.csv",
+  file_hash: "b8619b2e0387742357e821cce8f4aebc0dac5488303c7e28042ec5cf94c63607",
+}

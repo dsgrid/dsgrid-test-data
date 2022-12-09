@@ -1,0 +1,20 @@
+{
+  mapping_type: "many_to_one_aggregation",
+  archetype: "many_to_one_map_fraction_sum_from_id_eq1",
+  from_dimension: {
+    type: "metric",
+    dimension_id: "conus-2022-detailed-end-uses-kwh__225a930d-4b77-4be6-bdeb-c7a7c43ddd83",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "metric",
+    dimension_id: "all-electric-end-uses__54ddf764-52a3-4df2-91d6-2a462d99133f",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "Aggregation map for all dsgrid CONUS 2022 electric end uses",
+  id: "conus-2022-detailed-end-uses-kwh__all-electric-end-uses__4db2da4d-db49-432a-ab07-0db530f94b9f",
+  file: "lookup_enduses_to_all_electric_enduses.csv",
+  file_hash: "ae406d45d0bd2dc62ae668b56d31b04d6dfa61f5084062e4bafb0d5ceaff1fe9",
+}

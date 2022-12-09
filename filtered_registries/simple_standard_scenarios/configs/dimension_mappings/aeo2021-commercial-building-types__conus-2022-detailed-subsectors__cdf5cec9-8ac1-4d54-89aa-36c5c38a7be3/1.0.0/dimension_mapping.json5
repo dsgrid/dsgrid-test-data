@@ -1,0 +1,20 @@
+{
+  mapping_type: "many_to_many_assignment",
+  archetype: "many_to_many_map_fraction_sum_to_id_eq1",
+  from_dimension: {
+    type: "subsector",
+    dimension_id: "aeo2021-commercial-building-types__1186eb17-50b1-4cb1-9209-6c252b859ca5",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "subsector",
+    dimension_id: "conus-2022-detailed-subsectors__f2e2f253-9112-4a93-a6fe-de752755ff30",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "Maps Baseline ComStock building types to AEO 2021 commercial building types",
+  id: "aeo2021-commercial-building-types__conus-2022-detailed-subsectors__cdf5cec9-8ac1-4d54-89aa-36c5c38a7be3",
+  file: "lookup_comstock_to_aeo2021_com_bldg_types.csv",
+  file_hash: "b69e8bab35f3223aa55778410730dbad54690a8cfc32ac99ee05eecf2bc17de2",
+}

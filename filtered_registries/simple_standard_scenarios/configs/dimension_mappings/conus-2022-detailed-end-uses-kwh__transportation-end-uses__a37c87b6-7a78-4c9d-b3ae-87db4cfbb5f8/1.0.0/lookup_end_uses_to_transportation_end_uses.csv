@@ -1,0 +1,5 @@
+from_id,to_id,from_fraction
+electricity_ev_l1l2,transportation_end_uses,1.0
+electricity_cooling,,1.0
+electricity_heating,,1.0
+natural_gas_heating,,1.0

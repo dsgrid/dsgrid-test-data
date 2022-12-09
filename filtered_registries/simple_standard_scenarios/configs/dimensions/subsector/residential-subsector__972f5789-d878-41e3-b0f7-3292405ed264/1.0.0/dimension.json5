@@ -1,0 +1,13 @@
+{
+  name: "residential-subsector",
+  display_name: "Residential Subsector",
+  dimension_query_name: "residential_subsector",
+  type: "subsector",
+  id: "residential-subsector__972f5789-d878-41e3-b0f7-3292405ed264",
+  module: "dsgrid.dimension.standard",
+  "class": "Subsector",
+  description: "Residential subsector only",
+  file: "residential_subsectors.csv",
+  file_hash: "0c80a11f2aadd6e910ef7af6f32122439aee6103d6c5270cf97fa071ffa256d9",
+  dimension_class: null,
+}

@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "AEO 2021 commercial building types (N=11)",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:09.172424",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "aeo2021-commercial-building-types__1186eb17-50b1-4cb1-9209-6c252b859ca5",
+}

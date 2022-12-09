@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "EIA Annual Energy Outlook (AEO) 2021",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:34:09.172424",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "data-source-aeo-2021__b8310d4e-f954-416e-ab1a-5a503b84a60c",
+}

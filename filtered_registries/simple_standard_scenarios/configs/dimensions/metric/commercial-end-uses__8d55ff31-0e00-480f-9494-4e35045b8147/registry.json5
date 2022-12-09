@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Commercial End Uses",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:32.862678",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "commercial-end-uses__8d55ff31-0e00-480f-9494-4e35045b8147",
+}

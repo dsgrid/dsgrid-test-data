@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Type of charging (L1 and L2, DCFC) used by TEMPO PEVs.",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:50.497813",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "tempo_ldv_pev_usage__9938922b-13c1-42a5-bbb9-1d278a03e5fc",
+}

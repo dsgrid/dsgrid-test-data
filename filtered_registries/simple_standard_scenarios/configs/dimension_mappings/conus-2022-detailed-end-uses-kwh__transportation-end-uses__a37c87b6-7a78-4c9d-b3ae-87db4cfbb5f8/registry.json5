@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Selector for all dsgrid CONUS 2022 transportation end uses",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:28:49.115406",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "conus-2022-detailed-end-uses-kwh__transportation-end-uses__a37c87b6-7a78-4c9d-b3ae-87db4cfbb5f8",
+}

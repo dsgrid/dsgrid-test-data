@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Time dimension, 2012 hourly EST, hour-ending, no Leap Day Adjustment, total value, starts at Hour 0",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:06.485333",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "time-2012-est-8784-hourly-periodending-noleapdayadjustment-total-hour0start__59f0587c-579d-49b1-bbc2-7410cdde5fdd",
+}

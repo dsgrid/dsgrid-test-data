@@ -1,0 +1,13 @@
+{
+  name: "Technology and Policy Scenario",
+  display_name: "Scenario",
+  dimension_query_name: "scenario",
+  type: "scenario",
+  id: "technology_and_policy_scenario__6e67060e-e98a-4528-bb9b-39336d0b684e",
+  module: "dsgrid.dimension.standard",
+  "class": "Scenario",
+  description: "EV Scenarios: AEO Reference, EFS High Electrification, LDV Sales All-EV by 2035",
+  file: "scenario.csv",
+  file_hash: "2f385d162213c859c5915147044f207e447aa04b451b59f25b47cc0448e819ef",
+  dimension_class: null,
+}

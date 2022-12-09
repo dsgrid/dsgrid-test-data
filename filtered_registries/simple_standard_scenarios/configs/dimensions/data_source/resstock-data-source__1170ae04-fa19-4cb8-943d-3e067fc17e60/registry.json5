@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "ResStock only data source",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:29.002405",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "resstock-data-source__1170ae04-fa19-4cb8-943d-3e067fc17e60",
+}

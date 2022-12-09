@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "CONUS 2022 - ComStock end uses (N=21, 4 fuel types)",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2022-12-08T16:29:06.485333",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "conus_2022-comstock_energy_enduses_kwh__bfeb9cf7-4015-4a74-b20a-d8ed6d0cbebd",
+}
