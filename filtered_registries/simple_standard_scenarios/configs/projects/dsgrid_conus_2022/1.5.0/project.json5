@@ -202,6 +202,80 @@
       status: "Registered",
     },
     {
+      dataset_id: "resstock_projected_conus_2022",
+      dataset_type: "modeled",
+      version: "1.0.0",
+      required_dimensions: {
+        single_dimensional: {
+          geography: {
+            base: [],
+            supplemental: [],
+          },
+          metric: {
+            base: [],
+            supplemental: [
+              {
+                name: "residential-end-uses",
+                record_ids: [
+                  "residential_end_uses",
+                ],
+              },
+            ],
+          },
+          scenario: {
+            base: [],
+            supplemental: [],
+          },
+          sector: {
+            base: [
+              "res",
+            ],
+            supplemental: [],
+          },
+          subsector: {
+            base: [],
+            supplemental: [
+              {
+                name: "Subsectors by Sector",
+                record_ids: [
+                  "residential_subsectors",
+                ],
+              },
+            ],
+          },
+          weather_year: {
+            base: [],
+            supplemental: [],
+          },
+        },
+        multi_dimensional: [],
+      },
+      mapping_references: [
+        {
+          from_dimension_type: "geography",
+          to_dimension_type: "geography",
+          mapping_id: "conus_2022-resstock_us_county_fip__us_counties_2020_l48__fabc9f3c-8d61-4c92-a58b-3eeffa92f486",
+          version: "1.0.0",
+          required_for_validation: true,
+        },
+        {
+          from_dimension_type: "metric",
+          to_dimension_type: "metric",
+          mapping_id: "conus_2022-resstock_energy_enduses_kwh__conus-2022-detailed-end-uses-kwh__99358e43-fe4a-49dc-88e3-771c70a399fb",
+          version: "1.0.0",
+          required_for_validation: true,
+        },
+        {
+          from_dimension_type: "scenario",
+          to_dimension_type: "scenario",
+          mapping_id: "conus-2022__conus-2022-scenarios__03bbe795-2a4c-4c7e-88e4-3ff621631d67",
+          version: "1.0.0",
+          required_for_validation: true,
+        },
+      ],
+      status: "Unregistered",
+    },
+    {
       dataset_id: "resstock_conus_2022_reference",
       dataset_type: "modeled",
       version: "1.0.0",
@@ -372,6 +446,73 @@
         },
       ],
       status: "Registered",
+    },
+    {
+      dataset_id: "comstock_projected_conus_2022",
+      dataset_type: "modeled",
+      version: "1.0.0",
+      required_dimensions: {
+        single_dimensional: {
+          geography: {
+            base: [],
+            supplemental: [],
+          },
+          metric: {
+            base: [],
+            supplemental: [
+              {
+                name: "commercial-end-uses",
+                record_ids: [
+                  "commercial_end_uses",
+                ],
+              },
+            ],
+          },
+          scenario: {
+            base: [],
+            supplemental: [],
+          },
+          sector: {
+            base: [
+              "com",
+            ],
+            supplemental: [],
+          },
+          subsector: {
+            base: [],
+            supplemental: [
+              {
+                name: "Subsectors by Sector",
+                record_ids: [
+                  "commercial_subsectors",
+                ],
+              },
+            ],
+          },
+          weather_year: {
+            base: [],
+            supplemental: [],
+          },
+        },
+        multi_dimensional: [],
+      },
+      mapping_references: [
+        {
+          from_dimension_type: "geography",
+          to_dimension_type: "geography",
+          mapping_id: "conus_2022-comstock_us_county_fip__us_counties_2020_l48__1f6ead7b-899f-4d3a-ab0b-fe1596e8e23a",
+          version: "1.0.0",
+          required_for_validation: true,
+        },
+        {
+          from_dimension_type: "scenario",
+          to_dimension_type: "scenario",
+          mapping_id: "conus-2022__conus-2022-scenarios__03bbe795-2a4c-4c7e-88e4-3ff621631d67",
+          version: "1.0.0",
+          required_for_validation: true,
+        },
+      ],
+      status: "Unregistered",
     },
     {
       dataset_id: "comstock_conus_2022_reference",
