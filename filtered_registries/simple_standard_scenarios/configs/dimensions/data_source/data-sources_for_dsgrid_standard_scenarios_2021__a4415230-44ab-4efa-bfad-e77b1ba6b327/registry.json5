@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "dsgrid Standard Scenarios 2021 Data Sources; ComStock, TEMPO, ResStock, EIA 861, and others",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-21T11:29:35.350385",
+      log_message: "'Submit derived dataset'",
+    },
+  ],
+  dimension_id: "data-sources_for_dsgrid_standard_scenarios_2021__a4415230-44ab-4efa-bfad-e77b1ba6b327",
+}

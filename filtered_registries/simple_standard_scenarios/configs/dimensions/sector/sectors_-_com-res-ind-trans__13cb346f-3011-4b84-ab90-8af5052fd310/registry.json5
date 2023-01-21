@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "dsgrid Standard Scenarios 2021 Sectors; Commercial, Residential, Industrial and Transportation",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-21T11:29:35.350385",
+      log_message: "'Submit derived dataset'",
+    },
+  ],
+  dimension_id: "sectors_-_com-res-ind-trans__13cb346f-3011-4b84-ab90-8af5052fd310",
+}

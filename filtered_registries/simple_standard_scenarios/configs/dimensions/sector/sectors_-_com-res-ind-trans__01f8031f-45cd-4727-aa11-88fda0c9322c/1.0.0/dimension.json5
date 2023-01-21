@@ -1,0 +1,13 @@
+{
+  name: "Sectors - Com-Res-Ind-Trans",
+  display_name: "Sector",
+  dimension_query_name: "sector",
+  type: "sector",
+  id: "sectors_-_com-res-ind-trans__01f8031f-45cd-4727-aa11-88fda0c9322c",
+  module: "dsgrid.dimension.standard",
+  "class": "Sector",
+  description: "dsgrid Standard Scenarios 2021 Sectors; Commercial, Residential, Industrial and Transportation",
+  file: "sector_records.csv",
+  file_hash: "7833c1f1eb6386110a05a80f35143576bcd4e2d4560e927f3190ee55950fe152",
+  dimension_class: null,
+}

@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "dsgrid CONUS 2022 End Uses (all fuel types) w/ all units in kWh",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-21T11:29:35.350385",
+      log_message: "'Submit derived dataset'",
+    },
+  ],
+  dimension_id: "conus-2022-detailed-end-uses-kwh__3352b8f7-0e09-4f37-b52f-8d28584fe659",
+}

@@ -1,7 +1,19 @@
 {
-  version: "1.5.0",
+  version: "1.7.0",
   description: "Dataset created for the FY21 dsgrid Load Profile Tool for Grid Modeling project",
   registration_history: [
+    {
+      version: "1.7.0",
+      submitter: "dthom",
+      date: "2023-01-21T18:32:41.731318+00:00",
+      log_message: "'Submit derived dataset'",
+    },
+    {
+      version: "1.6.0",
+      submitter: "dthom",
+      date: "2023-01-21T18:30:08.183430+00:00",
+      log_message: "'Submit derived dataset'",
+    },
     {
       version: "1.5.0",
       submitter: "dthom",

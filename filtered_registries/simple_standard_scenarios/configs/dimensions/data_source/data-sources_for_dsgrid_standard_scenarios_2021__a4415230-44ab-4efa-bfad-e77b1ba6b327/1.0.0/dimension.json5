@@ -1,0 +1,13 @@
+{
+  name: "Data-Sources for dsgrid Standard Scenarios 2021",
+  display_name: "Data Source",
+  dimension_query_name: "data_source",
+  type: "data_source",
+  id: "data-sources_for_dsgrid_standard_scenarios_2021__a4415230-44ab-4efa-bfad-e77b1ba6b327",
+  module: "dsgrid.dimension.standard",
+  "class": "DataSource",
+  description: "dsgrid Standard Scenarios 2021 Data Sources; ComStock, TEMPO, ResStock, EIA 861, and others",
+  file: "data_source_records.csv",
+  file_hash: "f69af60b3bbf7a47249d572c144b6881cb0690b9a0da54803ed6e1686c859706",
+  dimension_class: null,
+}
