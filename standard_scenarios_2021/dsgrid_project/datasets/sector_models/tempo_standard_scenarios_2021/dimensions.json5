@@ -46,13 +46,6 @@
       description: "Month, day of week, and time of day.\n",
     },
     {
-      "class": "DataSource",
-      type: "data_source",
-      name: "TEMPO Model",
-      file: "dimensions/model.csv",
-      description: "TEMPO projections.\n",
-    },
-    {
       "class": "ModelYear",
       type: "model_year",
       name: "TEMPO Model Year",

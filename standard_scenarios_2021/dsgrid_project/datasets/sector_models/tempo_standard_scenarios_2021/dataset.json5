@@ -4,7 +4,6 @@
   data_source: "TEMPO",
   description: "TEMPO county-level results for BEV charging.\n",
   trivial_dimensions: [
-    "data_source",
     "scenario",
     "sector",
     "weather_year",
@@ -51,11 +50,6 @@
     {
       type: "time",
       dimension_id: "time_of_week_by_month__d4dec9f0-43b5-427b-a41e-13f731744c1f",
-      version: "1.0.0",
-    },
-    {
-      type: "data_source",
-      dimension_id: "tempo_model__d2f50c33-8b51-4b4d-a679-46114eb5244c",
       version: "1.0.0",
     },
     {

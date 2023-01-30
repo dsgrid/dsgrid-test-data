@@ -1,0 +1,20 @@
+{
+  mapping_type: "many_to_one_aggregation",
+  archetype: "many_to_one_map_fraction_sum_from_id_eq1",
+  from_dimension: {
+    type: "subsector",
+    dimension_id: "conus-2022-detailed-subsectors__619936c7-8b87-447d-8db3-cd1b91136b3f",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "subsector",
+    dimension_id: "subsectors_by_sector_collapsed__70d05161-e130-49a7-ae28-91d11dacc315",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "Selector for aggregating all dsgrid CONUS 2022 subsectors",
+  id: "conus-2022-detailed-subsectors__subsectors_by_sector_collapsed__c1e9983b-dc3f-4d7d-b6c7-c69edb7eb80f",
+  file: "lookup_subsectors_by_sector.csv",
+  file_hash: "830af3f93ad348bd18401e8f916ddc9e88f9a61c218a3f09f6b42d982e4bd880",
+}

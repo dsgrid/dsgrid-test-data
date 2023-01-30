@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "TEMPO Time - Month (representing seasons), day of week, and hour of day.",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:53:59.038964",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "time_of_week_by_month__d6c1c8ec-ba59-465d-86f1-8b17e97e429c",
+}

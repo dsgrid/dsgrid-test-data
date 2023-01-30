@@ -25,7 +25,6 @@
   trivial_dimensions: [
     "sector",
     "scenario",
-    "data_source",
     "weather_year",
     "model_year",
   ],
@@ -80,15 +79,6 @@
       module: "dsgrid.dimension.standard",
       "class": "Scenario",
       description: "EIA AEO Reference Scenario\n",
-    },
-    {
-      type: "data_source",
-      name: "Data-Source-AEO-2021",
-      display_name: "AEO 2021",
-      file: "dimensions/aeo2021_data_source.csv",
-      module: "dsgrid.dimension.standard",
-      "class": "DataSource",
-      description: "EIA Annual Energy Outlook (AEO) 2021\n",
     },
     {
       type: "weather_year",

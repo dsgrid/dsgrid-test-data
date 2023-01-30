@@ -8,7 +8,6 @@
     "weather_year",
     "model_year",
     "scenario",
-    "data_source",
   ],
   description: "EFS ComStock data translated into the new dsgrid data format",
   origin_creator: "Henry Horsey",
@@ -99,11 +98,6 @@
     {
       dimension_id: "reference_scenario__4b6defca-9212-4388-bc39-9cf4462b4527",
       type: "scenario",
-      version: "1.0.0",
-    },
-    {
-      dimension_id: "comstock_data_source__d2f50c33-8b51-4b4d-a679-46114eb5244c",
-      type: "data_source",
       version: "1.0.0",
     },
   ],

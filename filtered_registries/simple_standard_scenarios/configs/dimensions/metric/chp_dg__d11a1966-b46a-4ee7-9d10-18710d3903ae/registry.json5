@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Combined Heat and Power and Thermal DG from the EFS study",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:15.107270",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "chp_dg__d11a1966-b46a-4ee7-9d10-18710d3903ae",
+}

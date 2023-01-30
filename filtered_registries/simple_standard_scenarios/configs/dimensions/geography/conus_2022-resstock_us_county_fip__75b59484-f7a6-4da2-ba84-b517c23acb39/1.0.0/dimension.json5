@@ -1,0 +1,13 @@
+{
+  name: "conus_2022-resstock_US_county_FIP",
+  display_name: "County",
+  dimension_query_name: "county",
+  type: "geography",
+  id: "conus_2022-resstock_us_county_fip__75b59484-f7a6-4da2-ba84-b517c23acb39",
+  module: "dsgrid.dimension.standard",
+  "class": "County",
+  description: "CONUS 2022 - ResStock US county in original FIP code (N=3,108)",
+  file: "conus_2022-resstock_geography_county_fips.csv",
+  file_hash: "8ff2f1d63fad74fba082f62123f043ca70982fc625539158257505b4c07c9c33",
+  dimension_class: null,
+}

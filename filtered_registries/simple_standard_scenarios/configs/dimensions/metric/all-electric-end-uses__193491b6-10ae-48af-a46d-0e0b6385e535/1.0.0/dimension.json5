@@ -1,0 +1,13 @@
+{
+  name: "all-electric-end-uses",
+  display_name: "Electricity",
+  dimension_query_name: "electricity",
+  type: "metric",
+  id: "all-electric-end-uses__193491b6-10ae-48af-a46d-0e0b6385e535",
+  module: "dsgrid.dimension.standard",
+  "class": "EnergyEndUse",
+  description: "All Electric End Uses",
+  file: "electric_end_uses_kwh.csv",
+  file_hash: "8990767e877f4a90af3a68b7e5ea70c2fb6f5c735380889f0b1b2f35d28edeb9",
+  dimension_class: null,
+}

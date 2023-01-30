@@ -1,0 +1,13 @@
+{
+  name: "residential-sector",
+  display_name: "Residential Sector",
+  dimension_query_name: "residential_sector",
+  type: "sector",
+  id: "residential-sector__1b68c191-127e-4eb1-b20d-cbfbfdaddb9b",
+  module: "dsgrid.dimension.standard",
+  "class": "Sector",
+  description: "Residential sector only",
+  file: "sector_residential.csv",
+  file_hash: "1235942310fd8bdb296922f67e5a01a56c5db6efbeec20da92371dcb5e27a2a0",
+  dimension_class: null,
+}

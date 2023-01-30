@@ -1,0 +1,13 @@
+{
+  name: "US Census Divisions",
+  display_name: "Census Division",
+  dimension_query_name: "census_division",
+  type: "geography",
+  id: "us_census_divisions__fc7e111b-31e9-4e7c-9fd0-ee2c9576168c",
+  module: "dsgrid.dimension.standard",
+  "class": "CensusDivision",
+  description: "US Census Divisions",
+  file: "census_divisions.csv",
+  file_hash: "29470e861dce3a61323f9dcb2b57ec8f5a199947c397db2ce782f72a4e184476",
+  dimension_class: null,
+}

@@ -5,8 +5,8 @@
     {
       version: "1.0.0",
       submitter: "dthom",
-      date: "2023-01-21T11:29:47.583842",
-      log_message: "'Submit derived dataset'",
+      date: "2023-01-29T21:20:15.555218",
+      log_message: "Submit resstock projection",
     },
   ],
   dataset_id: "resstock_projected_conus_2022",

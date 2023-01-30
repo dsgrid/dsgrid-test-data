@@ -1,0 +1,13 @@
+{
+  name: "Model_Years-2010_to_2020",
+  display_name: "None",
+  dimension_query_name: "none",
+  type: "model_year",
+  id: "model_years-2010_to_2020__a3fbafb1-ead2-4b4e-ab26-935c652899f3",
+  module: "dsgrid.dimension.standard",
+  "class": "ModelYear",
+  description: "Model years, 2010-2020",
+  file: "model_years_2010_to_2020.csv",
+  file_hash: "aac83a0e9ff7d5bd5ec7ca382fad7f8042b7f4fc70a313038ef39fa27b79ba73",
+  dimension_class: null,
+}

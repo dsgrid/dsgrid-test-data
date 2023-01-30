@@ -1,0 +1,20 @@
+{
+  mapping_type: "many_to_many_explicit_multipliers",
+  archetype: "many_to_many_map",
+  from_dimension: {
+    type: "metric",
+    dimension_id: "aeo2021-residential-energy-enduses-unitless_for-growth-rates__2c3d3840-eb9f-4455-aa5b-d3d74c1e308c",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "metric",
+    dimension_id: "conus-2022-detailed-end-uses-kwh__cc18871d-08a5-45a7-83c6-0146596c4948",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "Maps Baseline ResStock end uses to AEO 2021 condensed end uses",
+  id: "aeo2021-residential-energy-enduses-unitless_for-growth-rates__conus-2022-detailed-end-uses-kwh__07543cc2-cbce-4d39-bc56-86285abe518b",
+  file: "lookup_aeo2021_res_combined_to_resstock_enduses.csv",
+  file_hash: "0d765fd45216c650ee19e0d72c8561d88c168806063f81885b9c511aedc25b30",
+}

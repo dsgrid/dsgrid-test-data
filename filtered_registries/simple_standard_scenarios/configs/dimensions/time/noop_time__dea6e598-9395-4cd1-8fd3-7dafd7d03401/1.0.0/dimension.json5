@@ -1,0 +1,12 @@
+{
+  name: "noop_time",
+  display_name: "No Op Time",
+  dimension_query_name: "no_op_time",
+  type: "time",
+  id: "noop_time__dea6e598-9395-4cd1-8fd3-7dafd7d03401",
+  module: "dsgrid.dimension.standard",
+  "class": "NoOpTime",
+  description: "No Operation Time",
+  time_type: "noop",
+  dimension_class: null,
+}

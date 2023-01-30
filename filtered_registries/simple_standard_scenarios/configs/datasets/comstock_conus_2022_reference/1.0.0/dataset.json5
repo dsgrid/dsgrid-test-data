@@ -35,47 +35,42 @@
   dimension_references: [
     {
       type: "geography",
-      dimension_id: "conus_2022-comstock_us_county_fip__deda1760-96c8-4556-82b9-29d573dbcbc6",
+      dimension_id: "conus_2022-comstock_us_county_fip__4f6f385a-99a1-4413-aa06-6010538c3a9c",
       version: "1.0.0",
     },
     {
       type: "sector",
-      dimension_id: "commercial-sector__b9734bc0-c6ae-473d-a6ae-abeb0326fed3",
+      dimension_id: "commercial-sector__7b903850-fb66-46ad-826d-e80caf791d93",
       version: "1.0.0",
     },
     {
       type: "subsector",
-      dimension_id: "conus_2022-comstock_building_types__3d698179-13b5-49fc-9a0a-0706cbd6b536",
+      dimension_id: "conus_2022-comstock_building_types__fe5305cc-90db-495e-b428-a382fc7109c9",
       version: "1.0.0",
     },
     {
       type: "metric",
-      dimension_id: "conus_2022-comstock_energy_enduses_kwh__bfeb9cf7-4015-4a74-b20a-d8ed6d0cbebd",
+      dimension_id: "conus_2022-comstock_energy_enduses_kwh__6634bfd3-5c8a-4122-9862-869fa85a0844",
       version: "1.0.0",
     },
     {
       type: "scenario",
-      dimension_id: "conus-2022__ebdd7379-6be2-4fc3-993b-24927afc7f1f",
-      version: "1.0.0",
-    },
-    {
-      type: "data_source",
-      dimension_id: "comstock-data-source__452b65b8-03f2-4c77-a0d8-e0d65c6d8890",
+      dimension_id: "conus-2022__6468a938-fb66-4488-868a-66fdece6b3c3",
       version: "1.0.0",
     },
     {
       type: "model_year",
-      dimension_id: "model-year-2018__3a703b99-1e16-4873-b2fe-04a38589ae93",
-      version: "1.0.0",
-    },
-    {
-      type: "time",
-      dimension_id: "time-2012-est-8784-hourly-periodending-noleapdayadjustment-total-hour0start__59f0587c-579d-49b1-bbc2-7410cdde5fdd",
+      dimension_id: "model-year-2018__54805217-4f0c-4110-b2a8-10fcd5591060",
       version: "1.0.0",
     },
     {
       type: "weather_year",
-      dimension_id: "2012_weather_year__8bfc344c-a40f-447b-a63a-bbebcd4d54db",
+      dimension_id: "2012_weather_year__3863db63-1817-4ffa-aaad-8e40e613b7d9",
+      version: "1.0.0",
+    },
+    {
+      type: "time",
+      dimension_id: "time-2012-est-8784-hourly-periodending-noleapdayadjustment-total-hour0start__11a89fd3-83c9-4e73-a82e-f099cdf6e2ce",
       version: "1.0.0",
     },
   ],
@@ -85,6 +80,5 @@
     "weather_year",
     "model_year",
     "scenario",
-    "data_source",
   ],
 }

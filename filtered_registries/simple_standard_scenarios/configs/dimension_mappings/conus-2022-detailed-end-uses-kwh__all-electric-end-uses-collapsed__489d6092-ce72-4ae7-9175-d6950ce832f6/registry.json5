@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Aggregation map for all dsgrid CONUS 2022 electric end uses",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:00.686531",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "conus-2022-detailed-end-uses-kwh__all-electric-end-uses-collapsed__489d6092-ce72-4ae7-9175-d6950ce832f6",
+}

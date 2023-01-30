@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Selector for individual dsgrid CONUS 2022 transportation subsectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:00.686531",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "conus-2022-detailed-subsectors__transportation_subsectors__60db9548-f672-4e8a-b5ff-88f31798cb41",
+}

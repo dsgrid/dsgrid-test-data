@@ -96,15 +96,6 @@
         type: "scenario",
       },
       {
-        "class": "DataSource",
-        description: "ComStock only data source\n",
-        file: "dimensions/data_sources.csv",
-        module: "dsgrid.dimension.standard",
-        name: "ComStock Data Source",
-        display_name: "ComStock",
-        type: "data_source",
-      },
-      {
         "class": "Time",
         description: "Time dimension, 2012 hourly EST, period-beginning, no DST, no Leap Day Adjustment, total value\n",
         frequency: "01:00:00",

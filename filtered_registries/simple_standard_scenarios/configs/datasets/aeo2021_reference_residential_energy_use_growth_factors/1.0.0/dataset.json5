@@ -35,47 +35,42 @@
   dimension_references: [
     {
       type: "geography",
-      dimension_id: "all_dsgrid_conus_2022_geographies__e661f965-3b0e-4955-8397-1d4e7c6cef55",
+      dimension_id: "all_dsgrid_conus_2022_geographies__1aaf6b6f-190c-4b19-a049-ed4c2cf109da",
       version: "1.0.0",
     },
     {
       type: "sector",
-      dimension_id: "residential-sector__96d40c35-e0e2-4750-9eaa-c4cd99102d5a",
+      dimension_id: "residential-sector__1b68c191-127e-4eb1-b20d-cbfbfdaddb9b",
       version: "1.0.0",
     },
     {
       type: "subsector",
-      dimension_id: "residential-subsector__972f5789-d878-41e3-b0f7-3292405ed264",
+      dimension_id: "residential-subsector__c460d60d-d71d-42be-b24b-5705a8b22abb",
       version: "1.0.0",
     },
     {
       type: "metric",
-      dimension_id: "aeo2021-residential-energy-enduses-unitless_for-growth-rates__09d27acb-3076-4a73-9ba1-93a44e405dd8",
+      dimension_id: "aeo2021-residential-energy-enduses-unitless_for-growth-rates__2c3d3840-eb9f-4455-aa5b-d3d74c1e308c",
       version: "1.0.0",
     },
     {
       type: "scenario",
-      dimension_id: "aeo-reference-scenario__a11b08e5-1d02-4a13-b2fe-33b321172365",
-      version: "1.0.0",
-    },
-    {
-      type: "data_source",
-      dimension_id: "data-source-aeo-2021__652ebf2c-ce2b-476c-9c5d-dd34cc038549",
+      dimension_id: "aeo-reference-scenario__d2996236-35df-4a63-bdf2-e373f511b2f2",
       version: "1.0.0",
     },
     {
       type: "model_year",
-      dimension_id: "model_years-trivial-2013_to_2050__23571702-8825-46cb-96cf-455df1f8cd07",
+      dimension_id: "model_years-trivial-2013_to_2050__655a1497-0397-4ae6-b264-18e7120ed871",
       version: "1.0.0",
     },
     {
       type: "time",
-      dimension_id: "noop_time__2168ac80-bd81-4552-9b7d-5960d7a98d03",
+      dimension_id: "noop_time__dea6e598-9395-4cd1-8fd3-7dafd7d03401",
       version: "1.0.0",
     },
     {
       type: "weather_year",
-      dimension_id: "2012_weather_year__8bfc344c-a40f-447b-a63a-bbebcd4d54db",
+      dimension_id: "2012_weather_year__3863db63-1817-4ffa-aaad-8e40e613b7d9",
       version: "1.0.0",
     },
   ],
@@ -85,7 +80,6 @@
     "subsector",
     "scenario",
     "geography",
-    "data_source",
     "weather_year",
     "model_year",
   ],

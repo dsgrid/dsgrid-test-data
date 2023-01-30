@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Transportation Sectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:51:42.825019",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "transportation_sectors__1eb5bb10-055b-471a-a815-fd4c821f62e6",
+}

@@ -1,0 +1,13 @@
+{
+  name: "ACS County 2018",
+  display_name: "County",
+  dimension_query_name: "county",
+  type: "geography",
+  id: "acs_county_2018__391612d9-6008-4461-a8be-c25faec096fa",
+  module: "dsgrid.dimension.standard",
+  "class": "County",
+  description: "American Community Survey US counties, 2018.",
+  file: "counties.csv",
+  file_hash: "16e150eaa7d2b6bec9ee8043f781f4bb3f7a710ffa5356b52111767cefa0181c",
+  dimension_class: null,
+}

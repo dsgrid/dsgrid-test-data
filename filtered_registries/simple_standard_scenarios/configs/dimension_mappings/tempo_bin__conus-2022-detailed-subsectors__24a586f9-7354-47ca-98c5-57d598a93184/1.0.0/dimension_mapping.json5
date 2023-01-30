@@ -1,0 +1,20 @@
+{
+  mapping_type: "many_to_one_aggregation",
+  archetype: "many_to_one_map_fraction_sum_from_id_eq1",
+  from_dimension: {
+    type: "subsector",
+    dimension_id: "tempo_bin__cc712326-5f54-482b-9f04-771e3a05dfd2",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "subsector",
+    dimension_id: "conus-2022-detailed-subsectors__619936c7-8b87-447d-8db3-cd1b91136b3f",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "TEMPO demographic/geographic/vehicle bins (CONUS 2022) to dsgrid CONUS 2022 Subsectors",
+  id: "tempo_bin__conus-2022-detailed-subsectors__24a586f9-7354-47ca-98c5-57d598a93184",
+  file: "subsector_to_subsector.csv",
+  file_hash: "114cc77fc4a57c150f69266010cc1459c8852a84d1ff0a573396af65dc372584",
+}

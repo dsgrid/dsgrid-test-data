@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Subsectors Unspecified",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:12.011924",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "unspecified_subsectors__cbaf680d-07ab-4d70-8e31-e20200d9e6d7",
+}

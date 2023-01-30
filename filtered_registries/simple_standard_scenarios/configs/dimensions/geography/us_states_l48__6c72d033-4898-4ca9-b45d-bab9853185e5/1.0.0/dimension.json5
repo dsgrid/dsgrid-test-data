@@ -1,0 +1,13 @@
+{
+  name: "US States L48",
+  display_name: "State",
+  dimension_query_name: "state",
+  type: "geography",
+  id: "us_states_l48__6c72d033-4898-4ca9-b45d-bab9853185e5",
+  module: "dsgrid.dimension.standard",
+  "class": "State",
+  description: "US States L48",
+  file: "states.csv",
+  file_hash: "2f981d15391bdd71fcd93dcc9b3ae5bc59caf87642dec1fb4c136f7733d44b98",
+  dimension_class: null,
+}

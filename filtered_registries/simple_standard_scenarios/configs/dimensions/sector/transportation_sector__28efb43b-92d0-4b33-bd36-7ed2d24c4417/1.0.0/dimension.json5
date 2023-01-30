@@ -1,0 +1,13 @@
+{
+  name: "Transportation Sector",
+  display_name: "Transportation",
+  dimension_query_name: "transportation",
+  type: "sector",
+  id: "transportation_sector__28efb43b-92d0-4b33-bd36-7ed2d24c4417",
+  module: "dsgrid.dimension.standard",
+  "class": "Sector",
+  description: "Transportation Sector",
+  file: "sector.csv",
+  file_hash: "28da794b28217ec519a375019c5e0eb7e1ce4e3d2a7483f619a7d9f6b12e3518",
+  dimension_class: null,
+}

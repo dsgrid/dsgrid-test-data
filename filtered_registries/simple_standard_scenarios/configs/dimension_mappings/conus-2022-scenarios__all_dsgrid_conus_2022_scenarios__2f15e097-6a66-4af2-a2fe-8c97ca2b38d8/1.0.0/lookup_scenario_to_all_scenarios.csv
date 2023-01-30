@@ -1,0 +1,3 @@
+from_id,to_id,from_fraction
+reference,all_scenarios,1.0
+efs_high_ldv,all_scenarios,1.0

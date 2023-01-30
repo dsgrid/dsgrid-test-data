@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Weather year, 2012 only",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:19.852698",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "2012_weather_year__3863db63-1817-4ffa-aaad-8e40e613b7d9",
+}

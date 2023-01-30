@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "CONUS 2022 - ResStock US county in original FIP code (N=3,108)",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:53:12.618331",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "conus_2022-resstock_us_county_fip__75b59484-f7a6-4da2-ba84-b517c23acb39",
+}

@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "All Electric End Uses",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:51:42.825019",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "all-electric-end-uses__193491b6-10ae-48af-a46d-0e0b6385e535",
+}

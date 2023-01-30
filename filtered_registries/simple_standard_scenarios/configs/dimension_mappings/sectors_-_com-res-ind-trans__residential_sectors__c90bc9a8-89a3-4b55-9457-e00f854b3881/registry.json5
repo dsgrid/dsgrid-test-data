@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Selector for individual dsgrid CONUS 2022 residential sectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:00.686531",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "sectors_-_com-res-ind-trans__residential_sectors__c90bc9a8-89a3-4b55-9457-e00f854b3881",
+}

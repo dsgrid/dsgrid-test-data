@@ -1,0 +1,13 @@
+{
+  name: "Conus-2022-reference",
+  display_name: "Reference",
+  dimension_query_name: "reference",
+  type: "scenario",
+  id: "conus-2022-reference__659623ea-9932-4350-8c3f-6c96d1e7de7c",
+  module: "dsgrid.dimension.standard",
+  "class": "Scenario",
+  description: "Scenario: CONUS (Continental U.S.) 2022 Reference",
+  file: "scenario_conus_2022_reference.csv",
+  file_hash: "c88f55be16328725eb0ab5c738b4d7e2bfebf4595993af9672a3a07e260c59b9",
+  dimension_class: null,
+}

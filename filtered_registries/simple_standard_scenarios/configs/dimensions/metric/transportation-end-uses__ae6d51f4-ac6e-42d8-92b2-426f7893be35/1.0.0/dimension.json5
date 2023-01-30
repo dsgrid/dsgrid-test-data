@@ -1,0 +1,13 @@
+{
+  name: "transportation-end-uses",
+  display_name: "Transportation End Uses",
+  dimension_query_name: "transportation_end_uses",
+  type: "metric",
+  id: "transportation-end-uses__ae6d51f4-ac6e-42d8-92b2-426f7893be35",
+  module: "dsgrid.dimension.standard",
+  "class": "EnergyEndUse",
+  description: "Transportation End Uses",
+  file: "transportation_end_uses_kwh.csv",
+  file_hash: "58e7dbed8338bbac24392a91451e9e54ffad3b45779bf1952816041657ddf83c",
+  dimension_class: null,
+}

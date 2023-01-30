@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "ReEDS Power Control Areas",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:51:42.825019",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "reeds_pca__2095cb65-4f09-4023-b633-79e24d66c7b8",
+}

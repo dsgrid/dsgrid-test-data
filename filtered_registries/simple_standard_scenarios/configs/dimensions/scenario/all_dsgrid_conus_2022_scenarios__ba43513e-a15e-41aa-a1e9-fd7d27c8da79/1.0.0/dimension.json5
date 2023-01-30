@@ -1,0 +1,13 @@
+{
+  name: "all_dsgrid_conus_2022_scenarios",
+  display_name: "All Scenarios",
+  dimension_query_name: "all_scenarios",
+  type: "scenario",
+  id: "all_dsgrid_conus_2022_scenarios__ba43513e-a15e-41aa-a1e9-fd7d27c8da79",
+  module: "dsgrid.dimension.base_models",
+  "class": "DimensionRecordBaseModel",
+  description: "All Scenarios",
+  file: "all_scenarios.csv",
+  file_hash: "4f71015d8cf95ee01e7b32597964056906393a7b41e837c2b1992e1326641017",
+  dimension_class: null,
+}

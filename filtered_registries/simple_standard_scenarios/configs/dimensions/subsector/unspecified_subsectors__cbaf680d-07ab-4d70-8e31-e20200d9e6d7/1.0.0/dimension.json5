@@ -1,0 +1,13 @@
+{
+  name: "Unspecified Subsectors",
+  display_name: "Unspecified Subsectors",
+  dimension_query_name: "unspecified_subsectors",
+  type: "subsector",
+  id: "unspecified_subsectors__cbaf680d-07ab-4d70-8e31-e20200d9e6d7",
+  module: "dsgrid.dimension.standard",
+  "class": "Subsector",
+  description: "Subsectors Unspecified",
+  file: "subsectors_unspecified.csv",
+  file_hash: "b1edadcfdcba885f75406af7e8c6ec76bcd74a7fff21e34cb1fcbba8cf837c5e",
+  dimension_class: null,
+}

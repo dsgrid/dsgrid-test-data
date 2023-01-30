@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "US counties for L48, Census 2020 vintage, no territories",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:51:42.504848",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "us_counties_2020_l48__fc6241a5-5722-4461-90fd-4e31f1d51a74",
+}

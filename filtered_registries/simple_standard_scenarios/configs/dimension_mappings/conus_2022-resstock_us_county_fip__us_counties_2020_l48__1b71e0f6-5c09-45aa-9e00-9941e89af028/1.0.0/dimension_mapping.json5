@@ -1,0 +1,20 @@
+{
+  mapping_type: "one_to_one",
+  archetype: "one_to_one_map_fraction_sum_from_id_eq1",
+  from_dimension: {
+    type: "geography",
+    dimension_id: "conus_2022-resstock_us_county_fip__75b59484-f7a6-4da2-ba84-b517c23acb39",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "geography",
+    dimension_id: "us_counties_2020_l48__fc6241a5-5722-4461-90fd-4e31f1d51a74",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "ResStock CONUS 2022 counties to project counties",
+  id: "conus_2022-resstock_us_county_fip__us_counties_2020_l48__1b71e0f6-5c09-45aa-9e00-9941e89af028",
+  file: "county_to_county.csv",
+  file_hash: "860cf52971a8000da6a0f0ee7e7e6ed1c6e77602bd77c4f4311be35e98140637",
+}

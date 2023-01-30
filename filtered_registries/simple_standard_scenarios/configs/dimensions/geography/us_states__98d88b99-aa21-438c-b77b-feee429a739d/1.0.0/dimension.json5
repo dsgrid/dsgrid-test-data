@@ -1,0 +1,13 @@
+{
+  name: "US States",
+  display_name: "State",
+  dimension_query_name: "state",
+  type: "geography",
+  id: "us_states__98d88b99-aa21-438c-b77b-feee429a739d",
+  module: "dsgrid.dimension.standard",
+  "class": "State",
+  description: "US States",
+  file: "states.csv",
+  file_hash: "91c1d274684aef03d6dd57138d8d385e526b37fb64072eea5d75ccde635a8ee8",
+  dimension_class: null,
+}

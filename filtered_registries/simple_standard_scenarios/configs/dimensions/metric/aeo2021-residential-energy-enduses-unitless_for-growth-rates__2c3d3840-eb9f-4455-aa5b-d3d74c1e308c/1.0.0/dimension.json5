@@ -1,0 +1,13 @@
+{
+  name: "AEO2021-residential-energy-enduses-unitless_for-growth-rates",
+  display_name: "AEO Residential End Uses",
+  dimension_query_name: "aeo_residential_end_uses",
+  type: "metric",
+  id: "aeo2021-residential-energy-enduses-unitless_for-growth-rates__2c3d3840-eb9f-4455-aa5b-d3d74c1e308c",
+  module: "dsgrid.dimension.standard",
+  "class": "EnergyEndUse",
+  description: "AEO 2021 residential energy end uses, condensed to map to ResStock (N=18 from 6 end uses, 5 fuel types)",
+  file: "aeo2021_residential_condensed_energy_enduses.csv",
+  file_hash: "e59b91d5cc5886fb2dc49973b858c1fd43f15e45ec92fbbe8bb7b0f78b57a432",
+  dimension_class: null,
+}

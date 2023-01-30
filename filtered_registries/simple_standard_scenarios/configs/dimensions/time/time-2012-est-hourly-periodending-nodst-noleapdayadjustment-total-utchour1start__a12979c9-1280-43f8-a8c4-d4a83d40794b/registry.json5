@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Time dimension, 2012 hourly EST, period-ending, no DST, no Leap Day Adjustment, total value",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:15.107270",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "time-2012-est-hourly-periodending-nodst-noleapdayadjustment-total-utchour1start__a12979c9-1280-43f8-a8c4-d4a83d40794b",
+}
