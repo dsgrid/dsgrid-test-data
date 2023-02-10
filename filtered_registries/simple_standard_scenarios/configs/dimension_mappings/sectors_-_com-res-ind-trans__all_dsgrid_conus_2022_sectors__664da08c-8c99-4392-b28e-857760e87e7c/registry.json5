@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Aggregation map for all sectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:00.686531",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "sectors_-_com-res-ind-trans__all_dsgrid_conus_2022_sectors__664da08c-8c99-4392-b28e-857760e87e7c",
+}

@@ -1,0 +1,13 @@
+{
+  name: "conus_2022-comstock_energy_enduses_kwh",
+  display_name: "ComStock End Use",
+  dimension_query_name: "comstock_end_use",
+  type: "metric",
+  id: "conus_2022-comstock_energy_enduses_kwh__6634bfd3-5c8a-4122-9862-869fa85a0844",
+  module: "dsgrid.dimension.standard",
+  "class": "EnergyEndUse",
+  description: "CONUS 2022 - ComStock end uses (N=21, 4 fuel types)",
+  file: "conus_2022-comstock_end_uses.csv",
+  file_hash: "94ecb30ff740176afde268e00d3a5e9534e202f16431956a7da461145721dc3d",
+  dimension_class: null,
+}

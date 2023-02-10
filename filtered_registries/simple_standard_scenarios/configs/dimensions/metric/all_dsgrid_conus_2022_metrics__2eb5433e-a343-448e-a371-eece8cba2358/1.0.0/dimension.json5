@@ -1,0 +1,13 @@
+{
+  name: "all_dsgrid_conus_2022_metrics",
+  display_name: "All Metrics",
+  dimension_query_name: "all_metrics",
+  type: "metric",
+  id: "all_dsgrid_conus_2022_metrics__2eb5433e-a343-448e-a371-eece8cba2358",
+  module: "dsgrid.dimension.base_models",
+  "class": "DimensionRecordBaseModel",
+  description: "All Metrics",
+  file: "all_metrics.csv",
+  file_hash: "7e8fe729f7ae41f43c559c1bcfdbe4a68e39c921fea01a68c03daebb40c20d2d",
+  dimension_class: null,
+}

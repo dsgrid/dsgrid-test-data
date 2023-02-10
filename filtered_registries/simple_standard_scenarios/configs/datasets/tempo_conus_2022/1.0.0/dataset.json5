@@ -37,47 +37,42 @@
   dimension_references: [
     {
       type: "geography",
-      dimension_id: "acs_county_2018__bbb0d798-d1d1-4a01-ab8c-b144e496ddc7",
+      dimension_id: "acs_county_2018__391612d9-6008-4461-a8be-c25faec096fa",
       version: "1.0.0",
     },
     {
       type: "subsector",
-      dimension_id: "tempo_bin__8aa756fd-24fe-401a-ae3f-84d32d898882",
+      dimension_id: "tempo_bin__cc712326-5f54-482b-9f04-771e3a05dfd2",
       version: "1.0.0",
     },
     {
       type: "metric",
-      dimension_id: "tempo_ldv_pev_usage__9938922b-13c1-42a5-bbb9-1d278a03e5fc",
+      dimension_id: "tempo_ldv_pev_usage__80bfac36-8fb0-4ed2-b9d0-9233459e515f",
       version: "1.0.0",
     },
     {
       type: "time",
-      dimension_id: "time_of_week_by_month__18d2656e-56d6-4ad8-9666-5d63be978f5b",
-      version: "1.0.0",
-    },
-    {
-      type: "data_source",
-      dimension_id: "tempo_model__ed9c1773-6131-4713-9f73-7d0212a0edd3",
+      dimension_id: "time_of_week_by_month__d6c1c8ec-ba59-465d-86f1-8b17e97e429c",
       version: "1.0.0",
     },
     {
       type: "model_year",
-      dimension_id: "tempo_model_year__4729311a-ff12-4c9e-bf78-b3cc74622b03",
+      dimension_id: "tempo_model_year__40e22214-ecfd-4794-9e26-a27595921e69",
       version: "1.0.0",
     },
     {
       type: "sector",
-      dimension_id: "transportation_sector__b33865a0-31e0-4bfa-9137-427acf848a3f",
+      dimension_id: "transportation_sector__28efb43b-92d0-4b33-bd36-7ed2d24c4417",
       version: "1.0.0",
     },
     {
       type: "scenario",
-      dimension_id: "technology_and_policy_scenario__6e67060e-e98a-4528-bb9b-39336d0b684e",
+      dimension_id: "technology_and_policy_scenario__dcf5a05e-cacd-4d14-8b73-cbf950e5aab5",
       version: "1.0.0",
     },
     {
       type: "weather_year",
-      dimension_id: "2012_weather_year__8bfc344c-a40f-447b-a63a-bbebcd4d54db",
+      dimension_id: "2012_weather_year__3863db63-1817-4ffa-aaad-8e40e613b7d9",
       version: "1.0.0",
     },
   ],
@@ -85,6 +80,5 @@
   trivial_dimensions: [
     "sector",
     "weather_year",
-    "data_source",
   ],
 }

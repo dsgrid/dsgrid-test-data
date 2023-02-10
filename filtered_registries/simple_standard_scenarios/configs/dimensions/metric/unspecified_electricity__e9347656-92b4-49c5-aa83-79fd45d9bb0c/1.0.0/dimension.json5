@@ -1,0 +1,13 @@
+{
+  name: "Unspecified Electricity",
+  display_name: "Unspecified Electricity",
+  dimension_query_name: "unspecified_electricity",
+  type: "metric",
+  id: "unspecified_electricity__e9347656-92b4-49c5-aa83-79fd45d9bb0c",
+  module: "dsgrid.dimension.standard",
+  "class": "EnergyEndUse",
+  description: "Unspecified Electricity",
+  file: "metric.csv",
+  file_hash: "6e60cb2370014c26387c1f449d040c99e2fdfd858f129c5fe0020c6bf07f768a",
+  dimension_class: null,
+}

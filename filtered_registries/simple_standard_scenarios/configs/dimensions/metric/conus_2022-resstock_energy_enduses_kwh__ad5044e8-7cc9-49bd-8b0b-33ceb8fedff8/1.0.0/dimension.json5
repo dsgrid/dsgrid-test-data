@@ -1,0 +1,13 @@
+{
+  name: "conus_2022-resstock_energy_enduses_kwh",
+  display_name: "ResStock End Use",
+  dimension_query_name: "resstock_end_use",
+  type: "metric",
+  id: "conus_2022-resstock_energy_enduses_kwh__ad5044e8-7cc9-49bd-8b0b-33ceb8fedff8",
+  module: "dsgrid.dimension.standard",
+  "class": "EnergyEndUse",
+  description: "CONUS 2022 - ResStock end uses (N=48, 5 fuel types)",
+  file: "conus_2022-resstock_end_uses.csv",
+  file_hash: "3fc5d532d3f3c02f4485d5c21875704ee83d997ab21b741c2ccb0d66b3e53f42",
+  dimension_class: null,
+}

@@ -1,0 +1,20 @@
+{
+  mapping_type: "many_to_one_aggregation",
+  archetype: "many_to_one_map_fraction_sum_from_id_eq1",
+  from_dimension: {
+    type: "geography",
+    dimension_id: "us_counties_2020_l48__fc6241a5-5722-4461-90fd-4e31f1d51a74",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "geography",
+    dimension_id: "us_census_divisions__fc7e111b-31e9-4e7c-9fd0-ee2c9576168c",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "Maps US Counties 2020 L48 to CensusDivision",
+  id: "us_counties_2020_l48__us_census_divisions__29714948-473a-4ca8-894f-69cfac1e39f2",
+  file: "lookup_county_to_censusdivision.csv",
+  file_hash: "5cdd727d331d0927d0d94b6c2fb473656e4760ae9a1dd67ab23b0744a14706f1",
+}

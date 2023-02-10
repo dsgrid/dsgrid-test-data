@@ -1,0 +1,13 @@
+{
+  name: "Model_Years-trivial-2013_to_2050",
+  display_name: "AEO Model Years",
+  dimension_query_name: "aeo_model_years",
+  type: "model_year",
+  id: "model_years-trivial-2013_to_2050__655a1497-0397-4ae6-b264-18e7120ed871",
+  module: "dsgrid.dimension.standard",
+  "class": "ModelYear",
+  description: "Model years, 2013-2050, trivial, single record",
+  file: "model_years_trivial_2013_to_2050.csv",
+  file_hash: "439f913536969dadfd2b64ee490473afc14aca23a65a2a8c7a2a3e63203133ba",
+  dimension_class: null,
+}

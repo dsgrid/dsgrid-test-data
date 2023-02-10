@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Transportation Subsectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:51:42.825019",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "transportation_subsectors__e1f95e9a-c8d7-4678-9635-c046980a8f67",
+}

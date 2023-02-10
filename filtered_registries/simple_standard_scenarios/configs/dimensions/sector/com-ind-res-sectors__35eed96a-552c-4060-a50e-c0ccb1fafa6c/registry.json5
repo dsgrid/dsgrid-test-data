@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Commercial, Industrial, and Residential Sectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:15.107270",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "com-ind-res-sectors__35eed96a-552c-4060-a50e-c0ccb1fafa6c",
+}

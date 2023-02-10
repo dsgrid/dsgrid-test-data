@@ -1,0 +1,20 @@
+{
+  mapping_type: "one_to_one",
+  archetype: "one_to_one_map_fraction_sum_from_id_eq1",
+  from_dimension: {
+    type: "metric",
+    dimension_id: "tempo_ldv_pev_usage__80bfac36-8fb0-4ed2-b9d0-9233459e515f",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "metric",
+    dimension_id: "conus-2022-detailed-end-uses-kwh__cc18871d-08a5-45a7-83c6-0146596c4948",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "TEMPO CONUS 2022 End Uses to dsgrid CONUS 2022 End Uses w/ all units in kWh",
+  id: "tempo_ldv_pev_usage__conus-2022-detailed-end-uses-kwh__4da7caad-a0ea-425a-bc73-6a0b4d5592a6",
+  file: "metric_to_metric.csv",
+  file_hash: "bc4c17a46da03818bdea747a3eec1f88978f27930eb03c8f69a02703823790fe",
+}

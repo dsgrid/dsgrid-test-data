@@ -130,7 +130,7 @@
             base: [],
             supplemental: [
               {
-                name: "transportation-end-uses",
+                name: "transportation-end-uses-collapsed",
                 record_ids: [
                   "transportation_end_uses",
                 ],
@@ -155,7 +155,7 @@
             base: [],
             supplemental: [
               {
-                name: "Subsectors by Sector",
+                name: "Subsectors by Sector Collapsed",
                 record_ids: [
                   "transportation_subsectors",
                 ],
@@ -186,7 +186,7 @@
             base: [],
             supplemental: [
               {
-                name: "residential-end-uses",
+                name: "residential-end-uses-collapsed",
                 record_ids: [
                   "residential_end_uses",
                 ],
@@ -213,7 +213,63 @@
             base: [],
             supplemental: [
               {
-                name: "Subsectors by Sector",
+                name: "Subsectors by Sector Collapsed",
+                record_ids: [
+                  "residential_subsectors",
+                ],
+              },
+            ],
+          },
+          weather_year: {
+            base: [],
+            supplemental: [],
+          },
+        },
+        multi_dimensional: [],
+      },
+      mapping_references: [],
+      status: "Unregistered",
+    },
+    {
+      dataset_id: "resstock_projected_conus_2022",
+      dataset_type: "modeled",
+      version: "1.0.0",
+      required_dimensions: {
+        single_dimensional: {
+          geography: {
+            base: [],
+            supplemental: [],
+          },
+          metric: {
+            base: [],
+            supplemental: [
+              {
+                name: "residential-end-uses-collapsed",
+                record_ids: [
+                  "residential_end_uses",
+                ],
+              },
+            ],
+          },
+          model_year: {
+            base: [],
+            supplemental: [],
+          },
+          scenario: {
+            base: [],
+            supplemental: [],
+          },
+          sector: {
+            base: [
+              "res",
+            ],
+            supplemental: [],
+          },
+          subsector: {
+            base: [],
+            supplemental: [
+              {
+                name: "Subsectors by Sector Collapsed",
                 record_ids: [
                   "residential_subsectors",
                 ],
@@ -244,7 +300,7 @@
             base: [],
             supplemental: [
               {
-                name: "residential-end-uses",
+                name: "residential-end-uses-collapsed",
                 record_ids: [
                   "residential_end_uses",
                 ],
@@ -269,7 +325,7 @@
             base: [],
             supplemental: [
               {
-                name: "Subsectors by Sector",
+                name: "Subsectors by Sector Collapsed",
                 record_ids: [
                   "residential_subsectors",
                 ],
@@ -300,7 +356,7 @@
             base: [],
             supplemental: [
               {
-                name: "commercial-end-uses",
+                name: "commercial-end-uses-collapsed",
                 record_ids: [
                   "commercial_end_uses",
                 ],
@@ -327,7 +383,63 @@
             base: [],
             supplemental: [
               {
-                name: "Subsectors by Sector",
+                name: "Subsectors by Sector Collapsed",
+                record_ids: [
+                  "commercial_subsectors",
+                ],
+              },
+            ],
+          },
+          weather_year: {
+            base: [],
+            supplemental: [],
+          },
+        },
+        multi_dimensional: [],
+      },
+      mapping_references: [],
+      status: "Unregistered",
+    },
+    {
+      dataset_id: "comstock_projected_conus_2022",
+      dataset_type: "modeled",
+      version: "1.0.0",
+      required_dimensions: {
+        single_dimensional: {
+          geography: {
+            base: [],
+            supplemental: [],
+          },
+          metric: {
+            base: [],
+            supplemental: [
+              {
+                name: "commercial-end-uses-collapsed",
+                record_ids: [
+                  "commercial_end_uses",
+                ],
+              },
+            ],
+          },
+          model_year: {
+            base: [],
+            supplemental: [],
+          },
+          scenario: {
+            base: [],
+            supplemental: [],
+          },
+          sector: {
+            base: [
+              "com",
+            ],
+            supplemental: [],
+          },
+          subsector: {
+            base: [],
+            supplemental: [
+              {
+                name: "Subsectors by Sector Collapsed",
                 record_ids: [
                   "commercial_subsectors",
                 ],
@@ -358,7 +470,7 @@
             base: [],
             supplemental: [
               {
-                name: "commercial-end-uses",
+                name: "commercial-end-uses-collapsed",
                 record_ids: [
                   "commercial_end_uses",
                 ],
@@ -383,7 +495,7 @@
             base: [],
             supplemental: [
               {
-                name: "Subsectors by Sector",
+                name: "Subsectors by Sector Collapsed",
                 record_ids: [
                   "commercial_subsectors",
                 ],
@@ -454,47 +566,42 @@
     base_dimension_references: [
       {
         type: "geography",
-        dimension_id: "us_counties_2020_l48__c58285e8-fda2-4b8c-b93e-8aaac5146a12",
+        dimension_id: "us_counties_2020_l48__fc6241a5-5722-4461-90fd-4e31f1d51a74",
         version: "1.0.0",
       },
       {
         type: "sector",
-        dimension_id: "sectors_-_com-res-ind-trans__8d8afd27-45bf-4527-a45b-0c0fc7022233",
+        dimension_id: "sectors_-_com-res-ind-trans__bb4728de-d98f-41f8-9982-05eacfc05fe7",
         version: "1.0.0",
       },
       {
         type: "subsector",
-        dimension_id: "conus-2022-detailed-subsectors__f2e2f253-9112-4a93-a6fe-de752755ff30",
+        dimension_id: "conus-2022-detailed-subsectors__619936c7-8b87-447d-8db3-cd1b91136b3f",
         version: "1.0.0",
       },
       {
         type: "metric",
-        dimension_id: "conus-2022-detailed-end-uses-kwh__225a930d-4b77-4be6-bdeb-c7a7c43ddd83",
+        dimension_id: "conus-2022-detailed-end-uses-kwh__cc18871d-08a5-45a7-83c6-0146596c4948",
         version: "1.0.0",
       },
       {
         type: "model_year",
-        dimension_id: "model_years_2010_to_2050__9ed89e2f-ff59-421c-8e78-043a1654490f",
+        dimension_id: "model_years_2010_to_2050__847c7687-0b68-4fcf-9269-1bf408901adf",
         version: "1.0.0",
       },
       {
         type: "scenario",
-        dimension_id: "conus-2022-scenarios__abf41b88-10ec-472b-9fbc-6dcccec6cae2",
-        version: "1.0.0",
-      },
-      {
-        type: "data_source",
-        dimension_id: "data-sources_for_dsgrid_standard_scenarios_2021__e27716bd-a07e-4773-ad85-103a118b89cb",
+        dimension_id: "conus-2022-scenarios__a2920bdb-7bef-4d91-9c22-9cfa1c3e0dc0",
         version: "1.0.0",
       },
       {
         type: "time",
-        dimension_id: "time-2012-est-hourly-periodbeginning-noleapdayadjustment-total__26017972-3793-437e-88c7-82361d709e31",
+        dimension_id: "time-2012-est-hourly-periodbeginning-noleapdayadjustment-total__af93a57a-119d-496a-8321-2b9ef5c728e7",
         version: "1.0.0",
       },
       {
         type: "weather_year",
-        dimension_id: "2012_weather_year__8bfc344c-a40f-447b-a63a-bbebcd4d54db",
+        dimension_id: "2012_weather_year__02313d97-1239-444f-9fc9-ef1466e4b973",
         version: "1.0.0",
       },
     ],
@@ -502,87 +609,132 @@
     supplemental_dimension_references: [
       {
         type: "geography",
-        dimension_id: "us_states_l48__0576e20e-0873-4cba-9acb-ce19019b9440",
+        dimension_id: "us_states_l48__6c72d033-4898-4ca9-b45d-bab9853185e5",
         version: "1.0.0",
       },
       {
         type: "geography",
-        dimension_id: "us_census_regions__f2eb2727-d3d4-445e-a392-6dbdb55e5666",
+        dimension_id: "us_census_regions__e7d2a255-a191-47ad-b9df-f70db2bd99d9",
         version: "1.0.0",
       },
       {
         type: "geography",
-        dimension_id: "us_census_divisions__bd60efbc-31f4-4d57-81cb-90888b16edbd",
+        dimension_id: "us_census_divisions__fc7e111b-31e9-4e7c-9fd0-ee2c9576168c",
         version: "1.0.0",
       },
       {
         type: "geography",
-        dimension_id: "reeds_pca__502c4874-5b7a-4eff-93dd-6c03a423055f",
+        dimension_id: "reeds_pca__2095cb65-4f09-4023-b633-79e24d66c7b8",
         version: "1.0.0",
       },
       {
         type: "metric",
-        dimension_id: "all-electric-end-uses__54ddf764-52a3-4df2-91d6-2a462d99133f",
+        dimension_id: "all-electric-end-uses-collapsed__c2dcf4cd-9063-4d54-bec3-48b7528550f0",
         version: "1.0.0",
       },
       {
         type: "metric",
-        dimension_id: "commercial-end-uses__8d55ff31-0e00-480f-9494-4e35045b8147",
+        dimension_id: "commercial-end-uses-collapsed__af12d091-77a5-40d5-9303-af25da562b9d",
         version: "1.0.0",
       },
       {
         type: "metric",
-        dimension_id: "residential-end-uses__a3f6aca1-ab0b-4224-b9d7-87601aa2e454",
+        dimension_id: "residential-end-uses-collapsed__bc0085c6-5f31-4bbc-b9c9-71c232b14487",
         version: "1.0.0",
       },
       {
         type: "metric",
-        dimension_id: "transportation-end-uses__f412b185-34c4-455d-a44e-d479ea81ec02",
+        dimension_id: "transportation-end-uses-collapsed__1fa2cddc-5ae2-4870-9ed7-25c3e29b0467",
         version: "1.0.0",
       },
       {
         type: "subsector",
-        dimension_id: "subsectors_by_sector__3ec49827-61c8-4e52-954b-f03be5345600",
+        dimension_id: "subsectors_by_sector_collapsed__70d05161-e130-49a7-ae28-91d11dacc315",
         version: "1.0.0",
       },
       {
         type: "metric",
-        dimension_id: "all_dsgrid_conus_2022_metrics__9b86a8e2-caf0-458b-8c0c-09c847583f66",
+        dimension_id: "all-electric-end-uses__193491b6-10ae-48af-a46d-0e0b6385e535",
         version: "1.0.0",
       },
       {
-        type: "geography",
-        dimension_id: "all_dsgrid_conus_2022_geographies__e661f965-3b0e-4955-8397-1d4e7c6cef55",
+        type: "metric",
+        dimension_id: "commercial-end-uses__defb339d-17e9-41c5-b7ba-24f6af0e02bb",
+        version: "1.0.0",
+      },
+      {
+        type: "metric",
+        dimension_id: "residential-end-uses__d5992a92-33fa-4a53-bb0a-92f7f4f33f2f",
+        version: "1.0.0",
+      },
+      {
+        type: "metric",
+        dimension_id: "transportation-end-uses__ae6d51f4-ac6e-42d8-92b2-426f7893be35",
         version: "1.0.0",
       },
       {
         type: "sector",
-        dimension_id: "all_dsgrid_conus_2022_sectors__64fd4563-7384-42ac-be71-2685406fef63",
+        dimension_id: "commercial_sectors__7866af63-8c61-4a5a-ab45-5fd009bb1eab",
+        version: "1.0.0",
+      },
+      {
+        type: "sector",
+        dimension_id: "residential_sectors__531b2c47-dd87-47d7-935b-edbe2c38376b",
+        version: "1.0.0",
+      },
+      {
+        type: "sector",
+        dimension_id: "transportation_sectors__1eb5bb10-055b-471a-a815-fd4c821f62e6",
         version: "1.0.0",
       },
       {
         type: "subsector",
-        dimension_id: "all_dsgrid_conus_2022_subsectors__3a911b85-323c-4ca1-ac76-962b4868ef8f",
+        dimension_id: "commercial_subsectors__6190ba5e-8f1a-40ca-8acc-60288afcc595",
+        version: "1.0.0",
+      },
+      {
+        type: "subsector",
+        dimension_id: "residential_subsectors__a3f7abc4-e545-4b45-b73e-19ea8164fb1f",
+        version: "1.0.0",
+      },
+      {
+        type: "subsector",
+        dimension_id: "transportation_subsectors__e1f95e9a-c8d7-4678-9635-c046980a8f67",
+        version: "1.0.0",
+      },
+      {
+        type: "metric",
+        dimension_id: "all_dsgrid_conus_2022_metrics__2eb5433e-a343-448e-a371-eece8cba2358",
+        version: "1.0.0",
+      },
+      {
+        type: "geography",
+        dimension_id: "all_dsgrid_conus_2022_geographies__1aaf6b6f-190c-4b19-a049-ed4c2cf109da",
+        version: "1.0.0",
+      },
+      {
+        type: "sector",
+        dimension_id: "all_dsgrid_conus_2022_sectors__3ccf87ef-e5c6-49cd-abd5-6662b1052051",
+        version: "1.0.0",
+      },
+      {
+        type: "subsector",
+        dimension_id: "all_dsgrid_conus_2022_subsectors__b1698a02-adf8-4446-ad00-80060c891a62",
         version: "1.0.0",
       },
       {
         type: "weather_year",
-        dimension_id: "all_dsgrid_conus_2022_weather_years__59251a97-889a-42dc-b362-6c7498f0b6d7",
+        dimension_id: "all_dsgrid_conus_2022_weather_years__3377b902-2ae6-484f-b48a-ac65e29fddc6",
         version: "1.0.0",
       },
       {
         type: "model_year",
-        dimension_id: "all_dsgrid_conus_2022_model_years__a8323da0-de8f-4eff-8015-fefb9493e81e",
+        dimension_id: "all_dsgrid_conus_2022_model_years__48b53d47-9062-45a2-a2e5-887829eec10c",
         version: "1.0.0",
       },
       {
         type: "scenario",
-        dimension_id: "all_dsgrid_conus_2022_scenarios__4f6aa758-5086-4a02-a6fd-4c3a32819573",
-        version: "1.0.0",
-      },
-      {
-        type: "data_source",
-        dimension_id: "all_dsgrid_conus_2022_data_sources__34f5fc22-623c-4eb9-ac74-e438db9e9d23",
+        dimension_id: "all_dsgrid_conus_2022_scenarios__ba43513e-a15e-41aa-a1e9-fd7d27c8da79",
         version: "1.0.0",
       },
     ],
@@ -593,119 +745,182 @@
       {
         from_dimension_type: "geography",
         to_dimension_type: "geography",
-        mapping_id: "us_counties_2020_l48__us_census_regions__b3a2a837-2577-4fa2-83da-9ff75b7bbbb3",
+        mapping_id: "us_counties_2020_l48__us_census_regions__9fcafd9e-0e4e-4d22-8d0a-f3bfcaea386a",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "geography",
         to_dimension_type: "geography",
-        mapping_id: "us_counties_2020_l48__us_census_divisions__a26bc660-c5a6-4e64-93ff-df3039d39732",
+        mapping_id: "us_counties_2020_l48__us_census_divisions__29714948-473a-4ca8-894f-69cfac1e39f2",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "geography",
         to_dimension_type: "geography",
-        mapping_id: "us_counties_2020_l48__us_states_l48__1726b3de-e44a-4695-a269-c932a2e10b8d",
+        mapping_id: "us_counties_2020_l48__us_states_l48__ce1584b4-2393-49f0-875d-241b15a6542f",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "geography",
         to_dimension_type: "geography",
-        mapping_id: "us_counties_2020_l48__reeds_pca__551dea43-b237-4296-a00a-4665f89533b7",
+        mapping_id: "us_counties_2020_l48__reeds_pca__dd8e2e16-4dc6-4df6-ac96-9cde3d40e2aa",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "metric",
         to_dimension_type: "metric",
-        mapping_id: "conus-2022-detailed-end-uses-kwh__all-electric-end-uses__4db2da4d-db49-432a-ab07-0db530f94b9f",
+        mapping_id: "conus-2022-detailed-end-uses-kwh__all-electric-end-uses-collapsed__489d6092-ce72-4ae7-9175-d6950ce832f6",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "metric",
         to_dimension_type: "metric",
-        mapping_id: "conus-2022-detailed-end-uses-kwh__commercial-end-uses__2181fcd3-d1f2-49ed-a3b6-3e53a4548db8",
+        mapping_id: "conus-2022-detailed-end-uses-kwh__all-electric-end-uses__f1bfdf96-213d-47c7-abb5-d111e55f2f30",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "metric",
         to_dimension_type: "metric",
-        mapping_id: "conus-2022-detailed-end-uses-kwh__residential-end-uses__b6525795-425f-42bb-a68e-1cce5d06c254",
+        mapping_id: "conus-2022-detailed-end-uses-kwh__commercial-end-uses-collapsed__2b0d63fd-69e7-4be6-ae2f-fc0e571a62b8",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "metric",
         to_dimension_type: "metric",
-        mapping_id: "conus-2022-detailed-end-uses-kwh__transportation-end-uses__a37c87b6-7a78-4c9d-b3ae-87db4cfbb5f8",
-        version: "1.0.0",
-        required_for_validation: true,
-      },
-      {
-        from_dimension_type: "subsector",
-        to_dimension_type: "subsector",
-        mapping_id: "conus-2022-detailed-subsectors__subsectors_by_sector__63197ccc-5597-4a1f-8100-f23e9412bc97",
+        mapping_id: "conus-2022-detailed-end-uses-kwh__commercial-end-uses__d7a5327f-6b68-4f17-a349-8de997a2dbf1",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "metric",
         to_dimension_type: "metric",
-        mapping_id: "conus-2022-detailed-end-uses-kwh__all_dsgrid_conus_2022_metrics__e616dc05-65ca-43c2-a6b9-4774278cf2e0",
+        mapping_id: "conus-2022-detailed-end-uses-kwh__residential-end-uses-collapsed__08a38559-0230-4363-a70a-7fcb0a7aa352",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
-        from_dimension_type: "geography",
-        to_dimension_type: "geography",
-        mapping_id: "us_counties_2020_l48__all_dsgrid_conus_2022_geographies__dd3cd322-a61e-453d-8324-754a3b8211d3",
+        from_dimension_type: "metric",
+        to_dimension_type: "metric",
+        mapping_id: "conus-2022-detailed-end-uses-kwh__residential-end-uses__44e0b730-30b9-4f1f-a695-f889eb2e5758",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "metric",
+        to_dimension_type: "metric",
+        mapping_id: "conus-2022-detailed-end-uses-kwh__transportation-end-uses-collapsed__9e7816cf-73ff-4b8b-b267-c0172c1bbc85",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "metric",
+        to_dimension_type: "metric",
+        mapping_id: "conus-2022-detailed-end-uses-kwh__transportation-end-uses__b5c42d6f-60e7-4eb1-a788-1403bb04deaf",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "sector",
         to_dimension_type: "sector",
-        mapping_id: "sectors_-_com-res-ind-trans__all_dsgrid_conus_2022_sectors__507bec8c-501e-4972-a3b8-0288ddcb7df5",
+        mapping_id: "sectors_-_com-res-ind-trans__commercial_sectors__e0c9848f-336b-4302-95c1-d7f8f35be389",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "sector",
+        to_dimension_type: "sector",
+        mapping_id: "sectors_-_com-res-ind-trans__residential_sectors__c90bc9a8-89a3-4b55-9457-e00f854b3881",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "sector",
+        to_dimension_type: "sector",
+        mapping_id: "sectors_-_com-res-ind-trans__transportation_sectors__91ba64c4-2397-4090-9e68-7d83a56ab563",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "subsector",
         to_dimension_type: "subsector",
-        mapping_id: "conus-2022-detailed-subsectors__all_dsgrid_conus_2022_subsectors__b385e8f6-1717-464b-82dd-b7cf0752bfb0",
+        mapping_id: "conus-2022-detailed-subsectors__subsectors_by_sector_collapsed__c1e9983b-dc3f-4d7d-b6c7-c69edb7eb80f",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "subsector",
+        to_dimension_type: "subsector",
+        mapping_id: "conus-2022-detailed-subsectors__commercial_subsectors__284f385f-0b7c-4e51-ae05-40b8ece48768",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "subsector",
+        to_dimension_type: "subsector",
+        mapping_id: "conus-2022-detailed-subsectors__residential_subsectors__db824bd2-7d1b-47f5-af27-4f836faf70ff",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "subsector",
+        to_dimension_type: "subsector",
+        mapping_id: "conus-2022-detailed-subsectors__transportation_subsectors__60db9548-f672-4e8a-b5ff-88f31798cb41",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "metric",
+        to_dimension_type: "metric",
+        mapping_id: "conus-2022-detailed-end-uses-kwh__all_dsgrid_conus_2022_metrics__e53cbbfa-b967-4037-8b4a-66404284bf2d",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "geography",
+        to_dimension_type: "geography",
+        mapping_id: "us_counties_2020_l48__all_dsgrid_conus_2022_geographies__24f01c95-b022-4a46-820a-883589ef65e9",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "sector",
+        to_dimension_type: "sector",
+        mapping_id: "sectors_-_com-res-ind-trans__all_dsgrid_conus_2022_sectors__664da08c-8c99-4392-b28e-857760e87e7c",
+        version: "1.0.0",
+        required_for_validation: true,
+      },
+      {
+        from_dimension_type: "subsector",
+        to_dimension_type: "subsector",
+        mapping_id: "conus-2022-detailed-subsectors__all_dsgrid_conus_2022_subsectors__ab40229d-5e50-492c-a7fa-716de7a80515",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "weather_year",
         to_dimension_type: "weather_year",
-        mapping_id: "2012_weather_year__all_dsgrid_conus_2022_weather_years__5522160a-7457-419b-90c1-3e8064eb8e70",
+        mapping_id: "2012_weather_year__all_dsgrid_conus_2022_weather_years__dddcf748-25dd-4e24-8e63-6798b2cd693b",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "model_year",
         to_dimension_type: "model_year",
-        mapping_id: "model_years_2010_to_2050__all_dsgrid_conus_2022_model_years__3f473365-9b11-4d06-ba77-e815a6cddad3",
+        mapping_id: "model_years_2010_to_2050__all_dsgrid_conus_2022_model_years__678f9147-b88e-45d4-b25e-61eed538da90",
         version: "1.0.0",
         required_for_validation: true,
       },
       {
         from_dimension_type: "scenario",
         to_dimension_type: "scenario",
-        mapping_id: "conus-2022-scenarios__all_dsgrid_conus_2022_scenarios__09fe86b5-f4ad-4c6c-b950-a37e32ae7c7a",
-        version: "1.0.0",
-        required_for_validation: true,
-      },
-      {
-        from_dimension_type: "data_source",
-        to_dimension_type: "data_source",
-        mapping_id: "data-sources_for_dsgrid_standard_scenarios_2021__all_dsgrid_conus_2022_data_sources__6fa794e8-7b35-496e-9bc1-921497000c15",
+        mapping_id: "conus-2022-scenarios__all_dsgrid_conus_2022_scenarios__2f15e097-6a66-4af2-a2fe-8c97ca2b38d8",
         version: "1.0.0",
         required_for_validation: true,
       },

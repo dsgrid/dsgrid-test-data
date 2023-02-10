@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "All Model_Years",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:51:43.811305",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "all_dsgrid_conus_2022_model_years__48b53d47-9062-45a2-a2e5-887829eec10c",
+}

@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Utility Customer Electricity Sales (MWh)",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:12.011924",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "eia861_customer_sales__23a682d6-7dc4-4f22-a32f-6687110c5e59",
+}

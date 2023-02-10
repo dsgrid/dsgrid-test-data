@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "US Census Regions",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:51:42.825019",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "us_census_regions__e7d2a255-a191-47ad-b9df-f70db2bd99d9",
+}

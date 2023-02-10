@@ -1,0 +1,13 @@
+{
+  name: "Model-Year-2012",
+  display_name: "2012",
+  dimension_query_name: "2012",
+  type: "model_year",
+  id: "model-year-2012__ed5523ad-00a3-444e-89dc-3df68c864bc7",
+  module: "dsgrid.dimension.standard",
+  "class": "ModelYear",
+  description: "2012 Model Year",
+  file: "model_year.csv",
+  file_hash: "b4c7acc72dbd5069c5a2714640bd824c937263659a2eecde3fd9ebe722306531",
+  dimension_class: null,
+}

@@ -1,0 +1,13 @@
+{
+  name: "CONUS-2022-scenarios",
+  display_name: "Scenario",
+  dimension_query_name: "scenario",
+  type: "scenario",
+  id: "conus-2022-scenarios__a2920bdb-7bef-4d91-9c22-9cfa1c3e0dc0",
+  module: "dsgrid.dimension.standard",
+  "class": "Scenario",
+  description: "Scenarios for the dsgrid CONUS 2022 project, which include a Reference scenario and two light-duty vehicle electrification scenarios",
+  file: "scenarios.csv",
+  file_hash: "4e2f2f7b5e6237edd10e1667a03f0f68d9474b99efef81342036bf68af18057a",
+  dimension_class: null,
+}

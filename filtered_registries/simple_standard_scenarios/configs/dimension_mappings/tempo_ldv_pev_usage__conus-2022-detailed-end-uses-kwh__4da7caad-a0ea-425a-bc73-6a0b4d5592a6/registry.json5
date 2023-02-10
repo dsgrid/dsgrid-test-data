@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "TEMPO CONUS 2022 End Uses to dsgrid CONUS 2022 End Uses w/ all units in kWh",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T20:20:11.757564",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "tempo_ldv_pev_usage__conus-2022-detailed-end-uses-kwh__4da7caad-a0ea-425a-bc73-6a0b4d5592a6",
+}

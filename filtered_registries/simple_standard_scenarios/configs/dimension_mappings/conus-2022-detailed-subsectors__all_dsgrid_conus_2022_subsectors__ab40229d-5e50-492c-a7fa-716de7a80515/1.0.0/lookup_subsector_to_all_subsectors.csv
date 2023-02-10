@@ -1,0 +1,6 @@
+from_id,to_id,from_fraction
+bev_compact,all_subsectors,1.0
+hospital,all_subsectors,1.0
+medium_office,all_subsectors,1.0
+small_office,all_subsectors,1.0
+single_family_detached,all_subsectors,1.0

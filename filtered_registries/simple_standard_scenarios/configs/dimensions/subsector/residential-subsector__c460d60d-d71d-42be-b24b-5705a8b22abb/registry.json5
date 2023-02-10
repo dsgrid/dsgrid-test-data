@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Residential subsector only",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T20:46:51.911981",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "residential-subsector__c460d60d-d71d-42be-b24b-5705a8b22abb",
+}

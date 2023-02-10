@@ -6,14 +6,6 @@
       "dimensions": {
         "base_dimensions": [
           {
-            "dimension_type": "data_source",
-            "record_ids": [
-              "comstock",
-              "resstock",
-              "tempo"
-            ]
-          },
-          {
             "dimension_type": "metric",
             "record_ids": [
               "electricity_cooling",
@@ -81,9 +73,108 @@
           },
           {
             "dimension_type": "metric",
-            "dimension_query_name": "electricity",
+            "dimension_query_name": "electricity_collapsed",
             "record_ids": [
               "all_electricity"
+            ]
+          },
+          {
+            "dimension_type": "metric",
+            "dimension_query_name": "electricity",
+            "record_ids": [
+              "electricity_cooling",
+              "electricity_heating",
+              "electricity_ev_l1l2"
+            ]
+          },
+          {
+            "dimension_type": "metric",
+            "dimension_query_name": "commercial_end_uses_collapsed",
+            "record_ids": [
+              "commercial_end_uses"
+            ]
+          },
+          {
+            "dimension_type": "metric",
+            "dimension_query_name": "commercial_end_uses",
+            "record_ids": [
+              "electricity_cooling",
+              "electricity_heating",
+              "natural_gas_heating"
+            ]
+          },
+          {
+            "dimension_type": "metric",
+            "dimension_query_name": "residential_end_uses_collapsed",
+            "record_ids": [
+              "residential_end_uses"
+            ]
+          },
+          {
+            "dimension_type": "metric",
+            "dimension_query_name": "residential_end_uses",
+            "record_ids": [
+              "electricity_cooling",
+              "electricity_heating",
+              "natural_gas_heating"
+            ]
+          },
+          {
+            "dimension_type": "metric",
+            "dimension_query_name": "transportation_end_uses_collapsed",
+            "record_ids": [
+              "transportation_end_uses"
+            ]
+          },
+          {
+            "dimension_type": "metric",
+            "dimension_query_name": "transportation_end_uses",
+            "record_ids": [
+              "electricity_ev_l1l2"
+            ]
+          },
+          {
+            "dimension_type": "sector",
+            "dimension_query_name": "commercial_sectors",
+            "record_ids": [
+              "com"
+            ]
+          },
+          {
+            "dimension_type": "sector",
+            "dimension_query_name": "residential_sectors",
+            "record_ids": [
+              "res"
+            ]
+          },
+          {
+            "dimension_type": "sector",
+            "dimension_query_name": "transportation_sectors",
+            "record_ids": [
+              "trans"
+            ]
+          },
+          {
+            "dimension_type": "subsector",
+            "dimension_query_name": "commercial_subsectors",
+            "record_ids": [
+              "medium_office",
+              "small_office",
+              "hospital"
+            ]
+          },
+          {
+            "dimension_type": "subsector",
+            "dimension_query_name": "residential_subsectors",
+            "record_ids": [
+              "single_family_detached"
+            ]
+          },
+          {
+            "dimension_type": "subsector",
+            "dimension_query_name": "transportation_subsectors",
+            "record_ids": [
+              "bev_compact"
             ]
           },
           {
@@ -101,12 +192,6 @@
     {
       "dataset_id": "comstock_conus_2022_reference",
       "dimensions": [
-        {
-          "dimension_type": "data_source",
-          "record_ids": [
-            "comstock"
-          ]
-        },
         {
           "dimension_type": "metric",
           "record_ids": [
@@ -162,12 +247,6 @@
       "dataset_id": "aeo2021_reference_commercial_energy_use_growth_factors",
       "dimensions": [
         {
-          "dimension_type": "data_source",
-          "record_ids": [
-            "nems_commercial_module"
-          ]
-        },
-        {
           "dimension_type": "metric",
           "record_ids": [
             "elec_cooling",
@@ -222,12 +301,6 @@
       "dataset_id": "resstock_conus_2022_reference",
       "dimensions": [
         {
-          "dimension_type": "data_source",
-          "record_ids": [
-            "resstock"
-          ]
-        },
-        {
           "dimension_type": "metric",
           "record_ids": [
             "electricity_cooling",
@@ -280,12 +353,6 @@
       "dataset_id": "aeo2021_reference_residential_energy_use_growth_factors",
       "dimensions": [
         {
-          "dimension_type": "data_source",
-          "record_ids": [
-            "nems_residential_module"
-          ]
-        },
-        {
           "dimension_type": "metric",
           "record_ids": [
             "elec_heat_cool",
@@ -327,12 +394,6 @@
     {
       "dataset_id": "tempo_conus_2022",
       "dimensions": [
-        {
-          "dimension_type": "data_source",
-          "record_ids": [
-            "tempo"
-          ]
-        },
         {
           "dimension_type": "metric",
           "record_ids": [

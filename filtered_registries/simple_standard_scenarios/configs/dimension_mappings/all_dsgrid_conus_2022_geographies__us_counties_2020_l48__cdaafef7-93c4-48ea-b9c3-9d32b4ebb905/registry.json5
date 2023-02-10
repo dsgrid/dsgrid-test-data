@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Maps aeo2021_reference_residential_energy_use_growth_factors geography to project",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T20:47:02.917690",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "all_dsgrid_conus_2022_geographies__us_counties_2020_l48__cdaafef7-93c4-48ea-b9c3-9d32b4ebb905",
+}

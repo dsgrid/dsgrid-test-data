@@ -68,11 +68,6 @@
         version: "1.0.0",
       },
       {
-        dimension_id: "comstock_data_source__d2f50c33-8b51-4b4d-a679-46114eb5244c",
-        type: "data_source",
-        version: "1.0.0",
-      },
-      {
         dimension_id: "time-2012-est-hourly-periodbeginning-nodst-noleapdayadjustment-total__1c3e6ca3-4df0-40bb-9405-db4031937e09",
         type: "time",
         version: "1.0.0",

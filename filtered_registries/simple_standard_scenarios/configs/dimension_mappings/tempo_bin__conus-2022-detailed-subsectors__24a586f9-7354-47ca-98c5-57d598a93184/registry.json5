@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "TEMPO demographic/geographic/vehicle bins (CONUS 2022) to dsgrid CONUS 2022 Subsectors",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T20:20:11.757564",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "tempo_bin__conus-2022-detailed-subsectors__24a586f9-7354-47ca-98c5-57d598a93184",
+}

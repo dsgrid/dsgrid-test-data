@@ -1,0 +1,13 @@
+{
+  name: "all_dsgrid_conus_2022_weather_years",
+  display_name: "All Weather_Years",
+  dimension_query_name: "all_weather_years",
+  type: "weather_year",
+  id: "all_dsgrid_conus_2022_weather_years__3377b902-2ae6-484f-b48a-ac65e29fddc6",
+  module: "dsgrid.dimension.base_models",
+  "class": "DimensionRecordBaseModel",
+  description: "All Weather_Years",
+  file: "all_weather_years.csv",
+  file_hash: "0b79766d34e861d47bf55fdd336fcf3e568ea22d6709cf0a8376ec455a6ebf23",
+  dimension_class: null,
+}

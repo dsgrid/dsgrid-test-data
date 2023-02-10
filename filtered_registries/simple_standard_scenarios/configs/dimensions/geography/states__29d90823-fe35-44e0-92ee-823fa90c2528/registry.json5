@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Lower 48 Contiguous US States",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:17.891485",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "states__29d90823-fe35-44e0-92ee-823fa90c2528",
+}

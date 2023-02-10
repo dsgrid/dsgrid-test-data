@@ -1,0 +1,13 @@
+{
+  name: "residential-end-uses",
+  display_name: "Residential End Uses",
+  dimension_query_name: "residential_end_uses",
+  type: "metric",
+  id: "residential-end-uses__d5992a92-33fa-4a53-bb0a-92f7f4f33f2f",
+  module: "dsgrid.dimension.standard",
+  "class": "EnergyEndUse",
+  description: "Residential End Uses",
+  file: "residential_end_uses_kwh.csv",
+  file_hash: "a183a075e6215e368b941259b1b0ec4342c86847b40c774f73df40214a1c7866",
+  dimension_class: null,
+}

@@ -1,0 +1,20 @@
+{
+  mapping_type: "duplication",
+  archetype: "one_to_many_map",
+  from_dimension: {
+    type: "scenario",
+    dimension_id: "conus-2022__6468a938-fb66-4488-868a-66fdece6b3c3",
+    version: "1.0.0",
+  },
+  to_dimension: {
+    type: "scenario",
+    dimension_id: "conus-2022-scenarios__a2920bdb-7bef-4d91-9c22-9cfa1c3e0dc0",
+    version: "1.0.0",
+  },
+  from_fraction_tolerance: 1e-09,
+  to_fraction_tolerance: 1e-09,
+  description: "ResStock and ComStock scenario dataset-to-project dimension mapping for the CONUS 2022 project",
+  id: "conus-2022__conus-2022-scenarios__da5983c8-dcbb-452f-b766-8ea2fa3ae4a2",
+  file: "scenario_to_scenario.csv",
+  file_hash: "bde12d023300bf03a8127091d10912133ab6a4559b03f19750707771e3cdbae2",
+}

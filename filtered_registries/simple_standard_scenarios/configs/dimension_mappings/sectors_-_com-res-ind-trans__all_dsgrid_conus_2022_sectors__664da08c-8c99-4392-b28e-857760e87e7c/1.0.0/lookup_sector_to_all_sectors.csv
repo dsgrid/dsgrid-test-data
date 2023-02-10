@@ -1,0 +1,4 @@
+from_id,to_id,from_fraction
+trans,all_sectors,1.0
+com,all_sectors,1.0
+res,all_sectors,1.0

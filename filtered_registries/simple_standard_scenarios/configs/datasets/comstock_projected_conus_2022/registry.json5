@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T21:21:00.079668",
+      log_message: "Submit comstock projection",
+    },
+  ],
+  dataset_id: "comstock_projected_conus_2022",
+}

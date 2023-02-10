@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Maps US Counties 2020 L48 to ReEDS Power Control Areas",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:00.686531",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_mapping_id: "us_counties_2020_l48__reeds_pca__dd8e2e16-4dc6-4df6-ac96-9cde3d40e2aa",
+}

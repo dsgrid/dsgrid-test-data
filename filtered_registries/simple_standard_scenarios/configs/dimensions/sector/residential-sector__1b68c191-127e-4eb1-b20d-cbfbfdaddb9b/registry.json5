@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Residential sector only",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T20:46:51.911981",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "residential-sector__1b68c191-127e-4eb1-b20d-cbfbfdaddb9b",
+}

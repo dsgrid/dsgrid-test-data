@@ -1,0 +1,13 @@
+{
+  version: "1.0.0",
+  description: "Unspecified Electricity",
+  registration_history: [
+    {
+      version: "1.0.0",
+      submitter: "dthom",
+      date: "2023-01-29T19:52:17.891485",
+      log_message: "Initial registration",
+    },
+  ],
+  dimension_id: "unspecified_electricity__e9347656-92b4-49c5-aa83-79fd45d9bb0c",
+}
