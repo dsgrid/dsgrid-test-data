@@ -282,7 +282,7 @@
       status: "Registered",
     },
     {
-      dataset_id: "resstock_projected_conus_2022",
+      dataset_id: "resstock_conus_2022_projected",
       dataset_type: "modeled",
       version: "1.0.0",
       required_dimensions: {
@@ -525,7 +525,7 @@
       status: "Registered",
     },
     {
-      dataset_id: "comstock_projected_conus_2022",
+      dataset_id: "comstock_conus_2022_projected",
       dataset_type: "modeled",
       version: "1.0.0",
       required_dimensions: {
@@ -1251,7 +1251,7 @@
           required_for_validation: true,
         },
       ],
-      resstock_projected_conus_2022: [
+      resstock_conus_2022_projected: [
         {
           from_dimension_type: "metric",
           to_dimension_type: "metric",
@@ -1274,7 +1274,7 @@
           required_for_validation: true,
         },
       ],
-      comstock_projected_conus_2022: [
+      comstock_conus_2022_projected: [
         {
           from_dimension_type: "metric",
           to_dimension_type: "metric",

@@ -9,5 +9,5 @@
       log_message: "Submit comstock projection",
     },
   ],
-  dataset_id: "comstock_projected_conus_2022",
+  dataset_id: "comstock_conus_2022_projected",
 }

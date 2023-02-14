@@ -1,5 +1,5 @@
 {
-  dataset_id: "resstock_projected_conus_2022",
+  dataset_id: "resstock_conus_2022_projected",
   dataset_type: "modeled",
   dataset_qualifier: "quantity",
   dataset_qualifier_metadata: null,
