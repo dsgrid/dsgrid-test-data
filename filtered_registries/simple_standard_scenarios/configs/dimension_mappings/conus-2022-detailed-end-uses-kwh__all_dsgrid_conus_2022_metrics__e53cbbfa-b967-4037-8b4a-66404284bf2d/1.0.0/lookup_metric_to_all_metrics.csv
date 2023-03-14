@@ -1,5 +1,0 @@
-from_id,to_id,from_fraction
-natural_gas_heating,all_metrics,1.0
-electricity_ev_l1l2,all_metrics,1.0
-electricity_cooling,all_metrics,1.0
-electricity_heating,all_metrics,1.0

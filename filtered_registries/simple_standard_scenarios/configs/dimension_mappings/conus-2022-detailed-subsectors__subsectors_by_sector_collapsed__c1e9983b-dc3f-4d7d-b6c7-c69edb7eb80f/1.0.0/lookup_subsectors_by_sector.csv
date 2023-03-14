@@ -1,6 +1,0 @@
-from_id,to_id,from_fraction
-hospital,commercial_subsectors,1.0
-medium_office,commercial_subsectors,1.0
-small_office,commercial_subsectors,1.0
-single_family_detached,residential_subsectors,1.0
-bev_compact,transportation_subsectors,1.0
