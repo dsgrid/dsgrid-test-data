@@ -1,0 +1,8 @@
+{"_key":"metric","_id":"dimension_types/metric","_rev":"_fsX1yxC---"}
+{"_key":"geography","_id":"dimension_types/geography","_rev":"_fsX1yxG---"}
+{"_key":"sector","_id":"dimension_types/sector","_rev":"_fsX1yxK---"}
+{"_key":"subsector","_id":"dimension_types/subsector","_rev":"_fsX1yxK--_"}
+{"_key":"time","_id":"dimension_types/time","_rev":"_fsX1yxO---"}
+{"_key":"weather_year","_id":"dimension_types/weather_year","_rev":"_fsX1yxS---"}
+{"_key":"model_year","_id":"dimension_types/model_year","_rev":"_fsX1yxW---"}
+{"_key":"scenario","_id":"dimension_types/scenario","_rev":"_fsX1yxa---"}
