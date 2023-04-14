@@ -1,5 +1,0 @@
-from_id,to_id,from_fraction
-health_care,hospital,1.0
-office_large,medium_office,0.5
-office_small,medium_office,0.5
-office_small,small_office,1.0

@@ -425,6 +425,7 @@
         {
           "dimension_type": "scenario",
           "record_ids": [
+            "reference",
             "efs_high_ldv"
           ]
         },

@@ -81,22 +81,22 @@
   ],
   dimension_references: [
     {
-      dimension_id: "us_counties_2010_-_comstock_only__b913be60-d3da-407b-935b-6a1b8ee7d92c",
+      name: "US Counties 2010 - ComStock Only",
       type: "geography",
       version: "1.0.0",
     },
     {
-      dimension_id: "efs_sectors_-_comstock_only__0f03e3c1-f18b-4ec8-830d-6d93e5e007e3",
+      name: "EFS Sectors - ComStock Only",
       type: "sector",
       version: "1.0.0",
     },
     {
-      dimension_id: "2012_weather_year__0019ebb9-507b-41c9-b5a4-383b97304a69",
+      name: "2012 Weather Year",
       type: "weather_year",
       version: "1.0.0",
     },
     {
-      dimension_id: "reference_scenario__4b6defca-9212-4388-bc39-9cf4462b4527",
+      name: "Reference Scenario",
       type: "scenario",
       version: "1.0.0",
     },

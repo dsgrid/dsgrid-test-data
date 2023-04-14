@@ -32,42 +32,42 @@
   },
   dimension_references: [
     {
-      dimension_id: "us_counties_2010_-_comstock_only__b913be60-d3da-407b-935b-6a1b8ee7d92c",
+      name: "US Counties 2010 - ComStock Only",
       type: "geography",
       version: "1.0.0",
     },
     {
-      dimension_id: "efs_sectors_-_comstock_only__0f03e3c1-f18b-4ec8-830d-6d93e5e007e3",
+      name: "EFS Sectors - ComStock Only",
       type: "sector",
       version: "1.0.0",
     },
     {
-      dimension_id: "comstock_subsectors_efs_with_formatted_prefix__91f0b409-394b-4fba-9be8-3d4d74b2bcf8",
+      name: "ComStock Subsectors EFS with formatted prefix",
       type: "subsector",
       version: "1.0.0",
     },
     {
-      dimension_id: "comstock_end_uses__c73bcae9-6715-402c-840b-b3f2422a6d90",
+      name: "ComStock End Uses",
       type: "metric",
       version: "1.0.0",
     },
     {
-      dimension_id: "2012_weather_year__0019ebb9-507b-41c9-b5a4-383b97304a69",
+      name: "2012 Weather Year",
       type: "weather_year",
       version: "1.0.0",
     },
     {
-      dimension_id: "model_year_2012__999ff215-d9a7-460a-8acf-37ecdec01040",
+      name: "Model Year 2012",
       type: "model_year",
       version: "1.0.0",
     },
     {
-      dimension_id: "reference_scenario__4b6defca-9212-4388-bc39-9cf4462b4527",
+      name: "Reference Scenario",
       type: "scenario",
       version: "1.0.0",
     },
     {
-      dimension_id: "time-2012-est-hourly-periodending-nodst-noleapdayadjustment-total-utchour1start__d4dec9f0-43b5-427b-a41e-13f731744c1f",
+      name: "Time-2012-EST-hourly-periodEnding-noDST-noLeapDayAdjustment-total-UTChour1start",
       type: "time",
       version: "1.0.0",
     },
