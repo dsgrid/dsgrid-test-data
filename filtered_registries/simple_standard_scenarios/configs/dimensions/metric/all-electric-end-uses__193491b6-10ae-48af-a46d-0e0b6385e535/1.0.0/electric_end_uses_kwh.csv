@@ -1,4 +1,0 @@
-id,name,fuel_id,unit
-electricity_cooling,Electricity Cooling,electricity,kWh
-electricity_ev_l1l2,Electricity Ev L1L2,electricity,kWh
-electricity_heating,Electricity Heating,electricity,kWh

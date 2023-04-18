@@ -1,4 +1,0 @@
-id,name,fuel_id,unit
-elec_heating,"Electricity - Heating, Annual Growth Factor",electricity,
-elec_cooling,"Electricity - Cooling, Annual Growth Factor",electricity,
-ng_heating,"Natural Gas - Heating, Annual Growth Factor",natural_gas,

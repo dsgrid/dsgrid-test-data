@@ -1,4 +1,0 @@
-from_id,to_id,from_fraction
-electricity_cooling,commercial_end_uses,1.0
-electricity_heating,commercial_end_uses,1.0
-natural_gas_heating,commercial_end_uses,1.0
