@@ -244,6 +244,62 @@
       ]
     },
     {
+      "dataset_id": "comstock_conus_2022_projected",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "electricity_cooling",
+            "electricity_heating",
+            "natural_gas_heating"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "06037",
+            "06073",
+            "36047",
+            "36081"
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2020",
+            "2040"
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "reference",
+            "efs_high_ldv"
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "com"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "medium_office",
+            "small_office",
+            "hospital"
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        }
+      ]
+    },
+    {
       "dataset_id": "aeo2021_reference_commercial_energy_use_growth_factors",
       "dimensions": [
         {
@@ -327,6 +383,60 @@
           "dimension_type": "scenario",
           "record_ids": [
             "reference"
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "res"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "single_family_detached"
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_id": "resstock_conus_2022_projected",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "electricity_cooling",
+            "electricity_heating",
+            "natural_gas_heating"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+              "06037",
+              "06073",
+              "36047",
+              "36081"
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2020",
+            "2040"
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "reference",
+            "efs_high_ldv"
           ]
         },
         {
@@ -528,6 +638,59 @@
             "Some_Drivers_Larger+High_Income+Small_Town+Compact+BEV_300",
             "Some_Drivers_Larger+High_Income+Rural+Compact+BEV_100",
             "Some_Drivers_Larger+High_Income+Rural+Compact+BEV_300"
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_id": "tempo_conus_2022_mapped",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "electricity_ev_l1l2"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "06037",
+            "06073",
+            "36047",
+            "36081"
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2020",
+            "2040"
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "trans"
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "reference",
+            "efs_high_ldv"
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "single_family_detached",
+            "bev_compact"
           ]
         }
       ]
