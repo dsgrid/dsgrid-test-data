@@ -190,6 +190,56 @@
   ],
   "datasets": [
     {
+      "dataset_id": "eia_861_annual_energy_use_state_sector",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "electricity_sales"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "CA",
+            "NY",
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2020",
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "com",
+            "res",
+            "trans",
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "reference",
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2020"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "unspecified",
+          ]
+        }
+      ]
+    },
+    {
       "dataset_id": "comstock_conus_2022_reference",
       "dimensions": [
         {
@@ -694,6 +744,6 @@
           ]
         }
       ]
-    }
+    },
   ]
 }

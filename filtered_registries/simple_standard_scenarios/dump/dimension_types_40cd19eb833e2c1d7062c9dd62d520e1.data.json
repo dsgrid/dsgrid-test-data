@@ -1,8 +1,8 @@
-{"_key":"metric","_id":"dimension_types/metric","_rev":"_f60Vv92---"}
-{"_key":"geography","_id":"dimension_types/geography","_rev":"_f60Vv96---"}
-{"_key":"sector","_id":"dimension_types/sector","_rev":"_f60Vw-----"}
-{"_key":"subsector","_id":"dimension_types/subsector","_rev":"_f60Vw-G---"}
-{"_key":"time","_id":"dimension_types/time","_rev":"_f60Vw-K---"}
-{"_key":"weather_year","_id":"dimension_types/weather_year","_rev":"_f60Vw-O---"}
-{"_key":"model_year","_id":"dimension_types/model_year","_rev":"_f60Vw-S---"}
-{"_key":"scenario","_id":"dimension_types/scenario","_rev":"_f60Vw-a---"}
+{"_key":"metric","_id":"dimension_types/metric","_rev":"_g_9v50u---"}
+{"_key":"geography","_id":"dimension_types/geography","_rev":"_g_9v50y---"}
+{"_key":"sector","_id":"dimension_types/sector","_rev":"_g_9v502---"}
+{"_key":"subsector","_id":"dimension_types/subsector","_rev":"_g_9v51----"}
+{"_key":"time","_id":"dimension_types/time","_rev":"_g_9v51C---"}
+{"_key":"weather_year","_id":"dimension_types/weather_year","_rev":"_g_9v51G---"}
+{"_key":"model_year","_id":"dimension_types/model_year","_rev":"_g_9v51K---"}
+{"_key":"scenario","_id":"dimension_types/scenario","_rev":"_g_9v51S---"}
