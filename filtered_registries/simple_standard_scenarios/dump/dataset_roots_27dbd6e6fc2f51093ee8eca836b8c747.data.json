@@ -1,8 +1,9 @@
-{"_key":"tempo_conus_2022","_id":"dataset_roots/tempo_conus_2022","_rev":"_f60VwH6---","registry_type":"dataset","dataset_id":"tempo_conus_2022"}
-{"_key":"aeo2021_reference_residential_energy_use_growth_factors","_id":"dataset_roots/aeo2021_reference_residential_energy_use_growth_factors","_rev":"_f60VwIC---","registry_type":"dataset","dataset_id":"aeo2021_reference_residential_energy_use_growth_factors"}
-{"_key":"aeo2021_reference_commercial_energy_use_growth_factors","_id":"dataset_roots/aeo2021_reference_commercial_energy_use_growth_factors","_rev":"_f60VwIG---","registry_type":"dataset","dataset_id":"aeo2021_reference_commercial_energy_use_growth_factors"}
-{"_key":"comstock_conus_2022_reference","_id":"dataset_roots/comstock_conus_2022_reference","_rev":"_f60VwIa---","registry_type":"dataset","dataset_id":"comstock_conus_2022_reference"}
-{"_key":"resstock_conus_2022_reference","_id":"dataset_roots/resstock_conus_2022_reference","_rev":"_f60VwIe---","registry_type":"dataset","dataset_id":"resstock_conus_2022_reference"}
-{"_key":"comstock_conus_2022_projected","_id":"dataset_roots/comstock_conus_2022_projected","_rev":"_f60VwIi---","registry_type":"dataset","dataset_id":"comstock_conus_2022_projected"}
-{"_key":"resstock_conus_2022_projected","_id":"dataset_roots/resstock_conus_2022_projected","_rev":"_f60VwIq---","registry_type":"dataset","dataset_id":"resstock_conus_2022_projected"}
-{"_key":"tempo_conus_2022_mapped","_id":"dataset_roots/tempo_conus_2022_mapped","_rev":"_f60VwIu---","registry_type":"dataset","dataset_id":"tempo_conus_2022_mapped"}
+{"_key":"tempo_conus_2022","_id":"dataset_roots/tempo_conus_2022","_rev":"_g_9v6Oy---","registry_type":"dataset","dataset_id":"tempo_conus_2022"}
+{"_key":"aeo2021_reference_residential_energy_use_growth_factors","_id":"dataset_roots/aeo2021_reference_residential_energy_use_growth_factors","_rev":"_g_9v6O6---","registry_type":"dataset","dataset_id":"aeo2021_reference_residential_energy_use_growth_factors"}
+{"_key":"aeo2021_reference_commercial_energy_use_growth_factors","_id":"dataset_roots/aeo2021_reference_commercial_energy_use_growth_factors","_rev":"_g_9v6P----","registry_type":"dataset","dataset_id":"aeo2021_reference_commercial_energy_use_growth_factors"}
+{"_key":"eia_861_annual_energy_use_state_sector","_id":"dataset_roots/eia_861_annual_energy_use_state_sector","_rev":"_g_9v6PC---","registry_type":"dataset","dataset_id":"eia_861_annual_energy_use_state_sector"}
+{"_key":"comstock_conus_2022_reference","_id":"dataset_roots/comstock_conus_2022_reference","_rev":"_g_9v6PS---","registry_type":"dataset","dataset_id":"comstock_conus_2022_reference"}
+{"_key":"resstock_conus_2022_reference","_id":"dataset_roots/resstock_conus_2022_reference","_rev":"_g_9v6PW---","registry_type":"dataset","dataset_id":"resstock_conus_2022_reference"}
+{"_key":"comstock_conus_2022_projected","_id":"dataset_roots/comstock_conus_2022_projected","_rev":"_g_9v6Pa---","registry_type":"dataset","dataset_id":"comstock_conus_2022_projected"}
+{"_key":"resstock_conus_2022_projected","_id":"dataset_roots/resstock_conus_2022_projected","_rev":"_g_9v6Pi---","registry_type":"dataset","dataset_id":"resstock_conus_2022_projected"}
+{"_key":"tempo_conus_2022_mapped","_id":"dataset_roots/tempo_conus_2022_mapped","_rev":"_g_9v6Pm---","registry_type":"dataset","dataset_id":"tempo_conus_2022_mapped"}
