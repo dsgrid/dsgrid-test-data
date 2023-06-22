@@ -11,7 +11,8 @@
               "electricity_cooling",
               "electricity_heating",
               "electricity_ev_l1l2",
-              "natural_gas_heating"
+              "natural_gas_heating",
+              "electricity_unspecified",
             ]
           },
           {
