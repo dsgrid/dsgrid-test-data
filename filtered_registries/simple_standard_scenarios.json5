@@ -191,6 +191,149 @@
   ],
   "datasets": [
     {
+      "dataset_id": "aeo2021_reference_industrial_energy_use_growth_factors",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "purchased_electricity"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "conus",
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2013_2050",
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "ind",
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "aeo_ref",
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "unspecified",
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_id": "aeo2021_reference_other_commercial_energy_use_growth_factors",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "elec_unspecified"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "pacific",
+            "middle_atlantic",
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2013_2050",
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "com",
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "aeo_ref",
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "non_building",
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_id": "dsgrid_efs_historical_2012_conus_load_shapes",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "All"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "CA",
+            "NY",
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2012",
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "All",
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "reference",
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "unspecified",
+          ]
+        }
+      ]
+    },
+    {
       "dataset_id": "eia_861_annual_energy_use_state_sector",
       "dimensions": [
         {
