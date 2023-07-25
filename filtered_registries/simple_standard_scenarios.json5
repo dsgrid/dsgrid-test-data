@@ -74,108 +74,30 @@
           },
           {
             "dimension_type": "metric",
-            "dimension_query_name": "electricity_collapsed",
+            "dimension_query_name": "end_uses_by_fuel_type",
             "record_ids": [
-              "all_electricity"
+              "electricity_end_uses",
+              "natural_gas_end_uses",
             ]
           },
           {
             "dimension_type": "metric",
-            "dimension_query_name": "electricity",
+            "dimension_query_name": "end_uses_by_sector",
             "record_ids": [
-              "electricity_cooling",
-              "electricity_heating",
-              "electricity_ev_l1l2"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "commercial_end_uses_collapsed",
-            "record_ids": [
-              "commercial_end_uses"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "commercial_end_uses",
-            "record_ids": [
-              "electricity_cooling",
-              "electricity_heating",
-              "natural_gas_heating"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "residential_end_uses_collapsed",
-            "record_ids": [
-              "residential_end_uses"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "residential_end_uses",
-            "record_ids": [
-              "electricity_cooling",
-              "electricity_heating",
-              "natural_gas_heating"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "transportation_end_uses_collapsed",
-            "record_ids": [
-              "transportation_end_uses"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "transportation_end_uses",
-            "record_ids": [
-              "electricity_ev_l1l2"
-            ]
-          },
-          {
-            "dimension_type": "sector",
-            "dimension_query_name": "commercial_sectors",
-            "record_ids": [
-              "com"
-            ]
-          },
-          {
-            "dimension_type": "sector",
-            "dimension_query_name": "residential_sectors",
-            "record_ids": [
-              "res"
-            ]
-          },
-          {
-            "dimension_type": "sector",
-            "dimension_query_name": "transportation_sectors",
-            "record_ids": [
-              "trans"
+              "commercial_end_uses",
+              "industrial_end_uses",
+              "residential_end_uses",
+              "transportation_end_uses",
             ]
           },
           {
             "dimension_type": "subsector",
-            "dimension_query_name": "commercial_subsectors",
+            "dimension_query_name": "subsectors_by_sector",
             "record_ids": [
-              "medium_office",
-              "small_office",
-              "hospital"
-            ]
-          },
-          {
-            "dimension_type": "subsector",
-            "dimension_query_name": "residential_subsectors",
-            "record_ids": [
-              "single_family_detached"
-            ]
-          },
-          {
-            "dimension_type": "subsector",
-            "dimension_query_name": "transportation_subsectors",
-            "record_ids": [
-              "bev_compact"
+              "commercial_subsectors",
+              "industrial_subsectors",
+              "residential_subsectors",
+              "transportation_subsectors",
             ]
           },
           {
