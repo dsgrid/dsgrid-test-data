@@ -1,6 +1,6 @@
 {
   "database": "simple-standard-scenarios",
-  "hostname": "dsgrid-registry.hpc.nrel.gov",
+  "hostname": "localhost",
   "port": 8529,
   "username": "root",
   "password": "openSesame"
