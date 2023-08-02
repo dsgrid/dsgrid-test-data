@@ -115,6 +115,25 @@
         ],
       },
     ],
+    subset_dimensions: [
+      {
+        name: 'Subsectors by Sector',
+        display_name: 'subsectors_by_sector',
+        description: 'Provides selection of subsectors by sector.',
+        type: 'subsector',
+        filename: 'dimensions/subset/subsectors_by_sector.csv',
+        selectors: [
+          {
+            name: 'commercial_subsectors2',
+            description: 'Commercial Subsectors by subset, duplicate of supplemental dimension; test purposes only',
+          },
+          {
+            name: 'residential_subsectors',
+            description: 'Residential Subsectors',
+          },
+        ],
+      },
+    ],
     supplemental_dimensions: [
       {
         "class": "State",
