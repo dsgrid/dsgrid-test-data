@@ -11,7 +11,8 @@
               "electricity_cooling",
               "electricity_heating",
               "electricity_ev_l1l2",
-              "natural_gas_heating"
+              "natural_gas_heating",
+              "electricity_unspecified",
             ]
           },
           {
@@ -73,108 +74,30 @@
           },
           {
             "dimension_type": "metric",
-            "dimension_query_name": "electricity_collapsed",
+            "dimension_query_name": "end_uses_by_fuel_type",
             "record_ids": [
-              "all_electricity"
+              "electricity_end_uses",
+              "natural_gas_end_uses",
             ]
           },
           {
             "dimension_type": "metric",
-            "dimension_query_name": "electricity",
+            "dimension_query_name": "end_uses_by_sector",
             "record_ids": [
-              "electricity_cooling",
-              "electricity_heating",
-              "electricity_ev_l1l2"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "commercial_end_uses_collapsed",
-            "record_ids": [
-              "commercial_end_uses"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "commercial_end_uses",
-            "record_ids": [
-              "electricity_cooling",
-              "electricity_heating",
-              "natural_gas_heating"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "residential_end_uses_collapsed",
-            "record_ids": [
-              "residential_end_uses"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "residential_end_uses",
-            "record_ids": [
-              "electricity_cooling",
-              "electricity_heating",
-              "natural_gas_heating"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "transportation_end_uses_collapsed",
-            "record_ids": [
-              "transportation_end_uses"
-            ]
-          },
-          {
-            "dimension_type": "metric",
-            "dimension_query_name": "transportation_end_uses",
-            "record_ids": [
-              "electricity_ev_l1l2"
-            ]
-          },
-          {
-            "dimension_type": "sector",
-            "dimension_query_name": "commercial_sectors",
-            "record_ids": [
-              "com"
-            ]
-          },
-          {
-            "dimension_type": "sector",
-            "dimension_query_name": "residential_sectors",
-            "record_ids": [
-              "res"
-            ]
-          },
-          {
-            "dimension_type": "sector",
-            "dimension_query_name": "transportation_sectors",
-            "record_ids": [
-              "trans"
+              "commercial_end_uses",
+              "industrial_end_uses",
+              "residential_end_uses",
+              "transportation_end_uses",
             ]
           },
           {
             "dimension_type": "subsector",
-            "dimension_query_name": "commercial_subsectors",
+            "dimension_query_name": "subsectors_by_sector",
             "record_ids": [
-              "medium_office",
-              "small_office",
-              "hospital"
-            ]
-          },
-          {
-            "dimension_type": "subsector",
-            "dimension_query_name": "residential_subsectors",
-            "record_ids": [
-              "single_family_detached"
-            ]
-          },
-          {
-            "dimension_type": "subsector",
-            "dimension_query_name": "transportation_subsectors",
-            "record_ids": [
-              "bev_compact"
+              "commercial_subsectors",
+              "industrial_subsectors",
+              "residential_subsectors",
+              "transportation_subsectors",
             ]
           },
           {
@@ -189,6 +112,149 @@
     }
   ],
   "datasets": [
+    {
+      "dataset_id": "aeo2021_reference_industrial_energy_use_growth_factors",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "purchased_electricity"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "conus",
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2013_2050",
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "ind",
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "aeo_ref",
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "unspecified",
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_id": "aeo2021_reference_other_commercial_energy_use_growth_factors",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "elec_unspecified"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "pacific",
+            "middle_atlantic",
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2013_2050",
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "com",
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "aeo_ref",
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "non_building",
+          ]
+        }
+      ]
+    },
+    {
+      "dataset_id": "dsgrid_efs_historical_2012_conus_load_shapes",
+      "dimensions": [
+        {
+          "dimension_type": "metric",
+          "record_ids": [
+            "All"
+          ]
+        },
+        {
+          "dimension_type": "geography",
+          "record_ids": [
+            "CA",
+            "NY",
+          ]
+        },
+        {
+          "dimension_type": "model_year",
+          "record_ids": [
+            "2012",
+          ]
+        },
+        {
+          "dimension_type": "sector",
+          "record_ids": [
+            "All",
+          ]
+        },
+        {
+          "dimension_type": "scenario",
+          "record_ids": [
+            "reference",
+          ]
+        },
+        {
+          "dimension_type": "weather_year",
+          "record_ids": [
+            "2012"
+          ]
+        },
+        {
+          "dimension_type": "subsector",
+          "record_ids": [
+            "unspecified",
+          ]
+        }
+      ]
+    },
     {
       "dataset_id": "eia_861_annual_energy_use_state_sector",
       "dimensions": [

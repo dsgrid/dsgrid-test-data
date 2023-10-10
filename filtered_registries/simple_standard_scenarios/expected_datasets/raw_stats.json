@@ -1,0 +1,354 @@
+{
+  "overall": {
+    "comstock": {
+      "sum": {
+        "electricity_cooling": 5602967.14746844,
+        "electricity_heating": 190657.03766759715,
+        "electricity": 5793624.185136037
+      },
+      "count": 193248,
+      "max": {
+        "electricity_cooling": 294.76683880709095,
+        "electricity_heating": 36.66543452915741,
+        "electricity": 294.76683880709095
+      },
+      "mean": {
+        "electricity_cooling": 14.496830879151247,
+        "electricity_heating": 0.49329627646236224
+      }
+    },
+    "resstock": {
+      "sum": {
+        "electricity_cooling": 31113035.2175643,
+        "electricity_heating": 10948874.822788602,
+        "electricity": 42061910.0403529
+      },
+      "count": 70272,
+      "max": {
+        "electricity_cooling": 5777.706127473008,
+        "electricity_heating": 2842.7368467670367,
+        "electricity": 5777.706127473008
+      },
+      "mean": {
+        "electricity_cooling": 221.37576287542905,
+        "electricity_heating": 77.90353784429503
+      }
+    },
+    "tempo": {
+      "sum": {
+        "L1andL2": 5374393.151695595,
+        "electricity": 5374393.151695595
+      },
+      "count": 3381840,
+      "max": {
+        "L1andL2": 138.748390625,
+        "electricity": 138.748390625
+      },
+      "mean": {
+        "L1andL2": 0.7945960115936288
+      }
+    },
+    "comstock_resstock": {
+      "sum": {
+        "electricity_cooling": 36716002.36503274,
+        "electricity_heating": 11139531.860456198,
+        "electricity": 47855534.22548894
+      },
+      "max": {
+        "electricity_cooling": 5777.706127473008,
+        "electricity_heating": 2842.7368467670367,
+        "electricity": 5777.706127473008
+      }
+    },
+    "total": {
+      "sum": {
+        "electricity": 53229927.37718453
+      },
+      "max": {
+        "electricity": 5777.706127473008
+      }
+    }
+  },
+  "by_county": {
+    "06037": {
+      "comstock": {
+        "sum": {
+          "electricity_cooling": 3801557.438717441,
+          "electricity_heating": 134013.95381606818,
+          "electricity": 3935571.3925335095
+        },
+        "count": 52704,
+        "max": {
+          "electricity_cooling": 294.76683880709095,
+          "electricity_heating": 36.66543452915741,
+          "electricity": 294.76683880709095
+        },
+        "mean": {
+          "electricity_cooling": 36.06516999390408,
+          "electricity_heating": 1.2713831380546845
+        }
+      },
+      "resstock": {
+        "sum": {
+          "electricity_cooling": 23921114.75323247,
+          "electricity_heating": 8656958.299839964,
+          "electricity": 32578073.053072438
+        },
+        "count": 17568,
+        "max": {
+          "electricity_cooling": 5777.706127473008,
+          "electricity_heating": 2842.7368467670367,
+          "electricity": 5777.706127473008
+        },
+        "mean": {
+          "electricity_cooling": 680.8149690696855,
+          "electricity_heating": 246.3842867668478
+        }
+      },
+      "tempo": {
+        "sum": {
+          "L1andL2": 3052408.1281980267,
+          "electricity": 3052408.1281980267
+        },
+        "count": 1370304,
+        "max": {
+          "L1andL2": 138.748390625,
+          "electricity": 138.748390625
+        },
+        "mean": {
+          "L1andL2": 1.1137704218180882
+        }
+      },
+      "comstock_resstock": {
+        "sum": {
+          "electricity_cooling": 27722672.19194991,
+          "electricity_heating": 8790972.253656032,
+          "electricity": 36513644.44560595
+        },
+        "max": {
+          "electricity_cooling": 5777.706127473008,
+          "electricity_heating": 2842.7368467670367,
+          "electricity": 5777.706127473008
+        }
+      },
+      "total": {
+        "sum": {
+          "electricity": 39566052.573803976
+        },
+        "max": {
+          "electricity": 5777.706127473008
+        }
+      }
+    },
+    "06073": {
+      "comstock": {
+        "sum": {
+          "electricity_cooling": 1076757.8557299234,
+          "electricity_heating": 32952.42160768663,
+          "electricity": 1109710.27733761
+        },
+        "count": 52704,
+        "max": {
+          "electricity_cooling": 85.68409806512668,
+          "electricity_heating": 8.186436477335663,
+          "electricity": 85.68409806512668
+        },
+        "mean": {
+          "electricity_cooling": 10.215143591851884,
+          "electricity_heating": 0.31261784312088864
+        }
+      },
+      "resstock": {
+        "sum": {
+          "electricity_cooling": 4347157.591753411,
+          "electricity_heating": 1718954.96117248,
+          "electricity": 6066112.552925891
+        },
+        "count": 17568,
+        "max": {
+          "electricity_cooling": 1427.0184500156524,
+          "electricity_heating": 637.6858561545363,
+          "electricity": 1427.0184500156524
+        },
+        "mean": {
+          "electricity_cooling": 123.72374748842815,
+          "electricity_heating": 48.92289848510018
+        }
+      },
+      "tempo": {
+        "sum": {
+          "L1andL2": 1736984.4019245445,
+          "electricity": 1736984.4019245445
+        },
+        "count": 1484496,
+        "max": {
+          "L1andL2": 23.763626953125,
+          "electricity": 23.763626953125
+        },
+        "mean": {
+          "L1andL2": 0.585041792609931
+        }
+      },
+      "comstock_resstock": {
+        "sum": {
+          "electricity_cooling": 5423915.447483335,
+          "electricity_heating": 1751907.3827801666,
+          "electricity": 7175822.830263501
+        },
+        "max": {
+          "electricity_cooling": 1427.0184500156524,
+          "electricity_heating": 637.6858561545363,
+          "electricity": 1427.0184500156524
+        }
+      },
+      "total": {
+        "sum": {
+          "electricity": 8912807.232188046
+        },
+        "max": {
+          "electricity": 1427.0184500156524
+        }
+      }
+    },
+    "36047": {
+      "comstock": {
+        "sum": {
+          "electricity_cooling": 281666.4029422695,
+          "electricity_heating": 16405.111513183932,
+          "electricity": 298071.51445545343
+        },
+        "count": 35136,
+        "max": {
+          "electricity_cooling": 43.31006007705952,
+          "electricity_heating": 5.929458115188057,
+          "electricity": 43.31006007705952
+        },
+        "mean": {
+          "electricity_cooling": 4.008230916186668,
+          "electricity_heating": 0.23345160964799538
+        }
+      },
+      "resstock": {
+        "sum": {
+          "electricity_cooling": 739471.0587686225,
+          "electricity_heating": 123523.78758652613,
+          "electricity": 862994.8463551486
+        },
+        "count": 17568,
+        "max": {
+          "electricity_cooling": 189.7648450461392,
+          "electricity_heating": 28.63109552024187,
+          "electricity": 189.7648450461392
+        },
+        "mean": {
+          "electricity_cooling": 21.04596592579185,
+          "electricity_heating": 3.515590493696668
+        }
+      },
+      "tempo": {
+        "sum": {
+          "L1andL2": 309533.58993663645,
+          "electricity": 309533.58993663645
+        },
+        "count": 149328,
+        "max": {
+          "L1andL2": 24.0325546875,
+          "electricity": 24.0325546875
+        },
+        "mean": {
+          "L1andL2": 1.0364218027986596
+        }
+      },
+      "comstock_resstock": {
+        "sum": {
+          "electricity_cooling": 1021137.4617108919,
+          "electricity_heating": 139928.89909971005,
+          "electricity": 1161066.360810602
+        },
+        "max": {
+          "electricity_cooling": 189.7648450461392,
+          "electricity_heating": 28.63109552024187,
+          "electricity": 189.7648450461392
+        }
+      },
+      "total": {
+        "sum": {
+          "electricity": 1470599.9507472385
+        },
+        "max": {
+          "electricity": 189.7648450461392
+        }
+      }
+    },
+    "36081": {
+      "comstock": {
+        "sum": {
+          "electricity_cooling": 442985.4500787137,
+          "electricity_heating": 7285.550730663177,
+          "electricity": 450271.0008093769
+        },
+        "count": 52704,
+        "max": {
+          "electricity_cooling": 29.952483509705417,
+          "electricity_heating": 2.3268013610662766,
+          "electricity": 29.952483509705417
+        },
+        "mean": {
+          "electricity_cooling": 4.202579027006619,
+          "electricity_heating": 0.06911762608780336
+        }
+      },
+      "resstock": {
+        "sum": {
+          "electricity_cooling": 2105291.8138097795,
+          "electricity_heating": 449437.77418977174,
+          "electricity": 2554729.587999551
+        },
+        "count": 17568,
+        "max": {
+          "electricity_cooling": 560.4371709010003,
+          "electricity_heating": 90.95810611327211,
+          "electricity": 560.4371709010003
+        },
+        "mean": {
+          "electricity_cooling": 59.91836901781021,
+          "electricity_heating": 12.791375631539497
+        }
+      },
+      "tempo": {
+        "sum": {
+          "L1andL2": 275467.031635895,
+          "electricity": 275467.031635895
+        },
+        "count": 377712,
+        "max": {
+          "L1andL2": 31.70468359375,
+          "electricity": 31.70468359375
+        },
+        "mean": {
+          "L1andL2": 0.3646522107265523
+        }
+      },
+      "comstock_resstock": {
+        "sum": {
+          "electricity_cooling": 2548277.263888493,
+          "electricity_heating": 456723.3249204349,
+          "electricity": 3005000.588808928
+        },
+        "max": {
+          "electricity_cooling": 560.4371709010003,
+          "electricity_heating": 90.95810611327211,
+          "electricity": 560.4371709010003
+        }
+      },
+      "total": {
+        "sum": {
+          "electricity": 3280467.620444823
+        },
+        "max": {
+          "electricity": 560.4371709010003
+        }
+      }
+    }
+  }
+}
