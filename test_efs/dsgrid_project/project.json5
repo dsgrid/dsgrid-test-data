@@ -143,6 +143,10 @@
         name: "US States",
         display_name: "State",
         type: "geography",
+        mapping: {
+          description: "Maps EFS US Counties 2010 to US States",
+          file: "dimension_mappings/base_to_supplemental/lookup_county_to_state.csv",
+        },
       },
       {
         "class": "CensusDivision",
@@ -151,6 +155,10 @@
         name: "US Census Divisions",
         display_name: "Census Division",
         type: "geography",
+        mapping: {
+          description: "Maps EFS US Counties 2010 to US Census Divisions",
+          file: "dimension_mappings/base_to_supplemental/lookup_county_to_censusdivision.csv",
+        },
       },
       {
         "class": "CensusRegion",
@@ -159,6 +167,10 @@
         name: "US Census Regions",
         display_name: "Census Region",
         type: "geography",
+        mapping: {
+          description: "Maps EFS US Counties 2010 to US Census Regions",
+          file: "dimension_mappings/base_to_supplemental/lookup_county_to_censusregion.csv",
+        },
       },
       {
         "class": "SubsectorDimensionBaseModel",
@@ -168,58 +180,10 @@
         name: "Commercial Subsectors",
         display_name: "Commercial Subsectors",
         type: "subsector",
-      },
-    ],
-  },
-  dimension_mappings: {
-    base_to_supplemental: [
-      {
-        description: "Maps EFS US Counties 2010 to US Census Regions",
-        file: "dimension_mappings/base_to_supplemental/lookup_county_to_censusregion.csv",
-        from_dimension: {
-          name: "US Counties 2010 - ComStock Only",
-          type: "geography",
-        },
-        to_dimension: {
-          name: "US Census Regions",
-          type: "geography",
-        },
-      },
-      {
-        description: "Maps EFS US Counties 2010 to US Census Divisions",
-        file: "dimension_mappings/base_to_supplemental/lookup_county_to_censusdivision.csv",
-        from_dimension: {
-          name: "US Counties 2010 - ComStock Only",
-          type: "geography",
-        },
-        to_dimension: {
-          name: "US Census Divisions",
-          type: "geography",
-        },
-      },
-      {
-        description: "Maps EFS US Counties 2010 to US States",
-        file: "dimension_mappings/base_to_supplemental/lookup_county_to_state.csv",
-        from_dimension: {
-          name: "US Counties 2010 - ComStock Only",
-          type: "geography",
-        },
-        to_dimension: {
-          name: "US States",
-          type: "geography",
-        },
-      },
-      {
-        description: "Selector for all dsgrid CONUS 2022 commercial subsectors",
-        file: "dimension_mappings/base_to_supplemental/lookup_subsectors_to_commercial_subsectors.csv",
-        mapping_type: "many_to_one_aggregation",
-        from_dimension: {
-          name: "ComStock Subsectors EFS",
-          type: "subsector",
-        },
-        to_dimension: {
-          name: "Commercial Subsectors",
-          type: "subsector",
+        mapping: {
+          description: "Selector for all dsgrid CONUS 2022 commercial subsectors",
+          file: "dimension_mappings/base_to_supplemental/lookup_subsectors_to_commercial_subsectors.csv",
+          mapping_type: "many_to_one_aggregation",
         },
       },
     ],
