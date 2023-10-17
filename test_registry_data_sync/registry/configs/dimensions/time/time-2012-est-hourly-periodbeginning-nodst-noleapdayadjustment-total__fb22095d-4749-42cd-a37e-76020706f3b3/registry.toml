@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Time dimension, 2012 hourly EST, period-beginning, no DST, no Leap Day Adjustment, total value"
+dimension_id = "time-2012-est-hourly-periodbeginning-nodst-noleapdayadjustment-total__fb22095d-4749-42cd-a37e-76020706f3b3"
+[[registration_history]]
+version = "1.0.0"
+submitter = "dthom"
+date = "2021-09-14T07:51:56.192334"
+log_message = "Initial registration"
+

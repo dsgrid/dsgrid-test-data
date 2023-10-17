@@ -1,0 +1,99 @@
+description = "test project for code development and validation"
+name = "test_efs"
+project_id = "test_efs"
+
+# [datasets]
+# benchmark = []
+# historical = []
+
+[[datasets]]
+dataset_id = "test_efs_comstock"
+dataset_type = "sector_model"
+model_sector = "cld"
+version = "1.0.0"
+
+[dimensions]
+[[dimensions.base_dimensions]]
+dimension_id = "us_counties_2010_-_comstock_only__18d04685-34e8-4ff4-a5fb-173d773bbb04"
+type = "geography"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+dimension_id = "efs_sectors_-_comstock_only__0f03e3c1-f18b-4ec8-830d-6d93e5e007e3"
+type = "sector"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+dimension_id = "comstock_subsectors_efs__f831662d-ce4b-4415-8a97-a33d66257cfe"
+type = "subsector"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+dimension_id = "efs_detailed_end_uses_-_comstock_only__301852a1-7f7a-4479-9b76-c7cdc686f81b" # need to update
+type = "metric"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+dimension_id = "2012_weather_year__0019ebb9-507b-41c9-b5a4-383b97304a69"
+type = "weather_year"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+dimension_id = "model_year_2012__999ff215-d9a7-460a-8acf-37ecdec01040"
+type = "model_year"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+dimension_id = "reference_scenario__4b6defca-9212-4388-bc39-9cf4462b4527"
+type = "scenario"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+dimension_id = "comstock_data_source__d2f50c33-8b51-4b4d-a679-46114eb5244c"
+type = "data_source"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+dimension_id = "time-2012-est-hourly-periodbeginning-nodst-noleapdayadjustment-total__1c3e6ca3-4df0-40bb-9405-db4031937e09"
+type = "time"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimensions]]
+dimension_id = "us_census_regions__899a4862-883d-4f8f-820e-3921db84ea8e"
+type = "geography"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimensions]]
+dimension_id = "us_census_divisions__6e2dcd43-5f14-45b1-b850-f289673d89c7"
+type = "geography"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimensions]]
+dimension_id = "us_states__2bae0844-b0d3-4bf0-9d15-d9d969dee774"
+type = "geography"
+version = "1.0.0"
+
+[[dimension_mappings.base_to_base]]
+from_dimension_type = "sector"
+mapping_id = "efs_sectors_-_comstock_only__comstock_subsectors_efs__efd4190b-e8e8-42e9-8810-56eeb87b8222"
+required_for_validation = true
+to_dimension_type = "subsector"
+version = "1.0.0"
+
+[[dimension_mappings.base_to_supplemental]]
+from_dimension_type = "geography"
+mapping_id = "us_counties_2010_-_comstock_only__us_census_regions__13a7d7a8-1283-4257-8254-f0dd6544d743"
+to_dimension_type = "geography"
+version = "1.0.0"
+
+[[dimension_mappings.base_to_supplemental]]
+from_dimension_type = "geography"
+mapping_id = "_us_counties_2010_-_comstock_only_us_census_divisions__6ea7a382-54a9-4b7e-8105-ae9ce26cf2da"
+to_dimension_type = "geography"
+version = "1.0.0"
+
+[[dimension_mappings.base_to_supplemental]]
+from_dimension_type = "geography"
+mapping_id = "us_counties_2010_-_comstock_only__us_states__228c4eb2-19ea-4ada-81d3-8c9d4a76da5b"
+to_dimension_type = "geography"
+version = "1.0.0"

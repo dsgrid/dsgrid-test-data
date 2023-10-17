@@ -1,0 +1,5 @@
+[[references]]
+from_dimension_type = "subsector"
+to_dimension_type = "subsector"
+mapping_id = "comstock_subsectors_efs_with_formatted_prefix__comstock_subsectors_efs__0a072772-5072-4c98-8759-fa3124aa1cc9"
+version = "1.0.0"
