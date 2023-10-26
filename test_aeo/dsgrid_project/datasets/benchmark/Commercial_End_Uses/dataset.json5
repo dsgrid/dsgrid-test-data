@@ -2,7 +2,6 @@
   dataset_type: "benchmark",
   data_source: "NEMS Commercial Module",
   dataset_id: "aeo2021_ref_com_energy_end_uses",
-  data_schema_type: "one_table",
   description: "AEO 2021 Reference Case Commercial Energy End Uses Projection: 2013-2050",
   origin_creator: "Kevin Jarzomski",
   origin_organization: "EIA",
@@ -31,6 +30,7 @@
   ],
   data_schema: {
     load_data_column_dimension: "metric",
+    data_schema_type: "one_table",
   },
   dimensions: [
     {
