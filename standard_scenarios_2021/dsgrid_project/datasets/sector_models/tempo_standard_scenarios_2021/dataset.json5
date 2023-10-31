@@ -8,7 +8,6 @@
     "sector",
     "weather_year",
   ],
-  data_schema_type: "standard",
   origin_creator: "Brian Bush",
   origin_contributors: [
     "Brian Bush",
@@ -25,6 +24,7 @@
   source: "https://github.nrel.gov/mmurator/TMM/blob/0d89b8f61c624770643a35de1998efe6def5e59c/TEMPO.jl/src/BEV/BEV.jl",
   data_schema: {
     load_data_column_dimension: "metric",
+    data_schema_type: "standard",
   },
   dimensions: [
     {
