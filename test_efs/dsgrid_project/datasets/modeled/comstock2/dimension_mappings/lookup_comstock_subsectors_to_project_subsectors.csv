@@ -1,0 +1,15 @@
+from_id,from_fraction,to_id
+com__FullServiceRestaurant,0.9,FullServiceRestaurant
+com__Hospital,1,Hospital
+com__LargeHotel,1.1,LargeHotel
+com__LargeOffice,1.2,LargeOffice
+com__MediumOffice,0.9,MediumOffice
+com__Outpatient,1,Outpatient
+com__PrimarySchool,1.1,PrimarySchool
+com__QuickServiceRestaurant,1.2,QuickServiceRestaurant
+com__SmallHotel,0.9,SmallHotel
+com__SmallOffice,1,SmallOffice
+com__StandaloneRetail,1.1,StandaloneRetail
+com__StripMall,1.2,StripMall
+com__Warehouse,0.9,Warehouse
+com__MidriseApartment,1,MidriseApartment

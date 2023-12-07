@@ -1,0 +1,49 @@
+{
+  mappings: [
+    {
+      mapping_type: "one_to_one_explicit_multipliers",
+      description: "Maps EFS ComStock prefix-formatted subsectors to the EFS project subsectors",
+      file: "dimension_mappings/lookup_comstock_subsectors_to_project_subsectors.csv",
+      from_dimension: {
+        name: "ComStock Subsectors EFS with formatted prefix",
+        type: "subsector",
+        version: "1.0.0",
+      },
+      to_dimension: {
+        name: "ComStock Subsectors EFS",
+        type: "subsector",
+        version: "1.0.0",
+      },
+    },
+    {
+      mapping_type: "one_to_many_explicit_multipliers",
+      description: "Maps EFS ComStock model year EFS project model years",
+      file: "dimension_mappings/model_year_to_model_year.csv",
+      from_dimension: {
+        name: "Model Year 2012",
+        type: "model_year",
+        version: "1.0.0",
+      },
+      to_dimension: {
+        name: "Model Years 2010 to 2050",
+        type: "model_year",
+        version: "1.0.0",
+      },
+    },
+    {
+      mapping_type: "one_to_one_explicit_multipliers",
+      description: "Maps EFS ComStock enduses to EFS project enduses",
+      file: "dimension_mappings/enduse_to_project_enduse.csv",
+      from_dimension: {
+        name: "ComStock End Uses",
+        type: "metric",
+        version: "1.0.0",
+      },
+      to_dimension: {
+        name: "EFS Detailed End Uses - ComStock Only",
+        type: "metric",
+        version: "1.0.0",
+      },
+    },
+  ],
+}

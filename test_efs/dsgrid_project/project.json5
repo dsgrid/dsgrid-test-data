@@ -29,6 +29,32 @@
         ],
       },
     },
+    {
+      dataset_id: "test_efs_comstock2",
+      dataset_type: "modeled",
+      version: "1.0.0",
+      required_dimensions: {
+        multi_dimensional: [
+          {
+            sector: {
+              base: [
+                "com",
+              ],
+            },
+            subsector: {
+              supplemental: [
+                {
+                  name: "Commercial Subsectors",
+                  record_ids: [
+                    "commercial_subsectors",
+                  ],
+                },
+              ],
+            },
+          },
+        ],
+      },
+    },
   ],
   dimensions: {
     base_dimensions: [

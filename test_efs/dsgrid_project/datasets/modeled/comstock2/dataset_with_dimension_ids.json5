@@ -1,0 +1,75 @@
+{
+  data_source: "comstock",
+  dataset_id: "test_efs_comstock",
+  data_schema_type: "standard",
+  dataset_type: "modeled",
+  trivial_dimensions: [
+    "weather_year",
+    "model_year",
+    "scenario",
+  ],
+  description: "EFS ComStock data translated into the new dsgrid data format",
+  origin_creator: "Henry Horsey",
+  origin_organization: "NREL",
+  origin_contributors: [
+    "Henry Horsey",
+    "Amanda Farthing",
+    "Andrew Parker",
+  ],
+  origin_project: "Electrification Futures Study (EFS)",
+  origin_date: "2018-06-18",
+  origin_version: "0.2.0",
+  source: "https://nrel.sharepoint.com/:u:/r/sites/dsgrid-load/Shared%20Documents/File%20Archive/fy17%20-%20OSP%20-%20Electrification%20Load%20Modeling/data/dsgrid_v0.2.0/data/commercial.dsg?csf=1&web=1&e=dU8Ogx",
+  data_classification: "low",
+  tags: [
+    "commercial",
+    "efs",
+    "2012",
+    "dsgrid_v0.2.0",
+  ],
+  data_schema: {
+    load_data_column_dimension: "metric",
+  },
+  dimension_references: [
+    {
+      name: "US Counties 2010 - ComStock Only",
+      type: "geography",
+      version: "1.0.0",
+    },
+    {
+      name: "EFS Sectors - ComStock Only",
+      type: "sector",
+      version: "1.0.0",
+    },
+    {
+      name: "ComStock Subsectors EFS with formatted prefix",
+      type: "subsector",
+      version: "1.0.0",
+    },
+    {
+      name: "ComStock End Uses",
+      type: "metric",
+      version: "1.0.0",
+    },
+    {
+      name: "2012 Weather Year",
+      type: "weather_year",
+      version: "1.0.0",
+    },
+    {
+      name: "Model Year 2012",
+      type: "model_year",
+      version: "1.0.0",
+    },
+    {
+      name: "Reference Scenario",
+      type: "scenario",
+      version: "1.0.0",
+    },
+    {
+      name: "Time-2012-EST-hourly-periodEnding-noDST-noLeapDayAdjustment-total-UTChour1start",
+      type: "time",
+      version: "1.0.0",
+    },
+  ],
+}

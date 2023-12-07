@@ -1,6 +1,6 @@
 {
   data_source: "comstock",
-  dataset_id: "test_efs_comstock",
+  dataset_id: "test_efs_comstock2",
   dataset_type: "modeled",
   sector_description: "commercial",
   trivial_dimensions: [
@@ -8,7 +8,7 @@
     "model_year",
     "scenario",
   ],
-  description: "EFS ComStock data translated into the new dsgrid data format",
+  description: "EFS ComStock data translated into the new dsgrid data unpivoted format",
   origin_creator: "Henry Horsey",
   origin_organization: "NREL",
   origin_contributors: [
@@ -29,10 +29,10 @@
   ],
   data_schema: {
     table_format: {
-      format_type: "pivoted",
-      load_data_column_dimension: "metric",
+      format_type: "unpivoted",
+      value_column: "value",
     },
-    data_schema_type: "standard",
+    data_schema_type: "one_table",
   },
   dimensions: [
     {
