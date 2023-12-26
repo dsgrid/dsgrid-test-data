@@ -1,6 +1,6 @@
 {
   data_source: "comstock",
-  dataset_id: "test_efs_comstock2",
+  dataset_id: "test_efs_comstock_unpivoted",
   dataset_type: "modeled",
   sector_description: "commercial",
   trivial_dimensions: [

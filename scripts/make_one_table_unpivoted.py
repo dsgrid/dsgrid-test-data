@@ -11,8 +11,8 @@ def main():
     variable_column = "metric"
     value_column = "value"
     df = df.unpivot(ids, value_columns, variable_column, value_column)
-    df.coalesce(1).write.mode("overwrite").parquet("datasets/test_efs_comstock2/load_data.parquet")
-    print("Created one-table datasets/test_efs_comstock2/load_data.parquet")
+    df.coalesce(1).write.mode("overwrite").parquet("datasets/test_efs_comstock_unpivoted/load_data.parquet")
+    print("Created one-table datasets/test_efs_comstock_unpivoted/load_data.parquet")
 
 
 if __name__ == "__main__":

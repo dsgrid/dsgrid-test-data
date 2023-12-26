@@ -30,7 +30,7 @@
       },
     },
     {
-      dataset_id: "test_efs_comstock2",
+      dataset_id: "test_efs_comstock_unpivoted",
       dataset_type: "modeled",
       version: "1.0.0",
       required_dimensions: {
