@@ -45,7 +45,7 @@
         "electricity": 138.748390625
       },
       "mean": {
-        "L1andL2": 0.7945960115934915
+        "L1andL2": 0.7945960115936312
       }
     },
     "comstock_resstock": {
@@ -116,7 +116,7 @@
           "electricity": 138.748390625
         },
         "mean": {
-          "L1andL2": 1.1137704218182503
+          "L1andL2": 1.1137704218176916
         }
       },
       "comstock_resstock": {
@@ -256,7 +256,7 @@
           "electricity": 24.0325546875
         },
         "mean": {
-          "L1andL2": 1.036421802798675
+          "L1andL2": 1.0364218027988095
         }
       },
       "comstock_resstock": {

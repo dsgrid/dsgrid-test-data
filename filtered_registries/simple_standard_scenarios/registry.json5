@@ -2,6 +2,5 @@
   "database": "simple-standard-scenarios",
   "hostname": "localhost",
   "port": 8529,
-  "username": "root",
-  "password": "openSesame"
+  "username": "root"
 }
