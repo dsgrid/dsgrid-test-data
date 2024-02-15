@@ -1,0 +1,22 @@
+{
+  references: [
+    {
+      from_dimension_type: "subsector",
+      to_dimension_type: "subsector",
+      mapping_names: {from: "ComStock Subsectors EFS with formatted prefix", to: "ComStock Subsectors EFS"},
+      version: "1.0.0",
+    },
+    {
+      from_dimension_type: "model_year",
+      to_dimension_type: "model_year",
+      mapping_names: {from: "Model Year 2012", to: "Model Years 2010 to 2050"},
+      version: "1.0.0",
+    },
+    {
+      from_dimension_type: "metric",
+      to_dimension_type: "metric",
+      mapping_names: {from: "ComStock End Uses", to: "EFS Detailed End Uses - ComStock Only"},
+      version: "1.0.0",
+    },
+  ],
+}
