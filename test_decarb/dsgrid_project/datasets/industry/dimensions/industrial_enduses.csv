@@ -1,0 +1,3 @@
+id,name,fuel_id,unit,,,
+boiler,Total Electricity - Boiler,electricity,trillion_btu,,,
+machine_drive,Total Electricity - Machine Drive,electricity,trillion_btu,,,
