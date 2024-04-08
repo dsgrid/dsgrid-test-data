@@ -1,0 +1,36 @@
+{
+  "name": "baseline",
+  "version": "0.1.0",
+  "project": {
+    "project_id": "test_efs",
+    "dataset": {
+      "dataset_id": "baseline",
+      "source_datasets": [
+        {
+          "dataset_id": "test_efs_comstock",
+          "dataset_type": "standalone",
+        },
+      ],
+    "params": {
+      "dimension_filters": [
+      ],
+    },
+    },
+    "excluded_dataset_ids": [],
+    "include_dsgrid_dataset_components": false,
+    "version": "1.3.0"
+  },
+  "result": {
+    "supplemental_columns": [],
+    "replace_ids_with_names": false,
+    "aggregations": [],
+    "reports": [],
+    "table_format": {
+      "format_type": "unpivoted",
+    },
+    "output_format": "parquet",
+    "sort_columns": [],
+    "dimension_filters": [],
+    "time_zone": null
+  }
+}

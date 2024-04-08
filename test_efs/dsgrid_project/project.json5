@@ -212,6 +212,20 @@
           mapping_type: "many_to_one_aggregation",
         },
       },
+      {
+        class: 'ModelYear',
+        description: 'Five year intervals from 2010 to 2050',
+        file: 'dimensions/supplemental/five_year_intervals.csv',
+        module: 'dsgrid.dimension.standard',
+        name: 'Five Year Intervals',
+        display_name: "Five Year Intervals",
+        type: 'model_year',
+        mapping: {
+          description: 'Maps ten year interval data 2010-2050 to five year interval data 2010-2050',
+          file: 'dimension_mappings/base_to_supplemental/interpolate_to_five_year_intervals.csv',
+          mapping_type: 'many_to_one_assignment',
+        },
+      },
     ],
   },
 }
