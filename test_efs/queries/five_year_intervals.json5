@@ -1,0 +1,49 @@
+{
+  "name": "five_year_intervals",
+  "version": "0.1.0",
+  "project": {
+    "project_id": "test_efs",
+    "dataset": {
+      "dataset_id": "five_year_intervals",
+      "source_datasets": [
+        {
+          "dataset_id": "test_efs_comstock",
+          "dataset_type": "standalone",
+        },
+      ],
+    "params": {
+      "dimension_filters": [
+      ],
+    },
+    },
+    "excluded_dataset_ids": [],
+    "include_dsgrid_dataset_components": false,
+    "version": "1.3.0"
+  },
+  "result": {
+    "replace_ids_with_names": false,
+    "aggregations": [
+     {
+       aggregation_function: "sum",
+       dimensions: {
+         geography: ["county"],
+         metric: ["comstock_end_use"],
+         model_year: ["five_year_intervals"],
+         scenario: ["reference"],
+         sector: ["sector"],
+         subsector: ["comstock_building_type"],
+         time: ["2012_hourly_est"],
+         weather_year: ["2012_weather"],
+       }
+     }
+    ],
+    "reports": [],
+    "table_format": {
+      "format_type": "unpivoted",
+    },
+    "output_format": "parquet",
+    "sort_columns": [],
+    "dimension_filters": [],
+    "time_zone": null
+  }
+}
