@@ -1,0 +1,9 @@
+version = "1.0.0"
+description = "Reference scenario"
+dimension_id = "reference_scenario__f96216a6-461a-4a30-b1a9-c94b3ef61b9d"
+[[registration_history]]
+version = "1.0.0"
+submitter = "dthom"
+date = "2021-09-14T07:51:56.192334"
+log_message = "Initial registration"
+

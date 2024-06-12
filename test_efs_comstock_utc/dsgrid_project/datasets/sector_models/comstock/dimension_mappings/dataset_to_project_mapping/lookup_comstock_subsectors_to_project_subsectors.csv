@@ -1,0 +1,15 @@
+from_id,to_id
+com__FullServiceRestaurant,FullServiceRestaurant
+com__Hospital,Hospital
+com__LargeHotel,LargeHotel
+com__LargeOffice,LargeOffice
+com__MediumOffice,MediumOffice
+com__Outpatient,Outpatient
+com__PrimarySchool,PrimarySchool
+com__QuickServiceRestaurant,QuickServiceRestaurant
+com__SmallHotel,SmallHotel
+com__SmallOffice,SmallOffice
+com__StandaloneRetail,StandaloneRetail
+com__StripMall,StripMall
+com__Warehouse,Warehouse
+com__MidriseApartment,MidriseApartment
