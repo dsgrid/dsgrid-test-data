@@ -44,7 +44,7 @@
       timezone: "EasternStandard",
       measurement_type: "total",
       time_type: "datetime",
-      display_name: "2012 Hourly EST",
+      display_name: "Hourly EST 2012",
     },
   ],
 }

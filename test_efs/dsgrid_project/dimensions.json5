@@ -43,7 +43,7 @@
       module: "dsgrid.dimension.standard",
       name: "2012 Weather Year",
       type: "weather_year",
-      display_name: "2012 Weather",
+      display_name: "Weather 2012",
     },
     {
       "class": "ModelYear",
@@ -80,7 +80,7 @@
       type: "time",
       measurement_type: "total",
       time_type: "datetime",
-      display_name: "2012 Hourly EST",
+      display_name: "Hourly EST 2012",
     },
     {
       "class": "State",

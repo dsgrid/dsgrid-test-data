@@ -32,8 +32,8 @@
          scenario: ["reference"],
          sector: ["sector"],
          subsector: ["comstock_building_type"],
-         time: ["2012_hourly_est"],
-         weather_year: ["2012_weather"],
+         time: ["hourly_est_2012"],
+         weather_year: ["weather_2012"],
        }
      }
     ],
