@@ -30,7 +30,7 @@
   data_schema: {
     table_format: {
       format_type: "pivoted",
-      load_data_column_dimension: "metric",
+      pivoted_dimension_type: "metric",
     },
     data_schema_type: "standard",
   },
