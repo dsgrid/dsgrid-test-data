@@ -1,0 +1,103 @@
+project_id = "efs_2018"
+name = "Electrification Futures Study 2018"
+description = "dsgrid project for the 2018 Electrification Futures Study (EFS)"
+status = "Initial Registration"
+
+[[datasets]]
+dataset_id = "efs_comstock"
+dataset_type = "sector_model"
+version = "1.0.0"
+status = "Unregistered"
+model_sector = "cld"
+
+[dimensions]
+[[dimensions.base_dimensions]]
+type = "geography"
+dimension_id = "us_counties_2010_-_comstock_only__8164af10-b114-4c2f-888a-0d7810d46df9"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+type = "sector"
+dimension_id = "efs_sectors_-_comstock_only__dcf07a98-6267-41c7-abb5-647fbd44850b"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+type = "subsector"
+dimension_id = "comstock_subsectors_efs__acdbd298-44dc-4fa7-b1db-834e4736c3d5"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+type = "metric"
+dimension_id = "efs_detailed_end_uses_-_comstock_only__e63b101c-2ab6-4914-bc02-4db1e6440e12"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+type = "weather_year"
+dimension_id = "2012_weather_year__d629241a-8d34-435a-8151-1767a5f7f05d"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+type = "model_year"
+dimension_id = "model_year_2012__e0b7213a-d358-411c-a330-e3ed12f54204"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+type = "scenario"
+dimension_id = "reference_scenario__f96216a6-461a-4a30-b1a9-c94b3ef61b9d"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+type = "data_source"
+dimension_id = "comstock_data_source__be98aa91-84dc-4ea2-80b0-2cf4f65c1f09"
+version = "1.0.0"
+
+[[dimensions.base_dimensions]]
+type = "time"
+dimension_id = "time-2012-est-hourly-periodbeginning-nodst-noleapdayadjustment-total__fb22095d-4749-42cd-a37e-76020706f3b3"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimensions]]
+type = "geography"
+dimension_id = "us_census_regions__b3125c78-0173-4dfa-808e-57accbb2d18b"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimensions]]
+type = "geography"
+dimension_id = "us_census_divisions__dc625e7c-6c4b-4a3e-84e6-298d08a045c0"
+version = "1.0.0"
+
+[[dimensions.supplemental_dimensions]]
+type = "geography"
+dimension_id = "us_states__382f9209-f0ef-4ec1-80a5-59452847ec6c"
+version = "1.0.0"
+
+[dimension_mappings]
+[[dimension_mappings.base_to_base]]
+from_dimension_type = "sector"
+to_dimension_type = "subsector"
+mapping_id = "efs_sectors_-_comstock_only__comstock_subsectors_efs__d1a906c6-8b8d-4354-a0b7-38286841cde8"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "us_counties_2010_-_comstock_only__us_census_regions__f7ca783c-98e0-459a-a18f-e92f1b089b23"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "_us_counties_2010_-_comstock_only_us_census_divisions__6ea7a382-54a9-4b7e-8105-ae9ce26cf2da"
+version = "1.0.0"
+required_for_validation = true
+
+[[dimension_mappings.base_to_supplemental]]
+from_dimension_type = "geography"
+to_dimension_type = "geography"
+mapping_id = "us_counties_2010_-_comstock_only__us_states__91e10042-e6ef-45a1-95cc-df40c0132a18"
+version = "1.0.0"
+required_for_validation = true
+
+[dimension_mappings.dataset_to_project]
