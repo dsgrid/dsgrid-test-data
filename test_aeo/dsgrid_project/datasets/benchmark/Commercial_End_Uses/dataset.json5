@@ -29,8 +29,11 @@
     "model_year",
   ],
   data_schema: {
-    load_data_column_dimension: "metric",
     data_schema_type: "one_table",
+    table_format: {
+      format_type: "pivoted",
+      pivoted_dimension_type: "metric",
+    }
   },
   dimensions: [
     {
