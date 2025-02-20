@@ -1,0 +1,35 @@
+{
+  mappings: [
+    {
+      description: "dGen tract ids to project counties",
+      dimension_type: "geography",
+      file: "dimension_mappings/tract_to_county.csv",
+      mapping_type: "many_to_one_aggregation",
+    },
+    {
+      description: "dGen subsectors to unspecified project subsector",
+      dimension_type: "subsector",
+      file: "dimension_mappings/subsector_to_subsector.csv",
+      mapping_type: "many_to_one_aggregation",
+    },
+    {
+      description: "dGen scenario to DECARB scenario",
+      dimension_type: "scenario",
+      file: "dimension_mappings/scenario_to_scenario.csv",
+      mapping_type: "one_to_one",
+    },
+    {
+      description: "2024-2050 from interpolating for every other year",
+      dimension_type: "model_year",
+      file: "dimension_mappings/model_year_to_model_year.csv",
+      mapping_type: "many_to_many_explicit_multipliers",
+    },
+    {
+      description: "Mapping from DPV capacity to DPV capacity",
+      dimension_type: "metric",
+      file: "dimension_mappings/capacity_to_capacity.csv",
+      mapping_type: "one_to_one",
+      from_dimension_name: "DECARB 2023 DPV Capacity",
+    },
+  ],
+}
