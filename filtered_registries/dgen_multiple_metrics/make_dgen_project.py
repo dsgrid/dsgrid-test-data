@@ -73,11 +73,17 @@ def fix_project(
             ]
             project_config["datasets"][0]["required_dimensions"]["single_dimensional"][
                 "metric"
-            ]["base"] = ["dpv_profiles"]
+            ]["base"] = {
+                "record_ids": ["dpv_profiles"],
+                "dimension_name": "DECARB 2023 DPV Profiles",
+            }
             project_config["datasets"][1]["dataset_id"] = "decarb_2023_dgen_capacities"
             project_config["datasets"][1]["required_dimensions"]["single_dimensional"][
                 "metric"
-            ]["base"] = ["dpv_capacity"]
+            ]["base"] = {
+                "record_ids": ["dpv_capacity"],
+                "dimension_name": "DECARB 2023 DPV Capacity",
+            }
             break
 
     project_config["dimensions"]["base_dimensions"] += [
@@ -238,7 +244,7 @@ def fix_dataset_mapping_configs(dst_repo_path) -> None:
             "dimension_type": "metric",
             "file": "dimension_mappings/capacity_to_capacity.csv",
             "mapping_type": "one_to_one",
-            "from_dimension_name": "DECARB 2023 DPV Capacity",
+            "project_base_dimension_name": "DECARB 2023 DPV Capacity",
         }
     )
     dump_data(data, mapping_file, indent=2)
@@ -390,7 +396,7 @@ def fix_dataset_data(
             WITH load_data_ids AS (
                 SELECT DISTINCT id AS id FROM load_data_lookup_filtered
             )
-            SELECT load_data.*
+            SELECT load_data.id, load_data.timestamp, load_data.dpv_profiles
             FROM load_data
             JOIN load_data_ids ON load_data.id = load_data_ids.id
         )
@@ -399,7 +405,13 @@ def fix_dataset_data(
     new_lookup_file = dgen_dst_data_path / "load_data_lookup.parquet"
     new_load_data_file = dgen_dst_data_path / "load_data.parquet"
     duckdb.sql(
-        f"COPY load_data_lookup_filtered TO '{new_lookup_file}' (FORMAT PARQUET, COMPRESSION snappy)"
+        f"""
+            COPY (
+                SELECT id, geography, model_year, sector, subsector
+                FROM load_data_lookup_filtered
+            )
+            TO '{new_lookup_file}' (FORMAT PARQUET, COMPRESSION snappy)
+        """
     )
     duckdb.sql(
         f"COPY load_data_filtered TO '{new_load_data_file}' (FORMAT PARQUET, COMPRESSION snappy)"

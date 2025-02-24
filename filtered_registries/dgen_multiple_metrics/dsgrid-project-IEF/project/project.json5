@@ -22,9 +22,12 @@
             ],
           },
           metric: {
-            base: [
-              "dpv_profiles",
-            ],
+            base: {
+              record_ids: [
+                "dpv_profiles",
+              ],
+              dimension_name: "DECARB 2023 DPV Profiles",
+            },
           },
         },
       },
@@ -48,9 +51,12 @@
             ],
           },
           metric: {
-            base: [
-              "dpv_capacity",
-            ],
+            base: {
+              record_ids: [
+                "dpv_capacity",
+              ],
+              dimension_name: "DECARB 2023 DPV Capacity",
+            },
           },
         },
       },

@@ -29,7 +29,7 @@
       dimension_type: "metric",
       file: "dimension_mappings/capacity_to_capacity.csv",
       mapping_type: "one_to_one",
-      from_dimension_name: "DECARB 2023 DPV Capacity",
+      project_base_dimension_name: "DECARB 2023 DPV Capacity",
     },
   ],
 }

@@ -16,12 +16,10 @@
               ],
             },
             subsector: {
-              supplemental: [
+              subset: [
                 {
-                  name: "Commercial Subsectors",
-                  record_ids: [
-                    "commercial_subsectors",
-                  ],
+                  name: 'Subsectors by Sector',
+                  selectors: ['commercial_subsectors2'],
                 },
               ],
             },
@@ -42,12 +40,10 @@
               ],
             },
             subsector: {
-              supplemental: [
+              subset: [
                 {
-                  name: "Commercial Subsectors",
-                  record_ids: [
-                    "commercial_subsectors",
-                  ],
+                  name: 'Subsectors by Sector',
+                  selectors: ['commercial_subsectors2'],
                 },
               ],
             },
