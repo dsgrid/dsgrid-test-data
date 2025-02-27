@@ -11,19 +11,30 @@
         multi_dimensional: [
           {
             sector: {
-              base: [
-                "com",
-              ],
+              base: {
+                "record_ids": [
+                  "com",
+                ],
+              },
             },
             subsector: {
-              supplemental: [
-                {
-                  name: "Commercial Subsectors",
-                  record_ids: [
-                    "commercial_subsectors",
-                  ],
-                },
-              ],
+              base: {
+                "record_ids": [
+                  "FullServiceRestaurant",
+                  "Hospital",
+                  "LargeHotel",
+                  "LargeOffice",
+                  "MediumOffice",
+                  "Outpatient",
+                  "PrimarySchool",
+                  "QuickServiceRestaurant",
+                  "SmallHotel",
+                  "SmallOffice",
+                  "StandaloneRetail",
+                  "StripMall",
+                  "Warehouse",
+                ]
+              },
             },
           },
         ],
