@@ -7,7 +7,6 @@
       module: "dsgrid.dimension.standard",
       name: "US Counties 2010 - ComStock Only",
       type: "geography",
-      display_name: "County",
     },
     {
       "class": "Sector",
@@ -16,7 +15,6 @@
       module: "dsgrid.dimension.standard",
       name: "EFS Sectors - ComStock Only",
       type: "sector",
-      display_name: "Sector",
     },
     {
       "class": "Subsector",
@@ -25,7 +23,6 @@
       module: "dsgrid.dimension.standard",
       name: "ComStock Subsectors EFS",
       type: "subsector",
-      display_name: "ComStock Building Type",
     },
     {
       "class": "EnergyEndUse",
@@ -34,7 +31,6 @@
       module: "dsgrid.dimension.standard",
       name: "EFS Detailed End Uses - ComStock Only",
       type: "metric",
-      display_name: "ComStock End Use",
     },
     {
       "class": "WeatherYear",
@@ -43,7 +39,6 @@
       module: "dsgrid.dimension.standard",
       name: "2012 Weather Year",
       type: "weather_year",
-      display_name: "Weather 2012",
     },
     {
       "class": "ModelYear",
@@ -52,7 +47,6 @@
       module: "dsgrid.dimension.standard",
       name: "Model Years 2010 to 2050",
       type: "model_year",
-      display_name: "Model Year",
     },
     {
       "class": "Scenario",
@@ -61,7 +55,6 @@
       module: "dsgrid.dimension.standard",
       name: "Reference Scenario",
       type: "scenario",
-      display_name: "Reference",
     },
     {
       "class": "Time",
@@ -80,7 +73,6 @@
       type: "time",
       measurement_type: "total",
       time_type: "datetime",
-      display_name: "Hourly EST 2012",
     },
     {
       "class": "State",
@@ -89,7 +81,6 @@
       module: "dsgrid.dimension.standard",
       name: "US States",
       type: "geography",
-      display_name: "State",
     },
     {
       "class": "CensusDivision",
@@ -97,7 +88,6 @@
       file: "dimensions/supplemental/census_divisions.csv",
       name: "US Census Divisions",
       type: "geography",
-      display_name: "Census Division",
     },
     {
       "class": "CensusRegion",
@@ -105,7 +95,6 @@
       file: "dimensions/supplemental/census_regions.csv",
       name: "US Census Regions",
       type: "geography",
-      display_name: "Census Region",
     },
     {
       "class": "Subsector",
@@ -113,7 +102,6 @@
       file: "dimensions/supplemental/commercial_subsectors.csv",
       name: "Commercial Subsectors",
       type: "subsector",
-      display_name: "Commercial Subsector",
     },
   ],
 }
