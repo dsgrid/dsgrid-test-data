@@ -26,14 +26,14 @@
      {
        aggregation_function: "sum",
        dimensions: {
-         geography: ["county"],
-         metric: ["comstock_end_use"],
-         model_year: ["five_year_intervals"],
-         scenario: ["reference"],
-         sector: ["sector"],
-         subsector: ["comstock_building_type"],
-         time: ["hourly_est_2012"],
-         weather_year: ["weather_2012"],
+         geography: ["US Counties 2010 - ComStock Only"],
+         metric: ["EFS Detailed End Uses - ComStock Only"],
+         model_year: ["Five Year Intervals"],
+         scenario: ["Reference Scenario"],
+         sector: ["EFS Sectors - ComStock Only"],
+         subsector: ["ComStock Subsectors EFS"],
+         time: ["Time-2012-EST-hourly-periodBeginning-noDST-noLeapDayAdjustment-total"],
+         weather_year: ["2012 Weather Year"],
        }
      }
     ],

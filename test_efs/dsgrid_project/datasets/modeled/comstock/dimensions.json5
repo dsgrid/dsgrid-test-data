@@ -7,7 +7,6 @@
       module: "dsgrid.dimension.standard",
       name: "ComStock End Uses",
       type: "metric",
-      display_name: "ComStock End Use",
     },
     {
       "class": "Subsector",
@@ -16,7 +15,6 @@
       module: "dsgrid.dimension.standard",
       name: "ComStock Subsectors EFS with formatted prefix",
       type: "subsector",
-      display_name: "ComStock Building Type",
     },
     {
       "class": "ModelYear",
@@ -25,7 +23,6 @@
       module: "dsgrid.dimension.standard",
       name: "Model Year 2012",
       type: "model_year",
-      display_name: "2012",
     },
     {
       "class": "Time",
@@ -44,7 +41,6 @@
       timezone: "EasternStandard",
       measurement_type: "total",
       time_type: "datetime",
-      display_name: "Hourly EST 2012",
     },
   ],
 }

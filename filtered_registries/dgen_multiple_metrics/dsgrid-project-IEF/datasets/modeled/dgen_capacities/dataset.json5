@@ -42,7 +42,6 @@
       "class": "GeographyDimensionBaseModel",
       type: "geography",
       name: "US Census tracts",
-      display_name: "Census tracts",
       file: "dimensions/geography.csv",
       module: "dsgrid.dimension.standard",
       description: "US tracts for L48, Census 2010 vintage mapped to 2020 counties, no territories",
@@ -50,7 +49,6 @@
     {
       type: "sector",
       name: "residential and commercial",
-      display_name: "Res and com",
       file: "dimensions/sectors.csv",
       module: "dsgrid.dimension.standard",
       "class": "Sector",
@@ -62,13 +60,11 @@
       file: "dimensions/subsectors.csv",
       module: "dsgrid.dimension.standard",
       name: "tilt azimuth subsectors",
-      display_name: "tilt azimuth subsectors",
       type: "subsector",
     },
     {
       type: "metric",
       name: "DPV capacity",
-      display_name: "DPV capacity",
       file: "dimensions/capacity.csv",
       module: "dsgrid.dimension.standard",
       "class": "Stock",
@@ -77,7 +73,6 @@
     {
       type: "scenario",
       name: "Standard Scenarios 2023 Low RE Cost dGen",
-      display_name: "Standard Scenarios 2023 dGen",
       file: "dimensions/scenario.csv",
       module: "dsgrid.dimension.standard",
       "class": "Scenario",
@@ -86,7 +81,6 @@
     {
       type: "model_year",
       name: "dGen model years",
-      display_name: "dGen model years",
       file: "dimensions/model_years.csv",
       module: "dsgrid.dimension.standard",
       "class": "ModelYear",
@@ -98,7 +92,6 @@
       file: "dimensions/weather_year.csv",
       module: "dsgrid.dimension.standard",
       name: "2018 weather year",
-      display_name: "2018 weather year",
       type: "weather_year",
     },
     {
@@ -106,7 +99,6 @@
       time_type: "annual",
       "class": "Time",
       name: "dGen annual capacity time",
-      display_name: "Time annual",
       description: "dGen annual capacity time",
       str_format: "%Y",
       measurement_type: "total",

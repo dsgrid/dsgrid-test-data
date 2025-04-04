@@ -42,7 +42,6 @@
       module: "dsgrid.dimension.standard",
       name: "ComStock End Uses",
       type: "metric",
-      display_name: "ComStock End Use",
     },
     {
       "class": "Subsector",
@@ -50,7 +49,6 @@
       file: "dimensions/comstock_subsectors.csv",
       module: "dsgrid.dimension.standard",
       name: "ComStock Subsectors EFS with formatted prefix",
-      display_name: "ComStock Building Type",
       type: "subsector",
     },
     {
@@ -59,13 +57,11 @@
       file: "dimensions/model_years.csv",
       module: "dsgrid.dimension.standard",
       name: "Model Year 2012",
-      display_name: "2012",
       type: "model_year",
     },
     {
       "class": "Time",
       name: "Time-2012-EST-hourly-periodEnding-noDST-noLeapDayAdjustment-total-UTChour1start",
-      display_name: "Hourly EST 2012",
       description: "Time dimension, 2012 hourly EST, period-ending, no DST, no Leap Day Adjustment, total value\n",
       ranges: [
         {
