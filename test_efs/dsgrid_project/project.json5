@@ -16,12 +16,10 @@
               ],
             },
             subsector: {
-              supplemental: [
+              subset: [
                 {
-                  name: "Commercial Subsectors",
-                  record_ids: [
-                    "commercial_subsectors",
-                  ],
+                  name: 'Subsectors by Sector',
+                  selectors: ['commercial_subsectors2'],
                 },
               ],
             },
@@ -42,12 +40,10 @@
               ],
             },
             subsector: {
-              supplemental: [
+              subset: [
                 {
-                  name: "Commercial Subsectors",
-                  record_ids: [
-                    "commercial_subsectors",
-                  ],
+                  name: 'Subsectors by Sector',
+                  selectors: ['commercial_subsectors2'],
                 },
               ],
             },
@@ -64,7 +60,6 @@
         file: "dimensions/comstock_counties.csv",
         module: "dsgrid.dimension.standard",
         name: "US Counties 2010 - ComStock Only",
-        display_name: "County",
         type: "geography",
       },
       {
@@ -73,7 +68,6 @@
         file: "dimensions/sectors.csv",
         module: "dsgrid.dimension.standard",
         name: "EFS Sectors - ComStock Only",
-        display_name: "Sector",
         type: "sector",
       },
       {
@@ -82,7 +76,6 @@
         file: "dimensions/subsectors.csv",
         module: "dsgrid.dimension.standard",
         name: "ComStock Subsectors EFS",
-        display_name: "ComStock Building Type",
         type: "subsector",
       },
       {
@@ -91,7 +84,6 @@
         file: "dimensions/enduses.csv",
         module: "dsgrid.dimension.standard",
         name: "EFS Detailed End Uses - ComStock Only",
-        display_name: "ComStock End Use",
         type: "metric",
       },
       {
@@ -100,7 +92,6 @@
         file: "dimensions/weather_years.csv",
         module: "dsgrid.dimension.standard",
         name: "2012 Weather Year",
-        display_name: "2012 Weather",
         type: "weather_year",
       },
       {
@@ -109,7 +100,6 @@
         file: "dimensions/model_years.csv",
         module: "dsgrid.dimension.standard",
         name: "Model Years 2010 to 2050",
-        display_name: "Model Year",
         type: "model_year",
       },
       {
@@ -118,7 +108,6 @@
         file: "dimensions/scenarios.csv",
         module: "dsgrid.dimension.standard",
         name: "Reference Scenario",
-        display_name: "Reference",
         type: "scenario",
       },
       {
@@ -126,7 +115,6 @@
         description: "Time dimension, 2012 hourly EST, period-beginning, no DST, no Leap Day Adjustment, total value\n",
         frequency: "01:00:00",
         name: "Time-2012-EST-hourly-periodBeginning-noDST-noLeapDayAdjustment-total",
-        display_name: "2012 Hourly EST",
         time_interval_type: "period_beginning",
         str_format: "%Y-%m-%d %H:%M:%S",
         timezone: "EasternStandard",
@@ -144,7 +132,6 @@
     subset_dimensions: [
       {
         name: 'Subsectors by Sector',
-        display_name: 'subsectors_by_sector',
         description: 'Provides selection of subsectors by sector.',
         type: 'subsector',
         filename: 'dimensions/subset/subsectors_by_sector.csv',
@@ -167,7 +154,6 @@
         file: "dimensions/supplemental/states.csv",
         module: "dsgrid.dimension.standard",
         name: "US States",
-        display_name: "State",
         type: "geography",
         mapping: {
           description: "Maps EFS US Counties 2010 to US States",
@@ -179,7 +165,6 @@
         description: "US Census Divisions\n",
         file: "dimensions/supplemental/census_divisions.csv",
         name: "US Census Divisions",
-        display_name: "Census Division",
         type: "geography",
         mapping: {
           description: "Maps EFS US Counties 2010 to US Census Divisions",
@@ -191,7 +176,6 @@
         description: "US Census Regions\n",
         file: "dimensions/supplemental/census_regions.csv",
         name: "US Census Regions",
-        display_name: "Census Region",
         type: "geography",
         mapping: {
           description: "Maps EFS US Counties 2010 to US Census Regions",
@@ -204,7 +188,6 @@
         file: "dimensions/supplemental/commercial_subsectors.csv",
         module: "dsgrid.dimension.base_models",
         name: "Commercial Subsectors",
-        display_name: "Commercial Subsectors",
         type: "subsector",
         mapping: {
           description: "Selector for all dsgrid CONUS 2022 commercial subsectors",
@@ -218,7 +201,6 @@
         file: 'dimensions/supplemental/five_year_intervals.csv',
         module: 'dsgrid.dimension.standard',
         name: 'Five Year Intervals',
-        display_name: "Five Year Intervals",
         type: 'model_year',
         mapping: {
           description: 'Maps ten year interval data 2010-2050 to five year interval data 2010-2050',

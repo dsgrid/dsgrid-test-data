@@ -39,7 +39,6 @@
     {
       type: "geography",
       name: "US_Census_Divisions",
-      display_name: "Census Division",
       file: "dimensions/us_census_divisions.csv",
       module: "dsgrid.dimension.standard",
       "class": "CensusDivision",
@@ -48,7 +47,6 @@
     {
       type: "sector",
       name: "commercial-sector",
-      display_name: "Commercial",
       file: "dimensions/sector_commercial.csv",
       module: "dsgrid.dimension.standard",
       "class": "Sector",
@@ -57,7 +55,6 @@
     {
       type: "subsector",
       name: "AEO2021-commercial-building-types-include-unspecified",
-      display_name: "AEO Commercial Building Type",
       file: "dimensions/aeo2021_commercial_building_types_include_unspecified.csv",
       module: "dsgrid.dimension.standard",
       "class": "Subsector",
@@ -66,7 +63,6 @@
     {
       type: "metric",
       name: "AEO2021-commercial-energy-enduses",
-      display_name: "AEO Commercial End Use",
       file: "dimensions/aeo2021_commercial_energy_enduses.csv",
       module: "dsgrid.dimension.standard",
       "class": "EnergyEndUse",
@@ -75,7 +71,6 @@
     {
       type: "scenario",
       name: "Reference_Scenario",
-      display_name: "AEO Reference",
       file: "dimensions/aeo_reference_scenario.csv",
       module: "dsgrid.dimension.standard",
       "class": "Scenario",
@@ -84,7 +79,6 @@
     {
       type: "weather_year",
       name: "Weather_Years-trivial-2013_to_2050",
-      display_name: "None",
       file: "dimensions/weather_years_trivial_2013_to_2050.csv",
       module: "dsgrid.dimension.standard",
       "class": "WeatherYear",
@@ -93,7 +87,6 @@
     {
       type: "model_year",
       name: "Model_Years-trivial-2013_to_2050",
-      display_name: "None",
       file: "dimensions/model_years_trivial_2013_to_2050.csv",
       module: "dsgrid.dimension.standard",
       "class": "ModelYear",
@@ -106,7 +99,6 @@
       module: "dsgrid.dimension.standard",
       description: "Annual time 2013-2050",
       name: "annual_time-2013_to_2050",
-      display_name: "Annual",
       ranges: [
         {
           start: "2013",
