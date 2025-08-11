@@ -1,0 +1,6 @@
+{
+  "id": "int",
+  "timestamp": "TIMESTAMP_TZ",
+  "com_cooling": "double",
+  "com_fans": "double"
+}

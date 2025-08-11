@@ -1,0 +1,23 @@
+{
+  "geography": "string",
+  "subsector": "string",
+  "elec_heating": "double",
+  "elec_cooling": "double",
+  "elec_water_heating": "double",
+  "elec_ventilation": "double",
+  "elec_cooking": "double",
+  "elec_lighting": "double",
+  "elec_refrigeration": "double",
+  "elec_office_equip_pcs": "double",
+  "elec_office_equip_nonpcs": "double",
+  "elec_other": "double",
+  "ng_heating": "double",
+  "ng_cooling": "double",
+  "ng_water_heating": "double",
+  "ng_cooking": "double",
+  "ng_other": "double",
+  "fuel_oil_heating": "double",
+  "fuel_oil_cooling": "double",
+  "fuel_oil_water_heating": "double",
+  "fuel_oil_other": "double"
+}
