@@ -1,6 +1,20 @@
 {
-  "id": "int",
-  "timestamp": "TIMESTAMP_TZ",
-  "com_cooling": "double",
-  "com_fans": "double"
+  "columns": [
+    {
+      "name": "id",
+      "data_type": "int"
+    },
+    {
+      "name": "timestamp",
+      "data_type": "TIMESTAMP_TZ"
+    },
+    {
+      "name": "com_cooling",
+      "data_type": "double"
+    },
+    {
+      "name": "com_fans",
+      "data_type": "double"
+    }
+  ]
 }
