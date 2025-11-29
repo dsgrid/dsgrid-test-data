@@ -1,0 +1,15 @@
+sector,subsector
+res,com__LargeHotel
+res,com__StripMall
+res,com__QuickServiceRestaurant
+res,com__MediumOffice
+res,com__StandaloneRetail
+res,com__FullServiceRestaurant
+res,com__LargeOffice
+res,com__SmallHotel
+res,com__Warehouse
+res,com__Hospital
+res,com__SmallOffice
+res,com__PrimarySchool
+res,com__Outpatient
+com,com__MidriseApartment
