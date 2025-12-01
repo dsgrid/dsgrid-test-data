@@ -1,7 +1,60 @@
 {
-  data_source: "comstock",
   dataset_id: "test_efs_comstock",
+  table_schema: {
+    data_schema: {
+      data_schema_type: "standard",
+      table_format: {
+        format_type: "pivoted",
+        pivoted_dimension_type: "metric",
+      }
+    },
+    data_file: {
+      path: "../../../../../datasets/test_efs_comstock/load_data.csv",
+      columns: [
+        {
+          name: "id",
+          data_type: "int",
+        },
+        {
+          name: "timestamp",
+          data_type: "TIMESTAMP_TZ",
+        },
+        {
+          name: "com_cooling",
+          data_type: "double",
+        },
+        {
+          name: "com_fans",
+          data_type: "double",
+        }
+      ]
+    },
+    lookup_data_file: {
+      path: "../../../../../datasets/test_efs_comstock/load_data_lookup.json",
+      columns: [
+        {
+          name: "id",
+          data_type: "int",
+        },
+        {
+          name: "geography",
+          data_type: "string",
+        },
+        {
+          name: "sector",
+          data_type: "string",
+        },
+        {
+          name: "subsector",
+          data_type: "string",
+        },
+      ],
+    },
+    missing_associations: "../../../../../datasets/test_efs_comstock/missing_associations",
+  },
+  data_source: "comstock",
   dataset_type: "modeled",
+  sector_description: "commercial",
   trivial_dimensions: [
     "weather_year",
     "model_year",
@@ -16,9 +69,9 @@
     "Andrew Parker",
   ],
   origin_project: "Electrification Futures Study (EFS)",
-  origin_date: "2018-06-18",
-  origin_version: "0.2.0",
-  source: "https://nrel.sharepoint.com/:u:/r/sites/dsgrid-load/Shared%20Documents/File%20Archive/fy17%20-%20OSP%20-%20Electrification%20Load%20Modeling/data/dsgrid_v0.2.0/data/commercial.dsg?csf=1&web=1&e=dU8Ogx",
+  data_source_date: "2018-06-18",
+  data_source_version: "0.2.0",
+  data_source_doi_url: "https://nrel.sharepoint.com/:u:/r/sites/dsgrid-load/Shared%20Documents/File%20Archive/fy17%20-%20OSP%20-%20Electrification%20Load%20Modeling/data/dsgrid_v0.2.0/data/commercial.dsg?csf=1&web=1&e=dU8Ogx",
   data_classification: "low",
   tags: [
     "commercial",
@@ -26,13 +79,6 @@
     "2012",
     "dsgrid_v0.2.0",
   ],
-  data_schema: {
-    data_schema_type: "standard",
-    table_format: {
-      pivoted_dimension_type: "metric",
-      format_type: "pivoted",
-    }
-  },
   dimension_references: [
     {
       name: "US Counties 2010 - ComStock Only",

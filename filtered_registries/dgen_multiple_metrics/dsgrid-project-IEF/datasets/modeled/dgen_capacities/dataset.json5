@@ -13,9 +13,9 @@
     "Michaela Sizemore",
   ],
   origin_project: "Standard Scenarios 2023",
-  origin_date: "2024-11-01",
-  origin_version: "0.1.0",
-  source: "dGen runs for Standard Scenarios 2023",
+  data_source_date: "2024-11-01",
+  data_source_version: "0.1.0",
+  data_source_doi_url: "dGen runs for Standard Scenarios 2023",
   data_classification: "low",
   tags: [
     "distributed PV",
@@ -31,11 +31,17 @@
     "metric",
   ],
   use_project_geography_time_zone: true,
-  data_schema: {
-    table_format: {
-      format_type: "unpivoted",
+  table_schema: {
+    data_schema: {
+      table_format: {
+        format_type: "unpivoted",
+      },
+      data_schema_type: "one_table",
     },
-    data_schema_type: "one_table",
+    data_file: {
+      path: "../../../../dgen_capacities_data/load_data.parquet",
+    },
+    missing_associations: "../../../../dgen_capacities_data/missing_associations.parquet",
   },
   dimensions: [
     {
