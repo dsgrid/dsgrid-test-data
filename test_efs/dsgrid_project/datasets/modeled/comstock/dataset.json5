@@ -50,7 +50,7 @@
         },
       ],
     },
-    missing_associations: "../../../../../datasets/test_efs_comstock/missing_associations",
+    missing_associations: ["../../../../../datasets/test_efs_comstock/missing_associations"],
   },
   data_source: "comstock",
   dataset_type: "modeled",

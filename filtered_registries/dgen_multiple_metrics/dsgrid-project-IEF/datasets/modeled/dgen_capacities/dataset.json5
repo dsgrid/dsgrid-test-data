@@ -41,7 +41,7 @@
     data_file: {
       path: "../../../../dgen_capacities_data/load_data.parquet",
     },
-    missing_associations: "../../../../dgen_capacities_data/missing_associations.parquet",
+    missing_associations: ["../../../../dgen_capacities_data/missing_associations.parquet"],
   },
   dimensions: [
     {

@@ -11,7 +11,7 @@
     data_file: {
       path: "../../../../../datasets/test_efs_comstock_unpivoted/load_data.parquet",
     },
-    missing_associations: "../../../../../datasets/test_efs_comstock_unpivoted/missing_associations",
+    missing_associations: ["../../../../../datasets/test_efs_comstock_unpivoted/missing_associations"],
   },
   dataset_type: "modeled",
   sector_description: "commercial",
@@ -39,13 +39,6 @@
     "2012",
     "dsgrid_v0.2.0",
   ],
-  data_schema: {
-    table_format: {
-      format_type: "unpivoted",
-      value_column: "value",
-    },
-    data_schema_type: "one_table",
-  },
   dimensions: [
     {
       "class": "EnergyEndUse",

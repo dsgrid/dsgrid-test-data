@@ -44,7 +44,7 @@
     lookup_data_file: {
       path: "../../../../dgen_profiles_data/load_data_lookup.parquet",
     },
-    missing_associations: "../../../../dgen_profiles_data/missing_associations.parquet",
+    missing_associations: ["../../../../dgen_profiles_data/missing_associations.parquet"],
   },
   dimensions: [
     {
