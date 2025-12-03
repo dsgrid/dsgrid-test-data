@@ -39,7 +39,7 @@
     ],
     "reports": [],
     "table_format": {
-      "format_type": "unpivoted",
+      "format_type": "stacked",
     },
     "output_format": "parquet",
     "sort_columns": [],

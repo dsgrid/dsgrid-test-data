@@ -26,18 +26,6 @@
     "weather_year",
     "model_year",
   ],
-  table_schema: {
-    data_schema: {
-      data_schema_type: "one_table",
-      table_format: {
-        format_type: "pivoted",
-        pivoted_dimension_type: "metric",
-      },
-    },
-    data_file: {
-      path: "../../../../../datasets/test_aeo_data/Commercial_End_Use_Growth_Factors/load_data.csv",
-    },
-  },
   dataset_qualifier_metadata: {
     growth_rate_type: "exponential_annual",
     dataset_qualifier_type: "growth_rate",
@@ -108,4 +96,12 @@
       name: "noop_time",
     },
   ],
+  data_layout: {
+    table_format: "one_table",
+    value_format: "pivoted",
+    pivoted_dimension_type: "metric",
+    data_file: {
+      path: "../../../../../datasets/test_aeo_data/Commercial_End_Use_Growth_Factors/load_data.csv",
+    },
+  },
 }

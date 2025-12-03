@@ -2,7 +2,7 @@
   name: "resstock_state",
   result: {
     table_format: {
-      format_type: "unpivoted",
+      format_type: "stacked",
     },
     output_format: "parquet",
     sort_columns: ["scenario", "geography", "subsector", "metric", "timestamp", "model_year"]

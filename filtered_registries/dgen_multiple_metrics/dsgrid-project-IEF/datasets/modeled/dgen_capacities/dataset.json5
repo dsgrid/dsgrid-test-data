@@ -31,18 +31,6 @@
     "metric",
   ],
   use_project_geography_time_zone: true,
-  table_schema: {
-    data_schema: {
-      table_format: {
-        format_type: "unpivoted",
-      },
-      data_schema_type: "one_table",
-    },
-    data_file: {
-      path: "../../../../dgen_capacities_data/load_data.parquet",
-    },
-    missing_associations: ["../../../../dgen_capacities_data/missing_associations.parquet"],
-  },
   dimensions: [
     {
       "class": "GeographyDimensionBaseModel",
@@ -116,4 +104,14 @@
       ],
     },
   ],
+  data_layout: {
+    table_format: "one_table",
+    value_format: "stacked",
+    data_file: {
+      path: "../../../../dgen_capacities_data/load_data.parquet",
+    },
+    missing_associations: [
+      "../../../../dgen_capacities_data/missing_associations.parquet",
+    ],
+  },
 }

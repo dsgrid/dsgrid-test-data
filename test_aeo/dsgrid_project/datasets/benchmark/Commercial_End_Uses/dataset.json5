@@ -28,18 +28,6 @@
     "weather_year",
     "model_year",
   ],
-  table_schema: {
-    data_schema: {
-      data_schema_type: "one_table",
-      table_format: {
-        format_type: "pivoted",
-        pivoted_dimension_type: "metric",
-      },
-    },
-    data_file: {
-      path: "../../../../../datasets/test_aeo_data/Commercial_End_Uses/load_data.csv",
-    },
-  },
   dimensions: [
     {
       type: "geography",
@@ -115,4 +103,12 @@
       measurement_type: "total",
     },
   ],
+  data_layout: {
+    table_format: "one_table",
+    value_format: "pivoted",
+    pivoted_dimension_type: "metric",
+    data_file: {
+      path: "../../../../../datasets/test_aeo_data/Commercial_End_Uses/load_data.csv",
+    },
+  },
 }

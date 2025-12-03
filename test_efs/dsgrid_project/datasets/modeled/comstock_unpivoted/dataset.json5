@@ -1,18 +1,6 @@
 {
   data_source: "comstock",
   dataset_id: "test_efs_comstock_unpivoted",
-  table_schema: {
-    data_schema: {
-      data_schema_type: "one_table",
-      table_format: {
-        format_type: "unpivoted",
-      }
-    },
-    data_file: {
-      path: "../../../../../datasets/test_efs_comstock_unpivoted/load_data.parquet",
-    },
-    missing_associations: ["../../../../../datasets/test_efs_comstock_unpivoted/missing_associations"],
-  },
   dataset_type: "modeled",
   sector_description: "commercial",
   trivial_dimensions: [
@@ -105,4 +93,14 @@
       version: "1.0.0",
     },
   ],
+  data_layout: {
+    table_format: "one_table",
+    value_format: "stacked",
+    data_file: {
+      path: "../../../../../datasets/test_efs_comstock_unpivoted/load_data.parquet",
+    },
+    missing_associations: [
+      "../../../../../datasets/test_efs_comstock_unpivoted/missing_associations",
+    ],
+  },
 }

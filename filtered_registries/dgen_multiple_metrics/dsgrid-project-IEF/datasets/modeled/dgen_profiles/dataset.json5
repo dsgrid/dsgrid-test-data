@@ -30,22 +30,6 @@
     "scenario",
   ],
   use_project_geography_time_zone: true,
-  table_schema: {
-    data_schema: {
-      table_format: {
-        format_type: "pivoted",
-        pivoted_dimension_type: "metric",
-      },
-      data_schema_type: "standard",
-    },
-    data_file: {
-      path: "../../../../dgen_profiles_data/load_data.parquet",
-    },
-    lookup_data_file: {
-      path: "../../../../dgen_profiles_data/load_data_lookup.parquet",
-    },
-    missing_associations: ["../../../../dgen_profiles_data/missing_associations.parquet"],
-  },
   dimensions: [
     {
       "class": "GeographyDimensionBaseModel",
@@ -123,4 +107,18 @@
       ],
     },
   ],
+  data_layout: {
+    table_format: "two_table",
+    value_format: "pivoted",
+    pivoted_dimension_type: "metric",
+    data_file: {
+      path: "../../../../dgen_profiles_data/load_data.parquet",
+    },
+    lookup_data_file: {
+      path: "../../../../dgen_profiles_data/load_data_lookup.parquet",
+    },
+    missing_associations: [
+      "../../../../dgen_profiles_data/missing_associations.parquet",
+    ],
+  },
 }

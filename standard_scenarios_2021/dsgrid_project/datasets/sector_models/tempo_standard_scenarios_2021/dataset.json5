@@ -22,21 +22,6 @@
   ],
   data_classification: "low",
   data_source_doi_url: "https://github.nrel.gov/mmurator/TMM/blob/0d89b8f61c624770643a35de1998efe6def5e59c/TEMPO.jl/src/BEV/BEV.jl",
-  table_schema: {
-    data_schema: {
-      table_format: {
-        format_type: "pivoted",
-        pivoted_dimension_type: "metric",
-      },
-      data_schema_type: "standard",
-    },
-    data_file: {
-      path: "load_data.parquet",
-    },
-    lookup_data_file: {
-      path: "load_data_lookup.parquet",
-    },
-  },
   dimensions: [
     {
       type: "geography",
@@ -79,4 +64,15 @@
       version: "1.0.0",
     },
   ],
+  data_layout: {
+    table_format: "two_table",
+    value_format: "pivoted",
+    pivoted_dimension_type: "metric",
+    data_file: {
+      path: "load_data.parquet",
+    },
+    lookup_data_file: {
+      path: "load_data_lookup.parquet",
+    },
+  },
 }
