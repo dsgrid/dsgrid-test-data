@@ -14,18 +14,14 @@
     "Arthur Yip",
   ],
   origin_organization: "NREL",
-  origin_date: "2021-04-26",
+  data_source_date: "2021-04-26",
   origin_project: "TEMPO",
-  origin_version: "1.0.0",
+  data_source_version: "1.0.0",
   tags: [
     "TEMPO",
   ],
   data_classification: "low",
-  source: "https://github.nrel.gov/mmurator/TMM/blob/0d89b8f61c624770643a35de1998efe6def5e59c/TEMPO.jl/src/BEV/BEV.jl",
-  data_schema: {
-    load_data_column_dimension: "metric",
-    data_schema_type: "standard",
-  },
+  data_source_doi_url: "https://github.nrel.gov/mmurator/TMM/blob/0d89b8f61c624770643a35de1998efe6def5e59c/TEMPO.jl/src/BEV/BEV.jl",
   dimensions: [
     {
       type: "geography",
@@ -68,4 +64,15 @@
       version: "1.0.0",
     },
   ],
+  data_layout: {
+    table_format: "two_table",
+    value_format: "pivoted",
+    pivoted_dimension_type: "metric",
+    data_file: {
+      path: "load_data.parquet",
+    },
+    lookup_data_file: {
+      path: "load_data_lookup.parquet",
+    },
+  },
 }

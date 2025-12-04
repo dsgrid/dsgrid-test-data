@@ -17,9 +17,9 @@
     "Andrew Parker",
   ],
   origin_project: "Electrification Futures Study (EFS)",
-  origin_date: "2018-06-18",
-  origin_version: "0.2.0",
-  source: "https://nrel.sharepoint.com/:u:/r/sites/dsgrid-load/Shared%20Documents/File%20Archive/fy17%20-%20OSP%20-%20Electrification%20Load%20Modeling/data/dsgrid_v0.2.0/data/commercial.dsg?csf=1&web=1&e=dU8Ogx",
+  data_source_date: "2018-06-18",
+  data_source_version: "0.2.0",
+  data_source_doi_url: "https://nrel.sharepoint.com/:u:/r/sites/dsgrid-load/Shared%20Documents/File%20Archive/fy17%20-%20OSP%20-%20Electrification%20Load%20Modeling/data/dsgrid_v0.2.0/data/commercial.dsg?csf=1&web=1&e=dU8Ogx",
   data_classification: "low",
   tags: [
     "commercial",
@@ -27,13 +27,6 @@
     "2012",
     "dsgrid_v0.2.0",
   ],
-  data_schema: {
-    table_format: {
-      format_type: "unpivoted",
-      value_column: "value",
-    },
-    data_schema_type: "one_table",
-  },
   dimensions: [
     {
       "class": "EnergyEndUse",
@@ -100,4 +93,14 @@
       version: "1.0.0",
     },
   ],
+  data_layout: {
+    table_format: "one_table",
+    value_format: "stacked",
+    data_file: {
+      path: "../../../../../datasets/test_efs_comstock_unpivoted/load_data.parquet",
+    },
+    missing_associations: [
+      "../../../../../datasets/test_efs_comstock_unpivoted/missing_associations",
+    ],
+  },
 }

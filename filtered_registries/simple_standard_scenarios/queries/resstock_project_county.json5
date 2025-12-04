@@ -1,0 +1,29 @@
+{
+  name: "resstock_project_county",
+  result: {
+    table_format: {
+      format_type: "stacked",
+    },
+    output_format: "parquet",
+    sort_columns: ["scenario", "geography", "subsector", "metric", "timestamp", "model_year"]
+  },
+  dataset_id: "resstock_conus_2022_reference",
+  to_dimension_references: [
+    {
+      dimension_id: "15647b6e-84b7-4a10-8a3b-35a21d77b062",
+      version: "1.0.0",
+      type: "geography",
+    },
+    {
+      dimension_id: "409fe4b7-0612-4c0b-87f8-392384fdcc2c",
+      version: "1.0.0",
+      type: "metric",
+    },
+    {
+      dimension_id: "8ba9df9a-ab99-403a-ad9f-0f6a71013554",
+      version: "1.0.0",
+      type: "time",
+    }
+  ],
+  wrap_time_allowed: true,
+}
