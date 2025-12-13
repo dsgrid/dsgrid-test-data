@@ -117,7 +117,7 @@
         name: "Time-2012-EST-hourly-periodBeginning-noDST-noLeapDayAdjustment-total",
         time_interval_type: "period_beginning",
         str_format: "%Y-%m-%d %H:%M:%S",
-        timezone: "EasternStandard",
+        timezone: "Etc/GMT+5",
         type: "time",
         measurement_type: "total",
         time_type: "datetime",
