@@ -78,6 +78,7 @@
         year_column: "year",
         month_column: "month",
         day_column: "day",
+        hour_column: "hour",
       },
     },
   ],
