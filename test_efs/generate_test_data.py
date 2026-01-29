@@ -39,7 +39,7 @@ def generate_efs_comstock(project_dir, src_data_path, output_dir):
             end_time = dimension["ranges"][0]["end"]
             timezone = dimension["timezone"]
     assert end_time is not None
-    if timezone == "EasternStandard":
+    if timezone == "Etc/GMT+5":
         spark.conf.set("spark.sql.session.timeZone", "EST")
     else:
         raise ValueError(f"timezone={timezone} is not supported")

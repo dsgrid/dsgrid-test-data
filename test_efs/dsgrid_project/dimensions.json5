@@ -69,7 +69,7 @@
         },
       ],
       str_format: "%Y-%m-%d %H:%M:%S",
-      timezone: "EasternStandard",
+      timezone: "Etc/GMT+5",
       type: "time",
       measurement_type: "total",
       time_type: "datetime",

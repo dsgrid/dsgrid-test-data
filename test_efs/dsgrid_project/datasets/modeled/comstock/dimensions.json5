@@ -38,7 +38,7 @@
       type: "time",
       time_interval_type: "period_ending",
       str_format: "%Y-%m-%d %H:%M:%S",
-      timezone: "EasternStandard",
+      timezone: "Etc/GMT+5",
       measurement_type: "total",
       time_type: "datetime",
     },

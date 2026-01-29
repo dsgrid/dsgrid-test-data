@@ -1,9 +1,9 @@
 id,name,state,time_zone
-06073,San Diego County,CA,PacificPrevailing
-06075,San Francisco County,CA,PacificPrevailing
-48141,El Paso County,TX,CentralPrevailing
-48201,Harris County,TX,CentralPrevailing
-36001,Albany County,NY,EasternPrevailing
-36119,Westchester County,NY,EasternPrevailing
-08031,Denver County,CO,MountainPrevailing
-08059,Jefferson County,CO,MountainPrevailing
+06073,San Diego County,CA,America/Los_Angeles
+06075,San Francisco County,CA,America/Los_Angeles
+48141,El Paso County,TX,America/Chicago
+48201,Harris County,TX,America/Chicago
+36001,Albany County,NY,America/New_York
+36119,Westchester County,NY,America/New_York
+08031,Denver County,CO,America/Denver
+08059,Jefferson County,CO,America/Denver

@@ -1,0 +1,169 @@
+{
+  dataset_id: "test_efs_comstock_time_in_parts",
+  data_source: "comstock",
+  dataset_type: "modeled",
+  sector_description: "commercial",
+  trivial_dimensions: [
+    "weather_year",
+    "model_year",
+    "scenario",
+  ],
+  description: "EFS ComStock data with time-in-parts format for testing",
+  origin_creator: "Henry Horsey",
+  origin_organization: "NREL",
+  origin_contributors: [
+    "Henry Horsey",
+    "Amanda Farthing",
+    "Andrew Parker",
+  ],
+  origin_project: "Electrification Futures Study (EFS)",
+  data_source_date: "2018-06-18",
+  data_source_version: "0.2.0",
+  data_source_doi_url: "https://nrel.sharepoint.com/:u:/r/sites/dsgrid-load/Shared%20Documents/File%20Archive/fy17%20-%20OSP%20-%20Electrification%20Load%20Modeling/data/dsgrid_v0.2.0/data/commercial.dsg?csf=1&web=1&e=dU8Ogx",
+  data_classification: "low",
+  tags: [
+    "commercial",
+    "efs",
+    "2012",
+    "dsgrid_v0.2.0",
+    "time_in_parts",
+  ],
+  dimensions: [
+    {
+      "class": "EnergyEndUse",
+      description: "ComStock end uses",
+      file: "../comstock/dimensions/comstock_enduses.csv",
+      module: "dsgrid.dimension.standard",
+      name: "ComStock End Uses",
+      type: "metric",
+    },
+    {
+      "class": "Subsector",
+      description: "EFS formated ComStock subsectors. Based on building types subsectors for ComStock, 14 DOE prototypes",
+      file: "../comstock/dimensions/comstock_subsectors.csv",
+      module: "dsgrid.dimension.standard",
+      name: "ComStock Subsectors EFS with formatted prefix",
+      type: "subsector",
+    },
+    {
+      "class": "ModelYear",
+      description: "Model year, 2012 only\n",
+      file: "../comstock/dimensions/model_years.csv",
+      module: "dsgrid.dimension.standard",
+      name: "Model Year 2012",
+      type: "model_year",
+    },
+    {
+      "class": "Time",
+      name: "Time-2012-EST-hourly-periodEnding-noDST-noLeapDayAdjustment-total-UTChour1start-timeinparts",
+      description: "Time dimension with time-in-parts format, 2012 hourly EST, period-ending, no DST, no Leap Day Adjustment, total value\n",
+      ranges: [
+        {
+          start: "2012-01-01 01:00:00",
+          end: "2012-01-08 00:00:00",
+        },
+      ],
+      frequency: "01:00:00",
+      type: "time",
+      time_interval_type: "period_ending",
+      str_format: "%Y-%m-%d %H:%M:%S",
+      time_zone_format: {
+        format_type: "aligned_in_absolute_time",
+        time_zone: "Etc/GMT+5",
+      },
+      measurement_type: "total",
+      time_type: "datetime",
+      column_format: {
+        dtype: "time_format_in_parts",
+        year_column: "year",
+        month_column: "month",
+        day_column: "day",
+        hour_column: "hour",
+      },
+    },
+  ],
+  dimension_references: [
+    {
+      name: "US Counties 2010 - ComStock Only",
+      type: "geography",
+      version: "1.0.0",
+    },
+    {
+      name: "EFS Sectors - ComStock Only",
+      type: "sector",
+      version: "1.0.0",
+    },
+    {
+      name: "2012 Weather Year",
+      type: "weather_year",
+      version: "1.0.0",
+    },
+    {
+      name: "Reference Scenario",
+      type: "scenario",
+      version: "1.0.0",
+    },
+  ],
+  data_layout: {
+    table_format: "two_table",
+    value_format: "pivoted",
+    pivoted_dimension_type: "metric",
+    data_file: {
+      path: "../../../../../datasets/test_efs_comstock_time_in_parts/load_data.csv",
+      columns: [
+        {
+          name: "id",
+          data_type: "int",
+        },
+        {
+          name: "year",
+          data_type: "int",
+        },
+        {
+          name: "month",
+          data_type: "int",
+        },
+        {
+          name: "day",
+          data_type: "int",
+        },
+        {
+          name: "hour",
+          data_type: "int",
+        },
+        {
+          name: "com_cooling",
+          data_type: "double",
+        },
+        {
+          name: "com_fans",
+          data_type: "double",
+        },
+      ],
+    },
+    lookup_data_file: {
+      path: "../../../../../datasets/test_efs_comstock/load_data_lookup.json",
+      columns: [
+        {
+          name: "id",
+          data_type: "int",
+        },
+        {
+          name: "geography",
+          data_type: "string",
+        },
+        {
+          name: "sector",
+          data_type: "string",
+        },
+        {
+          name: "subsector",
+          data_type: "string",
+        },
+      ],
+    },
+    missing_associations: [
+      "../../../../../datasets/test_efs_comstock/missing_associations",
+    ],
+  },
+}
