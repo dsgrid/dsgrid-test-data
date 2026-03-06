@@ -163,6 +163,9 @@
         },
       ],
     },
+    expected_associations: [
+      "../../../../../datasets/test_efs_comstock/expected_associations",
+    ],
     missing_associations: [
       "../../../../../datasets/test_efs_comstock/missing_associations",
     ],
