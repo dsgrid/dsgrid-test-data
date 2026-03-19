@@ -79,7 +79,6 @@
         month_column: "month",
         day_column: "day",
         hour_column: "hour",
-        time_zone: "Etc/GMT+5",
       },
     },
   ],
