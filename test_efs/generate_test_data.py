@@ -6,7 +6,7 @@ from pathlib import Path
 import click
 
 import dsgrid.utils.files
-from dsgrid.utils.spark import init_spark, read_dataframe
+from dsgrid.ibis.session import init_runtime_session, read_dataframe
 
 
 @click.command()
@@ -15,7 +15,7 @@ from dsgrid.utils.spark import init_spark, read_dataframe
 @click.argument("output-dir")
 def generate_efs_comstock(project_dir, src_data_path, output_dir):
     """Generate a filtered EFS ComStock dataset consistent with a dsgrid project."""
-    spark = init_spark("test")
+    spark = init_runtime_session("test")
     project_dir = Path(project_dir)
 
     dataset_dir = project_dir / "dsgrid_project" / "datasets" / "modeled" / "comstock"
