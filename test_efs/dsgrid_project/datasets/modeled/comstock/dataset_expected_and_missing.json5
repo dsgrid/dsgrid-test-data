@@ -102,7 +102,7 @@
       columns: [
         {
           name: "id",
-          data_type: "int",
+          data_type: "bigint",
         },
         {
           name: "timestamp",
@@ -123,7 +123,7 @@
       columns: [
         {
           name: "id",
-          data_type: "int",
+          data_type: "bigint",
         },
         {
           name: "geography",
