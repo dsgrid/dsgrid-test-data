@@ -113,23 +113,23 @@
       columns: [
         {
           name: "id",
-          data_type: "int",
+          data_type: "bigint",
         },
         {
           name: "year",
-          data_type: "int",
+          data_type: "bigint",
         },
         {
           name: "month",
-          data_type: "int",
+          data_type: "bigint",
         },
         {
           name: "day",
-          data_type: "int",
+          data_type: "bigint",
         },
         {
           name: "hour",
-          data_type: "int",
+          data_type: "bigint",
         },
         {
           name: "com_cooling",
@@ -146,7 +146,7 @@
       columns: [
         {
           name: "id",
-          data_type: "int",
+          data_type: "bigint",
         },
         {
           name: "geography",

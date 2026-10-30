@@ -1,8 +1,8 @@
-from dsgrid.utils.spark import init_spark
+from dsgrid.ibis.session import init_runtime_session
 
 
 def main():
-    spark = init_spark()
+    spark = init_runtime_session()
     ld = spark.read.csv("datasets/test_efs_comstock/load_data.csv", inferSchema=True, header=True)
     lk = spark.read.json("datasets/test_efs_comstock/load_data_lookup.json")
     df = ld.join(lk, on="id", how="right").drop("id")
